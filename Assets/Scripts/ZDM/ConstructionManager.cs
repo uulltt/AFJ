@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ConstructionManager : MonoBehaviour
 {
-    public GameObject selectedConstuct;
+    public Construct selectedConstuct;
 
     public GameObject previewObject;
 
@@ -24,7 +24,7 @@ public class ConstructionManager : MonoBehaviour
 
     public bool isConstructing;
 
-    public GameObject testObject;
+    public Construct testObject;
 
     void Start()
     {
@@ -53,8 +53,8 @@ public class ConstructionManager : MonoBehaviour
                 {
                     if (previewObject == null)
                     {
-                        previewObject = Instantiate(selectedConstuct, new Vector3(selectedTile.transform.position.x + selectedConstuct.GetComponent<Construct>().xOffset, selectedTile.transform.position.y + buildOffset, selectedTile.transform.position.z + selectedConstuct.GetComponent<Construct>().yOffset), Quaternion.identity);
-                        if (!grid.OccupancyCheck(selectedConstuct.GetComponent<Construct>(), (int)selectedTile.transform.position.x, (int)selectedTile.transform.position.z))
+                        previewObject = Instantiate(selectedConstuct.gameObject, new Vector3(selectedTile.transform.position.x + selectedConstuct.xOffset, selectedTile.transform.position.y + buildOffset, selectedTile.transform.position.z + selectedConstuct.yOffset), Quaternion.identity);
+                        if (!grid.OccupancyCheck(selectedConstuct, (int)selectedTile.transform.position.x, (int)selectedTile.transform.position.z))
                         {
                             previewObject.GetComponent<Renderer>().material.color = new Color(0, 1, 0, .3f);
                         }
@@ -65,8 +65,8 @@ public class ConstructionManager : MonoBehaviour
                     }
                     else
                     {
-                        previewObject.transform.position = new Vector3(selectedTile.transform.position.x + selectedConstuct.GetComponent<Construct>().xOffset, selectedTile.transform.position.y + buildOffset, selectedTile.transform.position.z + selectedConstuct.GetComponent<Construct>().yOffset);
-                        if (!grid.OccupancyCheck(selectedConstuct.GetComponent<Construct>(), (int)selectedTile.transform.position.x, (int)selectedTile.transform.position.z))
+                        previewObject.transform.position = new Vector3(selectedTile.transform.position.x + selectedConstuct.xOffset, selectedTile.transform.position.y + buildOffset, selectedTile.transform.position.z + selectedConstuct.yOffset);
+                        if (!grid.OccupancyCheck(selectedConstuct, (int)selectedTile.transform.position.x, (int)selectedTile.transform.position.z))
                         {
                             previewObject.GetComponent<Renderer>().material.color = new Color(0, 1, 0, .3f);
                         }
@@ -86,25 +86,25 @@ public class ConstructionManager : MonoBehaviour
                 {
                     if (hit.collider.gameObject.tag == "Tile")
                     {
-                        if (selectedConstuct.GetComponent<Construct>().constructionCost <= Resources.availableFunds)
+                        if (selectedConstuct.constructionCost <= Resources.availableFunds)
                         {
-                            if (selectedConstuct.GetComponent<Construct>().xDim == 1 && selectedConstuct.GetComponent<Construct>().yDim == 1)
+                            if (selectedConstuct.xDim == 1 && selectedConstuct.yDim == 1)
                             {
                                 if (!hit.collider.gameObject.GetComponent<Tile>().isOccuppied)
                                 {
                                     hit.collider.gameObject.GetComponent<Tile>().isOccuppied = true;
-                                    GameObject Construct = Instantiate(selectedConstuct, new Vector3(hit.collider.transform.position.x, hit.collider.transform.position.y + buildOffset, hit.collider.transform.position.z), Quaternion.identity);
-                                    Resources.availableFunds -= selectedConstuct.GetComponent<Construct>().constructionCost;
+                                    GameObject Construct = Instantiate(selectedConstuct.gameObject, new Vector3(hit.collider.transform.position.x, hit.collider.transform.position.y + buildOffset, hit.collider.transform.position.z), Quaternion.identity);
+                                    Resources.availableFunds -= selectedConstuct.constructionCost;
                                     fundsText.text = Resources.availableFunds.ToString();
                                 }
                             }
                             else
                             {
-                                if (!grid.OccupancyCheck(selectedConstuct.GetComponent<Construct>(), (int)hit.collider.transform.position.x, (int)hit.collider.transform.position.z))
+                                if (!grid.OccupancyCheck(selectedConstuct, (int)hit.collider.transform.position.x, (int)hit.collider.transform.position.z))
                                 {
-                                    grid.Occupy(selectedConstuct.GetComponent<Construct>(), (int)hit.collider.transform.position.x, (int)hit.collider.transform.position.z);
-                                    GameObject Construct = Instantiate(selectedConstuct, new Vector3(hit.collider.transform.position.x + selectedConstuct.GetComponent<Construct>().xOffset, hit.collider.transform.position.y + buildOffset, hit.collider.transform.position.z + selectedConstuct.GetComponent<Construct>().yOffset), Quaternion.identity);
-                                    Resources.availableFunds -= selectedConstuct.GetComponent<Construct>().constructionCost;
+                                    grid.Occupy(selectedConstuct, (int)hit.collider.transform.position.x, (int)hit.collider.transform.position.z);
+                                    GameObject Construct = Instantiate(selectedConstuct.gameObject, new Vector3(hit.collider.transform.position.x + selectedConstuct.xOffset, hit.collider.transform.position.y + buildOffset, hit.collider.transform.position.z + selectedConstuct.yOffset), Quaternion.identity);
+                                    Resources.availableFunds -= selectedConstuct.constructionCost;
                                     Debug.Log(Resources.availableFunds);
                                     fundsText.text = Resources.availableFunds.ToString();
                                 }
@@ -123,7 +123,7 @@ public class ConstructionManager : MonoBehaviour
         previewObject = null;
     }
 
-    public void SelectConstruct(GameObject targetConstruct)
+    public void SelectConstruct(Construct targetConstruct)
     {
         selectedConstuct = targetConstruct;
         isConstructing = true;
