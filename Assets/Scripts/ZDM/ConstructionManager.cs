@@ -22,6 +22,10 @@ public class ConstructionManager : MonoBehaviour
 
     public Text fundsText;
 
+    public bool isConstructing;
+
+    public GameObject testObject;
+
     void Start()
     {
         fundsText.text = Resources.availableFunds.ToString();
@@ -29,71 +33,99 @@ public class ConstructionManager : MonoBehaviour
 
     void Update()
     {
-        if(selectedTile != null)
+        if (Input.GetKeyDown(KeyCode.M))
         {
-            if(workingTile != selectedTile)
+            if (isConstructing)
             {
-                if(previewObject == null)
-                {
-                    previewObject = Instantiate(selectedConstuct, new Vector3(selectedTile.transform.position.x + selectedConstuct.GetComponent<Construct>().xOffset, selectedTile.transform.position.y + buildOffset, selectedTile.transform.position.z + selectedConstuct.GetComponent<Construct>().yOffset), Quaternion.identity);
-                    if (!grid.OccupancyCheck(selectedConstuct.GetComponent<Construct>(), (int)selectedTile.transform.position.x, (int)selectedTile.transform.position.z))
-                    {
-                        previewObject.GetComponent<Renderer>().material.color = new Color(0, 1, 0, .3f);
-                    }
-                    else
-                    {
-                        previewObject.GetComponent<Renderer>().material.color = new Color(1, 0, 0, .3f);
-                    }
-                }
-                else
-                {
-                    previewObject.transform.position = new Vector3(selectedTile.transform.position.x + selectedConstuct.GetComponent<Construct>().xOffset, selectedTile.transform.position.y + buildOffset, selectedTile.transform.position.z + selectedConstuct.GetComponent<Construct>().yOffset);
-                    if (!grid.OccupancyCheck(selectedConstuct.GetComponent<Construct>(), (int)selectedTile.transform.position.x, (int)selectedTile.transform.position.z))
-                    {
-                        previewObject.GetComponent<Renderer>().material.color = new Color(0, 1, 0, .3f);
-                    }
-                    else
-                    {
-                        previewObject.GetComponent<Renderer>().material.color = new Color(1, 0, 0, .3f);
-                    }
-                }
-                workingTile = selectedTile;
+                DeselectConstruct();
+            }
+            else
+            {
+                SelectConstruct(testObject);
             }
         }
 
-        if (Input.GetMouseButtonDown(0))
+        if (isConstructing)
         {
-            ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(ray, out hit))
+            if (selectedTile != null)
             {
-                if(hit.collider.gameObject.tag == "Tile")
+                if (workingTile != selectedTile)
                 {
-                    if(selectedConstuct.GetComponent<Construct>().constructionCost <= Resources.availableFunds)
+                    if (previewObject == null)
                     {
-                        if (selectedConstuct.GetComponent<Construct>().xDim == 1 && selectedConstuct.GetComponent<Construct>().yDim == 1)
+                        previewObject = Instantiate(selectedConstuct, new Vector3(selectedTile.transform.position.x + selectedConstuct.GetComponent<Construct>().xOffset, selectedTile.transform.position.y + buildOffset, selectedTile.transform.position.z + selectedConstuct.GetComponent<Construct>().yOffset), Quaternion.identity);
+                        if (!grid.OccupancyCheck(selectedConstuct.GetComponent<Construct>(), (int)selectedTile.transform.position.x, (int)selectedTile.transform.position.z))
                         {
-                            if (!hit.collider.gameObject.GetComponent<Tile>().isOccuppied)
-                            {
-                                hit.collider.gameObject.GetComponent<Tile>().isOccuppied = true;
-                                GameObject Construct = Instantiate(selectedConstuct, new Vector3(hit.collider.transform.position.x, hit.collider.transform.position.y + buildOffset, hit.collider.transform.position.z), Quaternion.identity);
-                                Resources.availableFunds -= selectedConstuct.GetComponent<Construct>().constructionCost;
-                                fundsText.text = Resources.availableFunds.ToString();
-                            }
+                            previewObject.GetComponent<Renderer>().material.color = new Color(0, 1, 0, .3f);
                         }
                         else
                         {
-                            if (!grid.OccupancyCheck(selectedConstuct.GetComponent<Construct>(), (int)hit.collider.transform.position.x, (int)hit.collider.transform.position.z))
+                            previewObject.GetComponent<Renderer>().material.color = new Color(1, 0, 0, .3f);
+                        }
+                    }
+                    else
+                    {
+                        previewObject.transform.position = new Vector3(selectedTile.transform.position.x + selectedConstuct.GetComponent<Construct>().xOffset, selectedTile.transform.position.y + buildOffset, selectedTile.transform.position.z + selectedConstuct.GetComponent<Construct>().yOffset);
+                        if (!grid.OccupancyCheck(selectedConstuct.GetComponent<Construct>(), (int)selectedTile.transform.position.x, (int)selectedTile.transform.position.z))
+                        {
+                            previewObject.GetComponent<Renderer>().material.color = new Color(0, 1, 0, .3f);
+                        }
+                        else
+                        {
+                            previewObject.GetComponent<Renderer>().material.color = new Color(1, 0, 0, .3f);
+                        }
+                    }
+                    workingTile = selectedTile;
+                }
+            }
+
+            if (Input.GetMouseButtonDown(0))
+            {
+                ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                if (Physics.Raycast(ray, out hit))
+                {
+                    if (hit.collider.gameObject.tag == "Tile")
+                    {
+                        if (selectedConstuct.GetComponent<Construct>().constructionCost <= Resources.availableFunds)
+                        {
+                            if (selectedConstuct.GetComponent<Construct>().xDim == 1 && selectedConstuct.GetComponent<Construct>().yDim == 1)
                             {
-                                grid.Occupy(selectedConstuct.GetComponent<Construct>(), (int)hit.collider.transform.position.x, (int)hit.collider.transform.position.z);
-                                GameObject Construct = Instantiate(selectedConstuct, new Vector3(hit.collider.transform.position.x + selectedConstuct.GetComponent<Construct>().xOffset, hit.collider.transform.position.y + buildOffset, hit.collider.transform.position.z + selectedConstuct.GetComponent<Construct>().yOffset), Quaternion.identity);
-                                Resources.availableFunds -= selectedConstuct.GetComponent<Construct>().constructionCost;
-                                Debug.Log(Resources.availableFunds);
-                                fundsText.text = Resources.availableFunds.ToString();
+                                if (!hit.collider.gameObject.GetComponent<Tile>().isOccuppied)
+                                {
+                                    hit.collider.gameObject.GetComponent<Tile>().isOccuppied = true;
+                                    GameObject Construct = Instantiate(selectedConstuct, new Vector3(hit.collider.transform.position.x, hit.collider.transform.position.y + buildOffset, hit.collider.transform.position.z), Quaternion.identity);
+                                    Resources.availableFunds -= selectedConstuct.GetComponent<Construct>().constructionCost;
+                                    fundsText.text = Resources.availableFunds.ToString();
+                                }
+                            }
+                            else
+                            {
+                                if (!grid.OccupancyCheck(selectedConstuct.GetComponent<Construct>(), (int)hit.collider.transform.position.x, (int)hit.collider.transform.position.z))
+                                {
+                                    grid.Occupy(selectedConstuct.GetComponent<Construct>(), (int)hit.collider.transform.position.x, (int)hit.collider.transform.position.z);
+                                    GameObject Construct = Instantiate(selectedConstuct, new Vector3(hit.collider.transform.position.x + selectedConstuct.GetComponent<Construct>().xOffset, hit.collider.transform.position.y + buildOffset, hit.collider.transform.position.z + selectedConstuct.GetComponent<Construct>().yOffset), Quaternion.identity);
+                                    Resources.availableFunds -= selectedConstuct.GetComponent<Construct>().constructionCost;
+                                    Debug.Log(Resources.availableFunds);
+                                    fundsText.text = Resources.availableFunds.ToString();
+                                }
                             }
                         }
                     }
                 }
             }
         }
+    }
+
+    public void DeselectConstruct()
+    {
+        isConstructing = false;
+        Destroy(previewObject);
+        previewObject = null;
+    }
+
+    public void SelectConstruct(GameObject targetConstruct)
+    {
+        selectedConstuct = targetConstruct;
+        isConstructing = true;
     }
 }
