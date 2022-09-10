@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+
+[RequireComponent(typeof(NavMeshAgent))]
 public class CharacterLocomotor : MonoBehaviour
 {
     private Vector3 movementTarget;

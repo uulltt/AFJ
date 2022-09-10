@@ -6,7 +6,7 @@ public class UnitMovementControls : MonoBehaviour
 {
     Camera main;
 
-    public CharacterLocomotor temp;
+    public static List<CharacterLocomotor> selectedCharacters;
 
     // Start is called before the first frame update
     void Start()
