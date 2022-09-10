@@ -21,6 +21,10 @@ public class FieldOfView : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if(guy == null)
+        {
+            guy = transform.parent.GetComponent<Transform>();
+        }
 
         rayCount = (int)fov;
 
