@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c485d57edacf1504a8f314a1885d135a, type: 3}
-  m_Name: Ammo_Rifle
+  m_Name: Equipment_Camera
   m_EditorClassIdentifier: 
   objectReference: {fileID: 0}
   description: 
-  price: 0
+  price: 200
