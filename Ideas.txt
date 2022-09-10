@@ -1,0 +1,72 @@
+AI
+	Non-Combatants
+		Base Personnel
+		VIP
+	Hostile
+		Rioter
+		Enemy Combatant
+		Rogue Shooter
+	Guards
+
+Major Mechanics
+	Static Base
+	Purchasing
+		Personnel
+			Guards
+			Drone Pilot
+		Weapons
+			Rifle
+			Machinegun
+			Granade Launcher
+		Ammo
+			Rifle
+			Machinegun
+			Grenades
+				Explosive
+				Smoke
+				Tear Gas
+		Body Armor
+			Armor
+		Sensors
+			Camera
+				Shows area in an arc
+			Movement Sensor
+				Does not show area, but will ping when detecting movement
+			Drone
+				Shows large area, requires drone and pilot
+		Equipment
+			Dog
+				Dogs will bark at threats, causing a ping, but will not add sight
+		VIP Objects?
+	Controls
+		Unit Selection
+		Unit Movement
+		Unit Attack
+		Direct Civilians
+	Fog of War
+		Base is Revealed in Grey, Actively visible areas are normally lit
+		
+	Pause Menu
+	
+	Events
+		Active
+			Activer Shooter
+				Domestic?
+			Riot
+			Enemy Invasion
+				Mortar Fire
+				Bomb
+		Addative
+			Power Loss
+			Fire
+			Night
+			Disease Outbreak
+			Flooding
+		Popup
+Forced Buidngs
+	House
+	Medical Tent
+	Police
+	Fire Department
+
+War Crime Score?
