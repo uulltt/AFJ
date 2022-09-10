@@ -3,6 +3,7 @@ Shader "Unlit/FogOfWarShader"
     Properties
     {
         _MainTex ("Texture", 2D) = "white" {}
+        _PrevVisibleTex ("Texture", 2D) = "white" {}
     }
     SubShader
     {
@@ -35,6 +36,8 @@ Shader "Unlit/FogOfWarShader"
 
             sampler2D _MainTex;
             float4 _MainTex_ST;
+            sampler2D _PrevVisibleTex;
+            float4 _PrevVisibleTex_ST;
 
             v2f vert (appdata v)
             {
@@ -47,9 +50,13 @@ Shader "Unlit/FogOfWarShader"
             fixed4 frag (v2f i) : SV_Target
             {
                 // sample the texture
-                fixed4 col = {0,0,0, 0.5f - tex2D(_MainTex, i.uv).r * 0.5f};
+                fixed4 testCol = tex2D(_MainTex, i.uv);
+                fixed4 prevCol = tex2D(_PrevVisibleTex, i.uv);
+                prevCol.rgb = (prevCol.r + prevCol.g + prevCol.b) * 0.333333333f;
 
-                return col;
+                prevCol.a = 1 - testCol.r;
+
+                return prevCol;
             }
             ENDCG
         }
