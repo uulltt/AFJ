@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7280113984546870162}
   - component: {fileID: 7537772776708171427}
   - component: {fileID: 3604575651565497916}
+  - component: {fileID: 2613496253257190513}
   m_Layer: 0
   m_Name: Prop_FoldChair2
   m_TagString: Untagged
@@ -84,6 +85,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &2613496253257190513
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2341067618945271826}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.35, y: 0.5, z: 0.35}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &2537014674529951497
 GameObject:
   m_ObjectHideFlags: 0
@@ -127,6 +144,7 @@ GameObject:
   - component: {fileID: 316777245481670598}
   - component: {fileID: 1566341102077569545}
   - component: {fileID: 8926793136171292055}
+  - component: {fileID: 6464752910560966240}
   m_Layer: 0
   m_Name: Prop_FoldChair1
   m_TagString: Untagged
@@ -200,6 +218,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &6464752910560966240
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2710069868439576659}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.35, y: 0.5, z: 0.35}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &3989783702300731473
 GameObject:
   m_ObjectHideFlags: 0
@@ -211,6 +245,7 @@ GameObject:
   - component: {fileID: 696656162969385688}
   - component: {fileID: 6370227240203154235}
   - component: {fileID: 5806544884893189992}
+  - component: {fileID: 2491441833971171426}
   m_Layer: 0
   m_Name: Prop_Drawr3
   m_TagString: Untagged
@@ -284,6 +319,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &2491441833971171426
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3989783702300731473}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.25, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &8783020681058716285
 GameObject:
   m_ObjectHideFlags: 0
@@ -295,6 +346,7 @@ GameObject:
   - component: {fileID: 154303790144872638}
   - component: {fileID: 9106353900218078567}
   - component: {fileID: 9075634578760601192}
+  - component: {fileID: 4748156170868930301}
   m_Layer: 0
   m_Name: Prop_Bed2
   m_TagString: Untagged
@@ -368,6 +420,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &4748156170868930301
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8783020681058716285}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 1, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &9011532094591078893
 GameObject:
   m_ObjectHideFlags: 0
@@ -379,6 +447,7 @@ GameObject:
   - component: {fileID: 5361102225040286156}
   - component: {fileID: 8861643414287735079}
   - component: {fileID: 3866308834745921868}
+  - component: {fileID: 5840796083542783101}
   m_Layer: 0
   m_Name: Prop_Bed1
   m_TagString: Untagged
@@ -452,6 +521,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &5840796083542783101
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9011532094591078893}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 1, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1001 &2724863710958716381
 PrefabInstance:
   m_ObjectHideFlags: 0

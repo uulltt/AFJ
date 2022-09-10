@@ -179,6 +179,7 @@ GameObject:
   - component: {fileID: 5306252744074579001}
   - component: {fileID: 4570145659478532048}
   - component: {fileID: 8994962295414255293}
+  - component: {fileID: 9057212184938192849}
   m_Layer: 0
   m_Name: Commisary_Table_Rectangle_02
   m_TagString: Untagged
@@ -252,6 +253,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &9057212184938192849
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469151103817216358}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.87600005, y: 0.49500003, z: 1.95}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.49500003, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1695615705102545921
 GameObject:
   m_ObjectHideFlags: 0
@@ -263,6 +280,7 @@ GameObject:
   - component: {fileID: 2670064340213127}
   - component: {fileID: 5715703993132047705}
   - component: {fileID: 9176155190714017732}
+  - component: {fileID: 8717126729314054046}
   m_Layer: 0
   m_Name: Commisary_Table_03
   m_TagString: Untagged
@@ -336,6 +354,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &8717126729314054046
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695615705102545921}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.75, y: 0.5, z: 0.75}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1803727328010829898
 GameObject:
   m_ObjectHideFlags: 0
@@ -347,6 +381,7 @@ GameObject:
   - component: {fileID: 6513060945012161866}
   - component: {fileID: 4329566636699336141}
   - component: {fileID: 5145174554915915872}
+  - component: {fileID: 8140995509621402359}
   m_Layer: 0
   m_Name: Prop_BarStool_05
   m_TagString: Untagged
@@ -420,6 +455,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &8140995509621402359
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803727328010829898}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1853073079720734451
 GameObject:
   m_ObjectHideFlags: 0
@@ -431,6 +482,7 @@ GameObject:
   - component: {fileID: 6980237335207000454}
   - component: {fileID: 4119289815175047369}
   - component: {fileID: 7463574860116603431}
+  - component: {fileID: 9210530557569086512}
   m_Layer: 0
   m_Name: Prop_BarStool_04
   m_TagString: Untagged
@@ -504,6 +556,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &9210530557569086512
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853073079720734451}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &2583174183092231833
 GameObject:
   m_ObjectHideFlags: 0
@@ -515,6 +583,7 @@ GameObject:
   - component: {fileID: 7283643381861639506}
   - component: {fileID: 1552740339314912382}
   - component: {fileID: 684020471772325724}
+  - component: {fileID: 6063928176675506126}
   m_Layer: 0
   m_Name: Prop_BarStool_01
   m_TagString: Untagged
@@ -588,6 +657,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &6063928176675506126
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2583174183092231833}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &2927106467361839155
 GameObject:
   m_ObjectHideFlags: 0
@@ -599,6 +684,7 @@ GameObject:
   - component: {fileID: 5135948765904240258}
   - component: {fileID: 1730105190995466371}
   - component: {fileID: 8628041607696461856}
+  - component: {fileID: 1239583330770234586}
   m_Layer: 0
   m_Name: Prop_BarStool_06
   m_TagString: Untagged
@@ -672,6 +758,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &1239583330770234586
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2927106467361839155}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &3256002664332959753
 GameObject:
   m_ObjectHideFlags: 0
@@ -683,6 +785,7 @@ GameObject:
   - component: {fileID: 2369343841859651346}
   - component: {fileID: 1811250186096224029}
   - component: {fileID: 7054035137036279583}
+  - component: {fileID: 1755981818922083163}
   m_Layer: 0
   m_Name: Prop_BarStool_03
   m_TagString: Untagged
@@ -756,6 +859,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &1755981818922083163
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3256002664332959753}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &3333578265246222554
 GameObject:
   m_ObjectHideFlags: 0
@@ -767,6 +886,7 @@ GameObject:
   - component: {fileID: 1730481360035948822}
   - component: {fileID: 4232203879811444659}
   - component: {fileID: 3259731516379953806}
+  - component: {fileID: 7012998468431277372}
   m_Layer: 0
   m_Name: Prop_BarStool_07
   m_TagString: Untagged
@@ -840,6 +960,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &7012998468431277372
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3333578265246222554}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &3967192718810656250
 GameObject:
   m_ObjectHideFlags: 0
@@ -851,6 +987,7 @@ GameObject:
   - component: {fileID: 887081143455926835}
   - component: {fileID: 6427912725682163340}
   - component: {fileID: 8531981041635403982}
+  - component: {fileID: 7210532777729341582}
   m_Layer: 0
   m_Name: Prop_BarStool_11
   m_TagString: Untagged
@@ -924,6 +1061,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &7210532777729341582
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3967192718810656250}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &4266909287977310920
 GameObject:
   m_ObjectHideFlags: 0
@@ -935,6 +1088,7 @@ GameObject:
   - component: {fileID: 3160389979607933704}
   - component: {fileID: 6668687396108195304}
   - component: {fileID: 2953394226935170951}
+  - component: {fileID: 7475462782935443261}
   m_Layer: 0
   m_Name: Commisary_Table_Rectangle_01
   m_TagString: Untagged
@@ -1008,6 +1162,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &7475462782935443261
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4266909287977310920}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.87600005, y: 0.49500003, z: 1.95}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.49500003, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &4509030461845623079
 GameObject:
   m_ObjectHideFlags: 0
@@ -1102,6 +1272,7 @@ GameObject:
   - component: {fileID: 7850194745618048505}
   - component: {fileID: 1719936290629984945}
   - component: {fileID: 3087129079785276728}
+  - component: {fileID: 6276439260539648645}
   m_Layer: 0
   m_Name: Prop_BarStool_09
   m_TagString: Untagged
@@ -1175,6 +1346,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &6276439260539648645
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4607116520170538859}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &5308480043632507424
 GameObject:
   m_ObjectHideFlags: 0
@@ -1326,6 +1513,7 @@ GameObject:
   - component: {fileID: 3977746169910481225}
   - component: {fileID: 5232661722863141561}
   - component: {fileID: 7590738290508303274}
+  - component: {fileID: 7977769752802270039}
   m_Layer: 0
   m_Name: Prop_BarStool_02
   m_TagString: Untagged
@@ -1399,6 +1587,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &7977769752802270039
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5469064708553004036}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &5926326281961132340
 GameObject:
   m_ObjectHideFlags: 0
@@ -1410,6 +1614,7 @@ GameObject:
   - component: {fileID: 1839512646996598203}
   - component: {fileID: 4152449674321995238}
   - component: {fileID: 5595112377503072575}
+  - component: {fileID: 2879849509010625391}
   m_Layer: 0
   m_Name: Commisary_Bar
   m_TagString: Untagged
@@ -1483,6 +1688,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &2879849509010625391
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5926326281961132340}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 2.9620001, y: 0.59800005, z: 0.58400005}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -1.1630001, y: 0.59800005, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &6643037161725797729
 GameObject:
   m_ObjectHideFlags: 0
@@ -1578,6 +1799,7 @@ GameObject:
   - component: {fileID: 7652207079577517213}
   - component: {fileID: 6568300651404819287}
   - component: {fileID: 7935595680932035123}
+  - component: {fileID: 8692130458984667906}
   m_Layer: 0
   m_Name: Prop_BarStool_12
   m_TagString: Untagged
@@ -1651,6 +1873,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &8692130458984667906
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6800252034148241503}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &7007849184824826518
 GameObject:
   m_ObjectHideFlags: 0
@@ -1662,6 +1900,7 @@ GameObject:
   - component: {fileID: 3546066141033845041}
   - component: {fileID: 5400570309071029057}
   - component: {fileID: 7689645780995427154}
+  - component: {fileID: 44746267649776006}
   m_Layer: 0
   m_Name: Commisary_Table_02
   m_TagString: Untagged
@@ -1735,6 +1974,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &44746267649776006
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7007849184824826518}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.75, y: 0.5, z: 0.75}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &7982674228019591610
 GameObject:
   m_ObjectHideFlags: 0
@@ -1746,6 +2001,7 @@ GameObject:
   - component: {fileID: 5876373715659343020}
   - component: {fileID: 2696406590261490906}
   - component: {fileID: 2851940594644478088}
+  - component: {fileID: 8131420650062582838}
   m_Layer: 0
   m_Name: Commisary_Table_01
   m_TagString: Untagged
@@ -1819,6 +2075,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &8131420650062582838
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7982674228019591610}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.75, y: 0.5, z: 0.75}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &8437525576067671479
 GameObject:
   m_ObjectHideFlags: 0
@@ -1830,6 +2102,7 @@ GameObject:
   - component: {fileID: 6171163186116796605}
   - component: {fileID: 797213436368006194}
   - component: {fileID: 3991671750094018150}
+  - component: {fileID: 2196564544986907353}
   m_Layer: 0
   m_Name: Prop_BarStool_13
   m_TagString: Untagged
@@ -1903,6 +2176,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &2196564544986907353
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8437525576067671479}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &8758151021692202639
 GameObject:
   m_ObjectHideFlags: 0
@@ -1914,6 +2203,7 @@ GameObject:
   - component: {fileID: 4878282874185622006}
   - component: {fileID: 394534375155124189}
   - component: {fileID: 2089139242257463555}
+  - component: {fileID: 7503980464686725423}
   m_Layer: 0
   m_Name: Commisary_Counter.002
   m_TagString: Untagged
@@ -1987,6 +2277,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &7503980464686725423
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8758151021692202639}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 4.3300004, y: 1.0550001, z: 1.4150001}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0.30100003, y: 1.0550001, z: -0.915}
+  m_TimeToStationary: 0.5
 --- !u!1 &8986308661606009662
 GameObject:
   m_ObjectHideFlags: 0
@@ -1998,6 +2304,7 @@ GameObject:
   - component: {fileID: 276909349019112465}
   - component: {fileID: 7902735183376228787}
   - component: {fileID: 4352979398889098721}
+  - component: {fileID: 1876706485110355306}
   m_Layer: 0
   m_Name: Prop_BarStool_10
   m_TagString: Untagged
@@ -2071,6 +2378,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &1876706485110355306
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8986308661606009662}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &9136766100243671584
 GameObject:
   m_ObjectHideFlags: 0

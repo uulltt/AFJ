@@ -11,14 +11,14 @@ using System.Linq;
 /// </summary>
 public class VendorHelper : MonoBehaviour
 {
-    public VendorObject vendor;
+    public VendorMenu vendor;
     public GameObject vendorButton, checkoutButton, YesNoPrompt;
 
     /// <summary>
     /// this is to be used for the inventory screen used for vendors, as ideally we only want one vendor menu, but multiple inventories for different vendors
     /// </summary>
     /// <param name="currentHolder"></param>
-    public void SetItemHolder(VendorObject currentHolder)
+    public void SetItemHolder(VendorMenu currentHolder)
     {
         vendor = currentHolder;
     }
