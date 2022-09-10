@@ -20,6 +20,7 @@ public class Grid : MonoBehaviour
             {
                 GameObject tile = Instantiate(tileObject, new Vector3(x* tileScale, 0, y* tileScale), Quaternion.identity);
                 grid[x,y] = tile.GetComponent<Tile>();
+                tile.transform.parent = gameObject.transform;
             }
         }
     }
