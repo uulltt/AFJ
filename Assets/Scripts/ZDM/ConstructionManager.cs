@@ -26,6 +26,13 @@ public class ConstructionManager : MonoBehaviour
 
     public Construct testObject;
 
+    public Construct comissary;
+    public Construct fireDept;
+    public Construct House;
+    public Construct MedicalTent;
+    public Construct policeDebt;
+    public Construct Tent;
+
     void Start()
     {
         fundsText.text = Resources.availableFunds.ToString();
@@ -33,15 +40,70 @@ public class ConstructionManager : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.M))
+        if (Input.GetKeyDown(KeyCode.C))
         {
-            if (isConstructing)
+            if (isConstructing && selectedConstuct == comissary)
             {
                 DeselectConstruct();
             }
             else
             {
-                SelectConstruct(testObject);
+                SelectConstruct(comissary);
+            }
+        }
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            if (isConstructing && selectedConstuct == fireDept)
+            {
+                DeselectConstruct();
+            }
+            else
+            {
+                SelectConstruct(fireDept);
+            }
+        }
+        if (Input.GetKeyDown(KeyCode.H))
+        {
+            if (isConstructing && selectedConstuct == House)
+            {
+                DeselectConstruct();
+            }
+            else
+            {
+                SelectConstruct(House);
+            }
+        }
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            if (isConstructing && selectedConstuct == MedicalTent)
+            {
+                DeselectConstruct();
+            }
+            else
+            {
+                SelectConstruct(MedicalTent);
+            }
+        }
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            if (isConstructing && selectedConstuct == policeDebt)
+            {
+                DeselectConstruct();
+            }
+            else
+            {
+                SelectConstruct(policeDebt);
+            }
+        }
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            if (isConstructing && selectedConstuct == Tent)
+            {
+                DeselectConstruct();
+            }
+            else
+            {
+                SelectConstruct(Tent);
             }
         }
 
