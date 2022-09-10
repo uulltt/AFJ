@@ -215,7 +215,7 @@ Transform:
   m_GameObject: {fileID: 545734333}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.5, z: 0}
-  m_LocalScale: {x: 10, y: 1, z: 10}
+  m_LocalScale: {x: 64, y: 1, z: 64}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -313,7 +313,7 @@ Transform:
   m_GameObject: {fileID: 580456080}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.5, z: 0}
-  m_LocalScale: {x: 10, y: 1, z: 10}
+  m_LocalScale: {x: 64, y: 1, z: 64}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -723,6 +723,7 @@ GameObject:
   - component: {fileID: 1117257878}
   - component: {fileID: 1117257882}
   - component: {fileID: 1117257883}
+  - component: {fileID: 1117257884}
   m_Layer: 10
   m_Name: Guy
   m_TagString: Untagged
@@ -845,6 +846,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 5
+--- !u!114 &1117257884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117257877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 637ac5495e268744fa9fc32b05a0a9b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentTarget: {fileID: 0}
 --- !u!1 &1209774375
 GameObject:
   m_ObjectHideFlags: 0
@@ -857,6 +871,7 @@ GameObject:
   - component: {fileID: 1209774378}
   - component: {fileID: 1209774377}
   - component: {fileID: 1209774376}
+  - component: {fileID: 1209774380}
   m_Layer: 10
   m_Name: Guy (1)
   m_TagString: Untagged
@@ -943,6 +958,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1209774380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209774375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb8a3e421851ad84cb18955c9d7c1919, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1252517522
 GameObject:
   m_ObjectHideFlags: 0
@@ -1084,7 +1111,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 50
+  orthographic size: 320
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -1144,7 +1171,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c34de39dcc9a5740bb897beeb5d4435, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  temp: {fileID: 1117257883}
 --- !u!4 &1635847632
 Transform:
   m_ObjectHideFlags: 0
@@ -1381,7 +1407,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 50
+  orthographic size: 320
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
