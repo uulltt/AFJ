@@ -22,19 +22,19 @@ public class CameraControls : MonoBehaviour
         else if (m_Zoom > 5.4f)
             m_Zoom = 5.4f;
 
-        if(Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow) || Input.mousePosition.y >= Screen.height - 2)
+        if(Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)) // || Input.mousePosition.y >= Screen.height - 2))
         {
             transform.position += new Vector3(Time.deltaTime, 0, Time.deltaTime) * speed * m_Zoom;
         }
-        if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow) || Input.mousePosition.y <= 2)
+        if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)) // || Input.mousePosition.y <= 2)
         {
             transform.position -= new Vector3(0.5f * Time.deltaTime, 0, 0.5f * Time.deltaTime) * speed * m_Zoom;
         }
-        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow) || Input.mousePosition.x >= Screen.width - 2)
+        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)) // || Input.mousePosition.x >= Screen.width - 2)
         {
             transform.position += transform.right * Time.deltaTime * speed * m_Zoom;
         }
-        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow) || Input.mousePosition.x <= 2)
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)) // || Input.mousePosition.x <= 2)
         {
             transform.position -= transform.right * Time.deltaTime * speed * m_Zoom;
         }
