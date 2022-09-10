@@ -68,11 +68,13 @@ public class ConstructionManager : MonoBehaviour
                         previewObject.transform.position = new Vector3(selectedTile.transform.position.x + selectedConstuct.xOffset, selectedTile.transform.position.y + buildOffset, selectedTile.transform.position.z + selectedConstuct.yOffset);
                         if (!grid.OccupancyCheck(selectedConstuct, (int)selectedTile.transform.position.x, (int)selectedTile.transform.position.z))
                         {
-                            previewObject.GetComponent<Renderer>().material.color = new Color(0, 1, 0, .3f);
+                            foreach(Renderer rend in previewObject.GetComponentsInChildren<Renderer>())
+                                rend.material.color = new Color(0, 1, 0, .3f);
                         }
                         else
                         {
-                            previewObject.GetComponent<Renderer>().material.color = new Color(1, 0, 0, .3f);
+                            foreach (Renderer rend in previewObject.GetComponentsInChildren<Renderer>())
+                                rend.material.color = new Color(1, 0, 0, .3f);
                         }
                     }
                     workingTile = selectedTile;
