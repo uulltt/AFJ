@@ -19,11 +19,13 @@ public class UnitMovementControls : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(1))
         {
-            var groundHit = main.ScreenPointToRay(Input.mousePosition);
+            var cameraRay = main.ScreenPointToRay(Input.mousePosition);
 
-            
+            if( Physics.Raycast(cameraRay, out RaycastHit hit, float.PositiveInfinity, 1<<9))
+            {
+                temp.MoveTowardsSpot(hit.point);
+            }
 
-            temp.MoveTowardsSpot(  )
         }
     }
 }

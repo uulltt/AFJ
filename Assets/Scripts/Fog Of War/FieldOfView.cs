@@ -6,20 +6,24 @@ using UnityEngine;
 public class FieldOfView : MonoBehaviour
 {
 
-    float fov = 360f;
-    int rayCount = 360;
+    [SerializeField] float fov = 90f;
+    int rayCount;
     float angle = 0f;
     float startingAngle;
     float angleIncrease;
-    float viewDistance = 50f;
+    [SerializeField] float viewDistance = 50f;
 
     Mesh mesh;
 
     [SerializeField] LayerMask blockingLayers;
+    [SerializeField] Transform guy;
 
     // Start is called before the first frame update
     void Start()
     {
+
+        rayCount = (int)fov;
+
         angleIncrease = fov / rayCount;
 
         mesh = new Mesh();
@@ -75,17 +79,19 @@ public class FieldOfView : MonoBehaviour
         mesh.vertices = verts;
         mesh.uv = uv;
         mesh.triangles = triangles;
+
+        transform.rotation = Quaternion.identity;
     }
     
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
         UpdateMesh();
     }
 
     public void SetLookDirection()
     {
-        startingAngle = Utilities.GetAngleFromVectorFloat(transform.forward) - fov * 0.5f;
+        startingAngle = Utilities.GetAngleFromVectorFloat(guy.forward) + (fov * 0.5f);
     }
 }
