@@ -17,10 +17,10 @@ public class CameraControls : MonoBehaviour
         if (Input.GetAxis("Mouse ScrollWheel") != 0)
             Debug.Log(m_Zoom);
 
-        if (m_Zoom < 0.5f)
-            m_Zoom = 0.5f;
-        else if (m_Zoom > 20f)
-            m_Zoom = 20f;
+        if (m_Zoom < 1f)
+            m_Zoom = 1f;
+        else if (m_Zoom > 5.4f)
+            m_Zoom = 5.4f;
 
         if(Input.GetKey(KeyCode.W))
         {
