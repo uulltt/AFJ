@@ -12,7 +12,7 @@ public class CameraControls : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        m_Zoom += Input.GetAxis("Mouse ScrollWheel");
+        m_Zoom -= Input.GetAxis("Mouse ScrollWheel");
 
         if (Input.GetAxis("Mouse ScrollWheel") != 0)
             Debug.Log(m_Zoom);
