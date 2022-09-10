@@ -15,6 +15,14 @@ public class VendorMenu : MonoBehaviour
 
     //    public Dialogue boughtsomething, boughtnothing, ordercheck;
 
+    public void Start()
+    {
+        for (int i = 0; i < Items.Count; i++)
+        {
+            transform.GetChild(i).GetChild(4).GetComponent<TMP_Text>().text = "$" + Items[i].price.ToString();
+        }
+    }
+
     public void Update()
     {
         /*if (IsPointerOverUIElement())
@@ -69,11 +77,13 @@ public class VendorMenu : MonoBehaviour
 
     public void UpdateQuantity()
     {
-        for(int i = 0; i < Items.Count; i++)
+        for (int i = 0; i < Items.Count; i++)
         {
             transform.GetChild(i).GetChild(2).GetComponent<TMP_InputField>().text = order.Where(x => x == Items[i]).Count().ToString();
         }
     }
+
+    public int TotalPrice => order.Select(i => i.price).Aggregate((a, b) => a + b);
 
     public void Checkout()
     {
@@ -84,6 +94,7 @@ public class VendorMenu : MonoBehaviour
             //Player.money -= item.price;
         }
         order.Clear();
+        UpdateQuantity();
         //dialogueObject.GetChild(2).gameObject.SetActive(false);
     }
 }

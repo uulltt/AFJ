@@ -13,8 +13,8 @@ Major Mechanics
 	Purchasing
 		Personnel
 			Guards
-			Drone Pilot
-		Weapons
+			Drone Pilot (redacted)
+		Weapons (1 for each type of guard)
 			Rifle
 			Machinegun
 			Granade Launcher
@@ -25,17 +25,17 @@ Major Mechanics
 				Explosive
 				Smoke
 				Tear Gas
-		Body Armor
+		Body Armor (redacted)
 			Armor
 		Sensors
 			Camera
 				Shows area in an arc
 			Movement Sensor
 				Does not show area, but will ping when detecting movement
-			Drone
+			Drone (redacted)
 				Shows large area, requires drone and pilot
 		Equipment
-			Dog
+			Dog (redacted)
 				Dogs will bark at threats, causing a ping, but will not add sight
 		VIP Objects?
 	Controls
