@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3302786772069064284}
   - component: {fileID: 5647642248489195754}
   - component: {fileID: 2269583284389707432}
+  - component: {fileID: 8206761754062853326}
   m_Layer: 0
   m_Name: Prop_MedBed4
   m_TagString: Untagged
@@ -84,6 +85,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &8206761754062853326
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031269577138240242}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.9, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0.1, y: 0.5, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &2358923322611267020
 GameObject:
   m_ObjectHideFlags: 0
@@ -95,6 +112,7 @@ GameObject:
   - component: {fileID: 6362842379086850465}
   - component: {fileID: 833389788159715406}
   - component: {fileID: 6898938147092381852}
+  - component: {fileID: 1095262599256560966}
   m_Layer: 0
   m_Name: Prop_MedSideTable4
   m_TagString: Untagged
@@ -168,6 +186,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &1095262599256560966
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2358923322611267020}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.25, y: 0.5, z: 0.25}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &2996496511779528149
 GameObject:
   m_ObjectHideFlags: 0
@@ -179,6 +213,7 @@ GameObject:
   - component: {fileID: 4828456128326562196}
   - component: {fileID: 2805169562285659365}
   - component: {fileID: 5378171990205824730}
+  - component: {fileID: 6846441886019655289}
   m_Layer: 0
   m_Name: Prop_MedSideTable2
   m_TagString: Untagged
@@ -252,6 +287,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &6846441886019655289
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2996496511779528149}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.25, y: 0.5, z: 0.25}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &3547320433143993867
 GameObject:
   m_ObjectHideFlags: 0
@@ -431,6 +482,7 @@ GameObject:
   - component: {fileID: 3858966161611434632}
   - component: {fileID: 8342438047839440798}
   - component: {fileID: 3836487369452220974}
+  - component: {fileID: 2718809356506093619}
   m_Layer: 0
   m_Name: Prop_Drawr1
   m_TagString: Untagged
@@ -504,6 +556,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &2718809356506093619
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4522588011374806076}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &4582186007626263245
 GameObject:
   m_ObjectHideFlags: 0
@@ -515,6 +583,7 @@ GameObject:
   - component: {fileID: 2084873294274248076}
   - component: {fileID: 1934450527136769901}
   - component: {fileID: 7542426476713782741}
+  - component: {fileID: 6717795609354480532}
   m_Layer: 0
   m_Name: Prop_Drawr2
   m_TagString: Untagged
@@ -588,6 +657,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &6717795609354480532
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4582186007626263245}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &4629260576107187155
 GameObject:
   m_ObjectHideFlags: 0
@@ -683,6 +768,7 @@ GameObject:
   - component: {fileID: 2707035668966984852}
   - component: {fileID: 7469553803212727548}
   - component: {fileID: 8738435541962217675}
+  - component: {fileID: 6318489496678595085}
   m_Layer: 0
   m_Name: Prop_MedSideTable1
   m_TagString: Untagged
@@ -756,6 +842,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &6318489496678595085
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5898579470910712952}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.25, y: 0.5, z: 0.25}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &6033371961434109917
 GameObject:
   m_ObjectHideFlags: 0
@@ -767,6 +869,7 @@ GameObject:
   - component: {fileID: 1001191432480661865}
   - component: {fileID: 3062718166438146787}
   - component: {fileID: 8491288065471922167}
+  - component: {fileID: 7181107564882830263}
   m_Layer: 0
   m_Name: Prop_MedBed1
   m_TagString: Untagged
@@ -840,6 +943,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &7181107564882830263
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6033371961434109917}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.9, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0.1, y: 0.5, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &6744141691196154781
 GameObject:
   m_ObjectHideFlags: 0
@@ -851,6 +970,7 @@ GameObject:
   - component: {fileID: 4527169374477304142}
   - component: {fileID: 885294213057610878}
   - component: {fileID: 273723280054979199}
+  - component: {fileID: 2796019828310160382}
   m_Layer: 0
   m_Name: Prop_MedSideTable3
   m_TagString: Untagged
@@ -924,6 +1044,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &2796019828310160382
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6744141691196154781}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.25, y: 0.5, z: 0.25}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &6776352676786038778
 GameObject:
   m_ObjectHideFlags: 0
@@ -967,6 +1103,7 @@ GameObject:
   - component: {fileID: 1048052372786359882}
   - component: {fileID: 2490026489896177290}
   - component: {fileID: 6003414856334930716}
+  - component: {fileID: 6760784312518511125}
   m_Layer: 0
   m_Name: Prop_MedBed3
   m_TagString: Untagged
@@ -1040,6 +1177,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &6760784312518511125
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7791702151645889372}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.9, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0.1, y: 0.5, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &7933091095755223947
 GameObject:
   m_ObjectHideFlags: 0
@@ -1135,6 +1288,7 @@ GameObject:
   - component: {fileID: 3021143951653034674}
   - component: {fileID: 4881705543267362629}
   - component: {fileID: 3444670063261989694}
+  - component: {fileID: 6829496530328741696}
   m_Layer: 0
   m_Name: Prop_MedBed2
   m_TagString: Untagged
@@ -1208,6 +1362,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &6829496530328741696
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9214191376865684699}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.9, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0.1, y: 0.5, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1001 &363800888953751442
 PrefabInstance:
   m_ObjectHideFlags: 0
