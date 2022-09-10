@@ -6,7 +6,7 @@ public class UnitMovementControls : MonoBehaviour
 {
     Camera main;
 
-    public static List<CharacterLocomotor> selectedCharacters;
+    public static List<CharacterLocomotor> selectedCharacters = new List<CharacterLocomotor>();
 
     // Start is called before the first frame update
     void Start()
@@ -23,7 +23,8 @@ public class UnitMovementControls : MonoBehaviour
 
             if( Physics.Raycast(cameraRay, out RaycastHit hit, float.PositiveInfinity, 1<<9))
             {
-                temp.MoveTowardsSpot(hit.point);
+                for(int i = 0; i < selectedCharacters.Count; i++)
+                    selectedCharacters[i].MoveTowardsSpot(hit.point);
             }
 
         }
