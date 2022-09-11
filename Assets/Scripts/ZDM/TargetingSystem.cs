@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class TargetingSystem : MonoBehaviour
 {
+    public AbstractCharacter myCharacter;
     public float initialCheckRadius;
 
     public LayerMask sphereLayer;
@@ -12,6 +13,14 @@ public class TargetingSystem : MonoBehaviour
     public float targetDistance;
 
     RaycastHit hit;
+
+    private void Awake()
+    {
+        if(myCharacter == null)
+        {
+            myCharacter = GetComponent<AbstractCharacter>();
+        }
+    }
 
     void Start()
     {
@@ -24,20 +33,20 @@ public class TargetingSystem : MonoBehaviour
         Collider[] hitColliders = Physics.OverlapSphere(this.transform.position, initialCheckRadius, sphereLayer);
         foreach (var hitCollider in hitColliders)
         {
-            if (Physics.Raycast(transform.position, (hitCollider.transform.position - transform.position), out hit, Mathf.Infinity))
+            if (!Physics.Raycast(transform.position, (hitCollider.transform.position - transform.position), out hit, Mathf.Infinity, 1 << 8))
             {
-                if (hit.collider.gameObject.tag == "Target")
+                if (Vector3.Distance(this.transform.position, hitCollider.transform.position) < targetDistance)
                 {
-                    if (Vector3.Distance(this.transform.position, hitCollider.transform.position) < targetDistance)
-                    {
-                        closestTarget = hitCollider.gameObject;
-                        targetDistance = Vector3.Distance(this.transform.position, hitCollider.transform.position);
-                    }
+                    closestTarget = hitCollider.gameObject;
+                    targetDistance = Vector3.Distance(this.transform.position, hitCollider.transform.position);
                 }
             }
         }
 
-        Debug.Log(closestTarget);
+        if (closestTarget != null)
+        {
+            myCharacter.ReactToCharacter(closestTarget.GetComponent<AbstractCharacter>());
+        }
     }
 
     private void OnDrawGizmosSelected()

@@ -9,7 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8347931714687571189}
-  m_Layer: 0
+  - component: {fileID: 1756920538318866686}
+  m_Layer: 9
   m_Name: Structure_Generator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32,6 +33,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!208 &1756920538318866686
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288461088414197105}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 1, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 1, y: 0.5, z: -0.5}
+  m_TimeToStationary: 0.5
 --- !u!1001 &816080725774394303
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -86,6 +103,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 95f40af383960054895e0f0d5d092c40, type: 3}
       propertyPath: m_Name
       value: Structure_Generator
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 95f40af383960054895e0f0d5d092c40, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95f40af383960054895e0f0d5d092c40, type: 3}
