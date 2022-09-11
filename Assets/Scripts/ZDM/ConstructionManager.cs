@@ -43,7 +43,7 @@ public class ConstructionManager : MonoBehaviour
     public Construct Helipad;
     public Construct SandCube;
 
-    public bool ShopMenuOpen => fundsText.transform.parent.GetChild(0).gameObject.activeInHierarchy;
+    public bool ShopMenuOpen => fundsText.transform.parent.GetChild(1).gameObject.activeInHierarchy;
 
     public void Start()
     {
@@ -61,11 +61,11 @@ public class ConstructionManager : MonoBehaviour
         
         if (Input.GetKeyDown(KeyCode.B))
         {
-            fundsText.transform.parent.GetChild(0).gameObject.SetActive(true);
+            fundsText.transform.parent.GetChild(1).gameObject.SetActive(true);
         }
         if (Input.GetKeyDown(KeyCode.Escape) && ShopMenuOpen)
         {
-            fundsText.transform.parent.GetChild(0).gameObject.SetActive(false);
+            fundsText.transform.parent.GetChild(1).gameObject.SetActive(false);
         }
 
         if (isConstructing)
