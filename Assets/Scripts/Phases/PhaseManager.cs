@@ -7,6 +7,10 @@ public class PhaseManager : MonoBehaviour
 {
     public static PhaseManager instance;
 
+    public GameObject selectedHostile;
+
+    public GameObject weapon;
+
     private bool goToPrepPhase;
     public bool GoToPrepPhase
     {
@@ -118,10 +122,13 @@ public class PhaseManager : MonoBehaviour
             case Phases.PREP:
                 Debug.Log("In phase " + phase);
 
+                
                 if (time.isComplete)
                 {
+                    AssignHostile();
                     goToScenarioPhase = true;
                 }
+                
 
                 if (goToScenarioPhase)
                 {
@@ -178,5 +185,21 @@ public class PhaseManager : MonoBehaviour
                 }
                 break;
         }
+    }
+
+    public void AssignHostile()
+    {
+        selectedHostile = AbstractCharacter.listOfEveryone[UnityEngine.Random.Range(0, AbstractCharacter.listOfEveryone.Count)].gameObject;
+
+        if (selectedHostile.GetComponent<AbstractCharacter>().weapon == null)
+        {
+            GameObject newWeapon = Instantiate(weapon, selectedHostile.transform.position, Quaternion.identity);
+            newWeapon.transform.parent = selectedHostile.gameObject.transform;
+        }
+
+        Destroy(selectedHostile.GetComponent<AbstractCharacter>());
+
+        selectedHostile.AddComponent<GunmanCharacter>();
+
     }
 }
