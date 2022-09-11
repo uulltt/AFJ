@@ -35,12 +35,15 @@ public class ConstructionManager : MonoBehaviour
     public Construct MedicalTent;
     public Construct policeDebt;
     public Construct Tent;
+    public AudioSource sounds;
+    public AudioClip appear;
 
     public bool ShopMenuOpen => fundsText.transform.parent.GetChild(0).gameObject.activeInHierarchy;
 
     public void Start()
     {
-        UpdateFunds();  
+        UpdateFunds();
+        sounds = GetComponent<AudioSource>();
     }
 
     public void UpdateFunds()
@@ -218,5 +221,6 @@ public class ConstructionManager : MonoBehaviour
         selectedConstuct = targetConstruct;
         isConstructing = true;
         FogOff?.Invoke();
+        sounds.PlayOneShot(appear);
     }
 }
