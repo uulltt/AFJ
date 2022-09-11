@@ -32,6 +32,9 @@ public class Weapon : MonoBehaviour
     Timer reloadTimer;
     Timer reAimTimer;
 
+    public AudioClip audioClip;
+    public AudioSource audio;
+    
     private void Awake()
     {
         shotTimer = new Timer(shotInterval);
@@ -85,6 +88,8 @@ public class Weapon : MonoBehaviour
                 target.TakeDamage(Random.Range(minDamage, maxDamage));
             }
             currentRecoil = Mathf.Clamp(currentRecoil + incrementRecoil, 0, maxRecoil);
+
+            audio.PlayOneShot(audioClip);
 
             currentAmmo -= 1;
 
