@@ -1373,6 +1373,7 @@ GameObject:
   - component: {fileID: 8774598792725471574}
   - component: {fileID: 4397871500832794359}
   - component: {fileID: 1659443162674308252}
+  - component: {fileID: 6304216401934221823}
   m_Layer: 10
   m_Name: MilitaryPersonnel_03
   m_TagString: Untagged
@@ -1601,6 +1602,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!136 &6304216401934221823
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3289785782131614367}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2.3976612
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.6988306, z: 0}
 --- !u!1 &3445188425036759792
 GameObject:
   m_ObjectHideFlags: 0

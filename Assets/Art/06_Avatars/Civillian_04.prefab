@@ -1306,6 +1306,8 @@ GameObject:
   - component: {fileID: -9062678948234610683}
   - component: {fileID: 3631356019955345770}
   - component: {fileID: 321089527175153232}
+  - component: {fileID: 6148891469127740561}
+  - component: {fileID: -974225605667199864}
   m_Layer: 14
   m_Name: Civillian_04
   m_TagString: Untagged
@@ -1532,6 +1534,34 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!136 &6148891469127740561
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4516847169353661385}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &-974225605667199864
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4516847169353661385}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2.3976612
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.6988306, z: 0}
 --- !u!1 &4532422783868601088
 GameObject:
   m_ObjectHideFlags: 0
