@@ -1863,6 +1863,22 @@ MonoBehaviour:
   sensitivity: 0
   isCamera: 0
   cameraHeight: 0
+  lastSelected: {fileID: 0}
+  endSpawnEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1859269241}
+        m_TargetAssemblyTypeName: SpawnMenu, Assembly-CSharp
+        m_MethodName: UpdateQuantity
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &1353778844
 Transform:
   m_ObjectHideFlags: 0
@@ -1953,6 +1969,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 90, y: 180, z: 0}
+--- !u!114 &1859269241 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6228232642416491502, guid: 1cf73a3626182b848b141bfe079a1682, type: 3}
+  m_PrefabInstance: {fileID: 381292120}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257910054c2dafd4c9d9d6b9761c985b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3264762189489359949
 PrefabInstance:
   m_ObjectHideFlags: 0
