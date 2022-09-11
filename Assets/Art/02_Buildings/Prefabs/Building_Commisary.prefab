@@ -62,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -146,7 +146,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -231,7 +231,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -332,7 +332,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -433,7 +433,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -534,7 +534,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -635,7 +635,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -736,7 +736,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -837,7 +837,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -938,7 +938,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1039,7 +1039,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1140,7 +1140,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1239,7 +1239,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1324,7 +1324,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1424,7 +1424,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1565,7 +1565,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1666,7 +1666,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1766,7 +1766,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1851,7 +1851,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1952,7 +1952,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2053,7 +2053,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2154,7 +2154,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2255,7 +2255,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2356,7 +2356,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2456,7 +2456,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2485,6 +2485,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 1687876156795866997, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
+    - target: {fileID: 2763902375914261569, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (15)
@@ -2533,6 +2541,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8052167765044082666, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
 --- !u!4 &4379659881274690489 stripped
@@ -2547,6 +2559,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 1687876156795866997, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
+    - target: {fileID: 2763902375914261569, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (2)
@@ -2595,6 +2615,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8052167765044082666, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
 --- !u!4 &4440010498402749644 stripped
@@ -2653,6 +2677,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4179da1e36f67dc4d972102e5b0015c0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 919132149155446097, guid: 4179da1e36f67dc4d972102e5b0015c0, type: 3}
       propertyPath: m_Name
       value: Prop_Commisary_Bar
@@ -2715,6 +2743,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 293ab053ba0f5b54c9ff377e101c6b65, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 919132149155446097, guid: 293ab053ba0f5b54c9ff377e101c6b65, type: 3}
       propertyPath: m_Name
       value: Prop_Commisary_BeltPost
@@ -2733,6 +2765,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 1687876156795866997, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
+    - target: {fileID: 2763902375914261569, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (12)
@@ -2781,6 +2821,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8052167765044082666, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
 --- !u!4 &3642933166281980918 stripped
@@ -2839,6 +2883,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 293ab053ba0f5b54c9ff377e101c6b65, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 919132149155446097, guid: 293ab053ba0f5b54c9ff377e101c6b65, type: 3}
       propertyPath: m_Name
       value: Prop_Commisary_BeltPost
@@ -2901,6 +2949,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 293ab053ba0f5b54c9ff377e101c6b65, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 919132149155446097, guid: 293ab053ba0f5b54c9ff377e101c6b65, type: 3}
       propertyPath: m_Name
       value: Prop_Commisary_BeltPost
@@ -2963,6 +3015,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: da8ca50531b3a3d45881e9890d732ee1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 919132149155446097, guid: da8ca50531b3a3d45881e9890d732ee1, type: 3}
       propertyPath: m_Name
       value: Prop_Commisary_Counter
@@ -3025,6 +3081,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 919132149155446097, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
       propertyPath: m_Name
       value: Prop_Commisary_Stool
@@ -3087,6 +3147,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e0eda609157662e48b9df54de1274278, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 919132149155446097, guid: e0eda609157662e48b9df54de1274278, type: 3}
       propertyPath: m_Name
       value: Building_Commisary
@@ -3105,6 +3169,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 1687876156795866997, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
+    - target: {fileID: 2763902375914261569, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (19)
@@ -3153,6 +3225,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8052167765044082666, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
 --- !u!4 &2327994471701470161 stripped
@@ -3211,6 +3287,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 919132149155446097, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
       propertyPath: m_Name
       value: Prop_Commisary_Stool
@@ -3273,6 +3353,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 919132149155446097, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
       propertyPath: m_Name
       value: Prop_Commisary_Stool
@@ -3335,6 +3419,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e220a180b099aae4f8a0f34197f1ae13, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 919132149155446097, guid: e220a180b099aae4f8a0f34197f1ae13, type: 3}
       propertyPath: m_Name
       value: Prop_CommisaryTable_Rectangle
@@ -3397,6 +3485,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e220a180b099aae4f8a0f34197f1ae13, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 919132149155446097, guid: e220a180b099aae4f8a0f34197f1ae13, type: 3}
       propertyPath: m_Name
       value: Prop_CommisaryTable_Rectangle
@@ -3459,6 +3551,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 919132149155446097, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
       propertyPath: m_Name
       value: Prop_Commisary_Stool
@@ -3477,6 +3573,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 1687876156795866997, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
+    - target: {fileID: 2763902375914261569, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (20)
@@ -3525,6 +3629,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8052167765044082666, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
 --- !u!4 &1288239083437495677 stripped
@@ -3539,6 +3647,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 1687876156795866997, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
+    - target: {fileID: 2763902375914261569, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (3)
@@ -3587,6 +3703,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8052167765044082666, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
 --- !u!4 &1246862964929293724 stripped
@@ -3601,6 +3721,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 1687876156795866997, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
+    - target: {fileID: 2763902375914261569, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (6)
@@ -3649,6 +3777,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8052167765044082666, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
 --- !u!4 &1070088394825105560 stripped
@@ -3663,6 +3795,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 1687876156795866997, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
+    - target: {fileID: 2763902375914261569, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (7)
@@ -3711,6 +3851,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8052167765044082666, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
 --- !u!4 &476831919987097082 stripped
@@ -3725,6 +3869,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 1687876156795866997, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
+    - target: {fileID: 2763902375914261569, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (17)
@@ -3773,6 +3925,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8052167765044082666, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
 --- !u!4 &504919271244236361 stripped
@@ -3831,6 +3987,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 61c29a447818b2a48af8515c8b0c4a49, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 919132149155446097, guid: 61c29a447818b2a48af8515c8b0c4a49, type: 3}
       propertyPath: m_Name
       value: Prop_Commisary_Fridge
@@ -3893,6 +4053,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 919132149155446097, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
       propertyPath: m_Name
       value: Prop_Commisary_Stool
@@ -3955,6 +4119,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 919132149155446097, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
       propertyPath: m_Name
       value: Prop_Commisary_Stool
@@ -4017,6 +4185,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 919132149155446097, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
       propertyPath: m_Name
       value: Prop_Commisary_Stool
@@ -4079,6 +4251,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 919132149155446097, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
       propertyPath: m_Name
       value: Prop_Commisary_Stool
@@ -4097,6 +4273,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 1687876156795866997, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
+    - target: {fileID: 2763902375914261569, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (23)
@@ -4145,6 +4329,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8052167765044082666, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
 --- !u!4 &8603319882813596236 stripped
@@ -4159,6 +4347,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 1687876156795866997, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
+    - target: {fileID: 2763902375914261569, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (11)
@@ -4207,6 +4403,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8052167765044082666, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
 --- !u!4 &8278586786751575705 stripped
@@ -4221,6 +4421,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 1687876156795866997, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
+    - target: {fileID: 2763902375914261569, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (4)
@@ -4269,6 +4477,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8052167765044082666, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
 --- !u!4 &8304575690318032123 stripped
@@ -4327,6 +4539,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 919132149155446097, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
       propertyPath: m_Name
       value: Prop_Commisary_Stool
@@ -4389,6 +4605,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 615a36f8c5d67c5418b0ec09719b1e8f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 919132149155446097, guid: 615a36f8c5d67c5418b0ec09719b1e8f, type: 3}
       propertyPath: m_Name
       value: Prop_CommisaryTable_Circle
@@ -4407,6 +4627,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 1687876156795866997, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
+    - target: {fileID: 2763902375914261569, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (13)
@@ -4455,6 +4683,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8052167765044082666, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
 --- !u!4 &7690608180844188653 stripped
@@ -4469,6 +4701,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 1687876156795866997, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
+    - target: {fileID: 2763902375914261569, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (9)
@@ -4517,6 +4757,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8052167765044082666, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
 --- !u!4 &7452793276248922013 stripped
@@ -4531,6 +4775,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 1687876156795866997, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
+    - target: {fileID: 2763902375914261569, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (8)
@@ -4579,6 +4831,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8052167765044082666, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
 --- !u!4 &6978496063600406985 stripped
@@ -4593,6 +4849,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 1687876156795866997, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
+    - target: {fileID: 2763902375914261569, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (14)
@@ -4641,6 +4905,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8052167765044082666, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
 --- !u!4 &6920522866677774815 stripped
@@ -4699,6 +4967,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 615a36f8c5d67c5418b0ec09719b1e8f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 919132149155446097, guid: 615a36f8c5d67c5418b0ec09719b1e8f, type: 3}
       propertyPath: m_Name
       value: Prop_CommisaryTable_Circle
@@ -4717,6 +4989,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 1687876156795866997, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
+    - target: {fileID: 2763902375914261569, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (21)
@@ -4765,6 +5045,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8052167765044082666, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
 --- !u!4 &6912037440153143524 stripped
@@ -4779,6 +5063,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 1687876156795866997, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
+    - target: {fileID: 2763902375914261569, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (1)
@@ -4827,6 +5119,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8052167765044082666, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
 --- !u!4 &6228565268016528610 stripped
@@ -4885,6 +5181,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 919132149155446097, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
       propertyPath: m_Name
       value: Prop_Commisary_Stool
@@ -4903,6 +5203,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 1687876156795866997, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
+    - target: {fileID: 2763902375914261569, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (5)
@@ -4951,6 +5259,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8052167765044082666, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
 --- !u!4 &5842167401606857581 stripped
@@ -5009,6 +5321,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 61c29a447818b2a48af8515c8b0c4a49, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 919132149155446097, guid: 61c29a447818b2a48af8515c8b0c4a49, type: 3}
       propertyPath: m_Name
       value: Prop_Commisary_Fridge
@@ -5027,6 +5343,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 1687876156795866997, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
+    - target: {fileID: 2763902375914261569, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (10)
@@ -5075,6 +5399,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8052167765044082666, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
 --- !u!4 &6051317384267451427 stripped
@@ -5133,6 +5461,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 919132149155446097, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
       propertyPath: m_Name
       value: Prop_Commisary_Stool
@@ -5195,6 +5527,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 615a36f8c5d67c5418b0ec09719b1e8f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 919132149155446097, guid: 615a36f8c5d67c5418b0ec09719b1e8f, type: 3}
       propertyPath: m_Name
       value: Prop_CommisaryTable_Circle
@@ -5213,6 +5549,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 1687876156795866997, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
+    - target: {fileID: 2763902375914261569, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled
@@ -5261,6 +5605,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8052167765044082666, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
 --- !u!4 &5707415034448202183 stripped
@@ -5275,6 +5623,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 1687876156795866997, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
+    - target: {fileID: 2763902375914261569, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (16)
@@ -5323,6 +5679,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8052167765044082666, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
 --- !u!4 &5364841765928924293 stripped
@@ -5337,6 +5697,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 1687876156795866997, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
+    - target: {fileID: 2763902375914261569, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (18)
@@ -5385,6 +5753,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8052167765044082666, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
 --- !u!4 &4952899141205486710 stripped
@@ -5443,6 +5815,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 919132149155446097, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
       propertyPath: m_Name
       value: Prop_Commisary_Stool
@@ -5461,6 +5837,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 1687876156795866997, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
+    - target: {fileID: 2763902375914261569, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (22)
@@ -5509,6 +5893,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8052167765044082666, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1630336ce23ab349a173f900e7743a4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
 --- !u!4 &4788470706581879431 stripped
