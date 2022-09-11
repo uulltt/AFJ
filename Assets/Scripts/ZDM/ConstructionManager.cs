@@ -35,6 +35,11 @@ public class ConstructionManager : MonoBehaviour
     public Construct MedicalTent;
     public Construct policeDebt;
     public Construct Tent;
+    public Construct BarbedWire;
+    public Construct ConcreteSlab;
+    public Construct Generator;
+    public Construct Helipad;
+    public Construct SandCube;
 
     public bool ShopMenuOpen => fundsText.transform.parent.GetChild(0).gameObject.activeInHierarchy;
 
@@ -45,72 +50,7 @@ public class ConstructionManager : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.C))
-        {
-            if (isConstructing && selectedConstuct == comissary)
-            {
-                DeselectConstruct();
-            }
-            else
-            {
-                SelectConstruct(comissary);
-            }
-        }
-        if (Input.GetKeyDown(KeyCode.F))
-        {
-            if (isConstructing && selectedConstuct == fireDept)
-            {
-                DeselectConstruct();
-            }
-            else
-            {
-                SelectConstruct(fireDept);
-            }
-        }
-        if (Input.GetKeyDown(KeyCode.H))
-        {
-            if (isConstructing && selectedConstuct == House)
-            {
-                DeselectConstruct();
-            }
-            else
-            {
-                SelectConstruct(House);
-            }
-        }
-        if (Input.GetKeyDown(KeyCode.M))
-        {
-            if (isConstructing && selectedConstuct == MedicalTent)
-            {
-                DeselectConstruct();
-            }
-            else
-            {
-                SelectConstruct(MedicalTent);
-            }
-        }
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            if (isConstructing && selectedConstuct == policeDebt)
-            {
-                DeselectConstruct();
-            }
-            else
-            {
-                SelectConstruct(policeDebt);
-            }
-        }
-        if (Input.GetKeyDown(KeyCode.T))
-        {
-            if (isConstructing && selectedConstuct == Tent)
-            {
-                DeselectConstruct();
-            }
-            else
-            {
-                SelectConstruct(Tent);
-            }
-        }
+        
         if (Input.GetKeyDown(KeyCode.B))
         {
             fundsText.transform.parent.GetChild(0).gameObject.SetActive(true);

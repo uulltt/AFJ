@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class AbstractCharacter : MonoBehaviour
 {
-    protected float health;
-    protected List<AbstractEquipment> equipment = new List<AbstractEquipment>();
+    public static List<AbstractCharacter> listOfEveryone = new List<AbstractCharacter>();
+
+    public float health = 100;
+    public Weapon weapon;
     protected CharacterLocomotor locomotor;
 
     protected AbstractCharacter[] CharactersAwareOf;
@@ -17,6 +19,18 @@ public class AbstractCharacter : MonoBehaviour
         {
             locomotor = GetComponent<CharacterLocomotor>();
         }
+
+        if (weapon == null)
+        {
+            weapon = GetComponentInChildren<Weapon>();
+        }
+
+        listOfEveryone.Add(this);
+    }
+
+    private void OnDestroy()
+    {
+        listOfEveryone.Remove(this);
     }
 
     public virtual void TakeDamage(float damage)
@@ -31,9 +45,9 @@ public class AbstractCharacter : MonoBehaviour
         
     }
 
-    public virtual void Die()
+    protected virtual void Die()
     {
-
+        Destroy(gameObject);
     }
 
     public virtual void SenseDanger()
@@ -46,43 +60,17 @@ public class AbstractCharacter : MonoBehaviour
         CharactersAwareOf = characters;
     }
 
-    protected virtual void CheckDistanceToCharacter(AbstractCharacter character, out float distance)
-    {
-        distance = Vector3.Distance(transform.position, character.transform.position);
-    }
-
-    protected virtual void ReactToVisible()
-    {
-        if (CharactersAwareOf == null)
-            return;
-
-        float closestDistance = 10000;
-        AbstractCharacter whoReactingTo = null;
-
-        for(int i = 0; i < CharactersAwareOf.Length; i++)
-        {
-            CheckDistanceToCharacter(CharactersAwareOf[i], out float dist);
-            if(closestDistance > dist)
-            {
-                whoReactingTo = CharactersAwareOf[i];
-                closestDistance = dist;
-            }
-        }
-
-        if(whoReactingTo != null)
-        {
-            ReactToCharacter(whoReactingTo);
-        }
-    }
-
-    protected virtual void ReactToCharacter(AbstractCharacter whoReactTo)
+    public virtual void ReactToCharacter(AbstractCharacter whoReactTo)
     {
 
     }
 
     protected virtual void Attack(AbstractCharacter target)
     {
-
+        if(weapon != null)
+        {
+            weapon.Start_SingleAttack(target);
+        }
     }
 
 
