@@ -119,8 +119,9 @@ public class PhaseManager : MonoBehaviour
                     //Debug.Log("In Buy Phase, moving to Prep Phase!");
                     phase++;
                     time.Reset();
-                    audio.enabled = true;
+                    
                     spawningSystem.SpawnCivilians();
+                    audio.enabled = true;
                 }
 
                 //Debug.Log("In phase " + phase);
