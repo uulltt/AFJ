@@ -13,5 +13,11 @@ MonoBehaviour:
   m_Name: Guard_MachineGun
   m_EditorClassIdentifier: 
   objectReference: {fileID: 0}
+  objects:
+  - {fileID: 8195439763069519903, guid: f2e33d39cf8acaf4ab4e634af6b12c96, type: 3}
+  - {fileID: 3081192879164392796, guid: 5a1e1aa7e5522124cbb77d4d078e373e, type: 3}
+  - {fileID: 3289785782131614367, guid: b2a44f6ab21d63544965ea385368026e, type: 3}
+  - {fileID: 1602822959859958191, guid: a93ed17c7d37bda4ca3b3f3d614ce8b9, type: 3}
+  - {fileID: 4631585372826757585, guid: 25a871a4689df874d9f0f3f9eba17611, type: 3}
   description: 
   price: 30000
