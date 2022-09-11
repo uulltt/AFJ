@@ -238,5 +238,7 @@ public class PhaseManager : MonoBehaviour
         selectedHostile.GetComponent<GunmanCharacter>().femaleDead = femaleDead;
         selectedHostile.GetComponent<GunmanCharacter>().armorHit = armorHit;
         selectedHostile.GetComponent<TargetingSystem>().myCharacter = selectedHostile.GetComponent<GunmanCharacter>();
+        selectedHostile.GetComponent<TargetingSystem>().sphereLayer = 1 << 14 | 1 << 10;
+        selectedHostile.layer = 1 << 11;
     }
 }
