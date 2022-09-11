@@ -64,6 +64,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   selectedConstuct: {fileID: 0}
   previewObject: {fileID: 0}
+  RequirementHolder: {fileID: 0}
   buildOffset: 0
   grid: {fileID: 3264762188141649810}
   fundsText: {fileID: 0}
@@ -83,7 +84,13 @@ MonoBehaviour:
   Tent: {fileID: 3603504737745587817, guid: 1388b0c1448fcb9479154053b5719d83, type: 3}
   sounds: {fileID: 0}
   appear: {fileID: 8300000, guid: 2f597a0126e6a4b419c445cfd8ef7e29, type: 3}
-  buildSound: {fileID: 8300000, guid: 26dbef1cab2cf334a9c62ba90843ee8f, type: 3}
+  buildSound: {fileID: 8300000, guid: 959f1cdc9df89d047852d76153c9f943, type: 3}
+  BarbedWire: {fileID: 0}
+  ConcreteSlab: {fileID: 0}
+  Generator: {fileID: 0}
+  Helipad: {fileID: 0}
+  SandCube: {fileID: 0}
+  addBuilding: 0
 --- !u!82 &2082788450130026916
 AudioSource:
   m_ObjectHideFlags: 0
