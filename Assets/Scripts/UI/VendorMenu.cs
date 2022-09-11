@@ -13,6 +13,7 @@ public class VendorMenu : MonoBehaviour
 
     public List<VendorItem> order;
 
+    public TMP_Text PriceText;
     //    public Dialogue boughtsomething, boughtnothing, ordercheck;
 
     public void Start()
@@ -65,29 +66,40 @@ public class VendorMenu : MonoBehaviour
     {
         order.Add(item);
         Debug.Log(string.Format("added {0} to order", item.name));
-        UpdateQuantity();
+        UpdateOrder();
     }
 
     public void RemoveFromOrder(VendorItem item)
     {
         if (order.Contains(item))
             order.Remove(item);
-        UpdateQuantity();
+        UpdateOrder();
     }
 
-    public void UpdateQuantity()
+    public void UpdateOrder()
     {
         for (int i = 0; i < Items.Count; i++)
         {
             transform.GetChild(i).GetChild(2).GetComponent<TMP_InputField>().text = order.Where(x => x == Items[i]).Count().ToString();
         }
+        PriceText.text = "$" + TotalPrice.ToString();
     }
 
-    public int TotalPrice => order.Select(i => i.price).Aggregate((a, b) => a + b);
+    public int TotalPrice
+    {
+        get
+        {
+            if (order.Count == 0)
+            {
+                return 0;
+            }
+            return order.Select(i => i.price).Aggregate((a, b) => a + b);
+        }
+    }
 
     public void Checkout()
     {
-        if (Resources.availableFunds <= TotalPrice)
+        if (Resources.availableFunds >= TotalPrice)
         {
             int orderCount = order.Count;
             foreach (VendorItem item in order)
@@ -96,7 +108,7 @@ public class VendorMenu : MonoBehaviour
                 Resources.availableFunds -= item.price;
             }
             order.Clear();
-            UpdateQuantity();
+            UpdateOrder();
         }
         //dialogueObject.GetChild(2).gameObject.SetActive(false);
     }
