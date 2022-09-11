@@ -1505,7 +1505,7 @@ MonoBehaviour:
   - {fileID: 694691897722881461, guid: c015f88f35e23fa4daab5420ee4523fc, type: 3}
   - {fileID: 4516847169353661385, guid: 8f3215912685b2d4aa6640bb95752ad4, type: 3}
   - {fileID: 325643858943391790, guid: c899a025296d75147a8977ab17652d83, type: 3}
-  civilianCount: 0
+  civilianCount: 20
   testSpawn: {fileID: 0}
   sensitivity: 0
   isCamera: 0
