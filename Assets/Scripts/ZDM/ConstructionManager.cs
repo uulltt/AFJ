@@ -40,6 +40,11 @@ public class ConstructionManager : MonoBehaviour
 
     public void Start()
     {
+        UpdateFunds();  
+    }
+
+    public void UpdateFunds()
+    {
         fundsText.text = "$" + Resources.availableFunds.ToString();
     }
 
@@ -174,7 +179,7 @@ public class ConstructionManager : MonoBehaviour
                                     hit.collider.gameObject.GetComponent<Tile>().isOccuppied = true;
                                     GameObject Construct = Instantiate(selectedConstuct.gameObject, new Vector3(hit.collider.transform.position.x, hit.collider.transform.position.y + buildOffset, hit.collider.transform.position.z), Quaternion.identity);
                                     Resources.availableFunds -= selectedConstuct.constructionCost;
-                                    fundsText.text = Resources.availableFunds.ToString();
+                                    UpdateFunds();
 
 
                                     DeselectConstruct();
@@ -188,7 +193,7 @@ public class ConstructionManager : MonoBehaviour
                                     GameObject Construct = Instantiate(selectedConstuct.gameObject, new Vector3(hit.collider.transform.position.x + selectedConstuct.xOffset, hit.collider.transform.position.y + buildOffset, hit.collider.transform.position.z + selectedConstuct.yOffset), Quaternion.identity);
                                     Resources.availableFunds -= selectedConstuct.constructionCost;
                                     Debug.Log(Resources.availableFunds);
-                                    fundsText.text = Resources.availableFunds.ToString();
+                                    UpdateFunds();
 
                                     DeselectConstruct();
                                 }

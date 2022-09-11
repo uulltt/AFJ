@@ -115,7 +115,7 @@ public class VendorMenu : MonoBehaviour
                 Resources.Instance.Inventory.Add(item);
                 Resources.availableFunds -= item.price;
             }
-            constructionManager.Start();
+            constructionManager.UpdateFunds();
             order.Clear();
             UpdateOrder();
         }
