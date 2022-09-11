@@ -7,6 +7,8 @@ public class PhaseManager : MonoBehaviour
 {
     public static PhaseManager instance;
 
+    public static bool hostileDead;
+
     public GameObject selectedHostile;
 
     public GameObject weapon;
@@ -162,6 +164,10 @@ public class PhaseManager : MonoBehaviour
                     break;
                 }
 
+                if (hostileDead)
+                {
+                    goToPostGamePhase = true;
+                }
                 //Debug.Log("In phase " + phase);
                 // scenario phase loop
                 // random unit in base "turns"
