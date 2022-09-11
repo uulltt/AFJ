@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c485d57edacf1504a8f314a1885d135a, type: 3}
   m_Name: Equipment_Camera
   m_EditorClassIdentifier: 
-  objectReference: {fileID: 0}
+  objectReference: {fileID: 9202415685698459634, guid: b2875247528b6d743adc2dd20b6081e4, type: 3}
   description: 
   price: 2000
