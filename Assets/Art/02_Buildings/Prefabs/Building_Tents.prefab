@@ -738,7 +738,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: f48e8714b5d44484cba381fd9dc8f0a6, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 6ca72064ffa2e2647bf13c38a3da20ee, type: 2}
+      objectReference: {fileID: 2100000, guid: d984dccc605c31e4faf455e3780916ab, type: 2}
     - target: {fileID: 919132149155446097, guid: f48e8714b5d44484cba381fd9dc8f0a6, type: 3}
       propertyPath: m_Name
       value: Building_Tents
@@ -806,6 +806,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8263929915487306364, guid: 8afaee2fb1ecd924b99b6678d6d93d4c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6ca72064ffa2e2647bf13c38a3da20ee, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 8afaee2fb1ecd924b99b6678d6d93d4c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 6ca72064ffa2e2647bf13c38a3da20ee, type: 2}
@@ -1096,6 +1100,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8263929915487306364, guid: 8afaee2fb1ecd924b99b6678d6d93d4c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6ca72064ffa2e2647bf13c38a3da20ee, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 8afaee2fb1ecd924b99b6678d6d93d4c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 6ca72064ffa2e2647bf13c38a3da20ee, type: 2}

@@ -3011,7 +3011,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 57a27d0447bcf7246aba617598b0677c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: df4518e60d35317419a14e09cf50a519, type: 2}
+      objectReference: {fileID: 2100000, guid: d984dccc605c31e4faf455e3780916ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 57a27d0447bcf7246aba617598b0677c, type: 3}
       propertyPath: m_Name
       value: Building_MedicalTents
