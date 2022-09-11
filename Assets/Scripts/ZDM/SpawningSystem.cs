@@ -112,7 +112,14 @@ public class SpawningSystem : MonoBehaviour
     {
         if (Resources.Instance.Inventory.Contains(newUnit))
         {
-            selectedUnit = newUnit.objectReference;
+            if (newUnit.objects != null && newUnit.objects.Count > 0)
+            {
+                selectedUnit = newUnit.objects[Random.Range(0, newUnit.objects.Count)];
+            }
+            else
+            {
+                selectedUnit = newUnit.objectReference;
+            }
             isSpawning = true;
             isCamera = newUnit.objectReference.name.ToLower().Contains("camera");
             lastSelected = newUnit;

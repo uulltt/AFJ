@@ -1296,6 +1296,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   selectedHostile: {fileID: 0}
   weapon: {fileID: 0}
+  health: 0
+  isMale: 0
+  maleHit: {fileID: 0}
+  femaleHit: {fileID: 0}
+  maleDead: {fileID: 0}
+  femaleDead: {fileID: 0}
+  armorHit: {fileID: 0}
   goToScenarioPhase: 0
 --- !u!4 &1152919759
 Transform:
@@ -1488,11 +1495,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectedUnit: {fileID: 0}
-  spawningLevel: 0
+  spawningLevel: 2
   enemyPrefab: {fileID: 0}
   enemyCount: 0
   invasionPoints: []
-  civilianPrefab: {fileID: 2729695853616201170, guid: c39d497f0ed92ae48bf125972637b44c, type: 3}
+  civilianPrefab:
+  - {fileID: 438641978192764992, guid: f671e7834b098a447987c5b811f0afaf, type: 3}
+  - {fileID: 7629900361484856417, guid: c1cc60569f0c8a646b0cb65b494eaf28, type: 3}
+  - {fileID: 694691897722881461, guid: c015f88f35e23fa4daab5420ee4523fc, type: 3}
+  - {fileID: 4516847169353661385, guid: 8f3215912685b2d4aa6640bb95752ad4, type: 3}
+  - {fileID: 325643858943391790, guid: c899a025296d75147a8977ab17652d83, type: 3}
   civilianCount: 0
   testSpawn: {fileID: 0}
   sensitivity: 0
@@ -1513,84 +1525,6 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
-  FogOff:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 525254874}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 652890945}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1649972227}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  FogOn:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 525254874}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 652890945}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1649972227}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
         m_CallState: 2
 --- !u!4 &1353778844
 Transform:
