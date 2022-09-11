@@ -63,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 5561349426305759274, guid: aa82016125d11d14ba9ace7dc6f02497, type: 3}
+  - {fileID: 2100000, guid: 6ca72064ffa2e2647bf13c38a3da20ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -197,7 +197,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 5561349426305759274, guid: aa82016125d11d14ba9ace7dc6f02497, type: 3}
+  - {fileID: 2100000, guid: 6ca72064ffa2e2647bf13c38a3da20ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -298,7 +298,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 5561349426305759274, guid: aa82016125d11d14ba9ace7dc6f02497, type: 3}
+  - {fileID: 2100000, guid: 6ca72064ffa2e2647bf13c38a3da20ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -443,7 +443,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 5561349426305759274, guid: aa82016125d11d14ba9ace7dc6f02497, type: 3}
+  - {fileID: 2100000, guid: 6ca72064ffa2e2647bf13c38a3da20ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -544,7 +544,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 5561349426305759274, guid: aa82016125d11d14ba9ace7dc6f02497, type: 3}
+  - {fileID: 2100000, guid: 6ca72064ffa2e2647bf13c38a3da20ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -633,6 +633,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8587647509311455884, guid: 0b6f55ce0163a5e48800a8f1dbd81ed6, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: -8377350371455583746, guid: 0b6f55ce0163a5e48800a8f1dbd81ed6, type: 3}
       propertyPath: m_Layer
       value: 9
@@ -640,6 +644,14 @@ PrefabInstance:
     - target: {fileID: -1088180193315418379, guid: 0b6f55ce0163a5e48800a8f1dbd81ed6, type: 3}
       propertyPath: m_Layer
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 811185703768696443, guid: 0b6f55ce0163a5e48800a8f1dbd81ed6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6ca72064ffa2e2647bf13c38a3da20ee, type: 2}
+    - target: {fileID: 885002625673195828, guid: 0b6f55ce0163a5e48800a8f1dbd81ed6, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0b6f55ce0163a5e48800a8f1dbd81ed6, type: 3}
       propertyPath: m_Name
@@ -653,6 +665,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 4833818082910214495, guid: 0b6f55ce0163a5e48800a8f1dbd81ed6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6ca72064ffa2e2647bf13c38a3da20ee, type: 2}
+    - target: {fileID: 5619712480797399186, guid: 0b6f55ce0163a5e48800a8f1dbd81ed6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6ca72064ffa2e2647bf13c38a3da20ee, type: 2}
     - target: {fileID: 8165946227109694942, guid: 0b6f55ce0163a5e48800a8f1dbd81ed6, type: 3}
       propertyPath: m_Layer
       value: 9
@@ -715,6 +735,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f48e8714b5d44484cba381fd9dc8f0a6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6ca72064ffa2e2647bf13c38a3da20ee, type: 2}
     - target: {fileID: 919132149155446097, guid: f48e8714b5d44484cba381fd9dc8f0a6, type: 3}
       propertyPath: m_Name
       value: Building_Tents
@@ -781,6 +805,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8263929915487306364, guid: 8afaee2fb1ecd924b99b6678d6d93d4c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6ca72064ffa2e2647bf13c38a3da20ee, type: 2}
     - target: {fileID: -3229412268838909888, guid: 8afaee2fb1ecd924b99b6678d6d93d4c, type: 3}
       propertyPath: m_Layer
       value: 9
@@ -789,6 +817,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: -755727297603877605, guid: 8afaee2fb1ecd924b99b6678d6d93d4c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6ca72064ffa2e2647bf13c38a3da20ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 8afaee2fb1ecd924b99b6678d6d93d4c, type: 3}
       propertyPath: m_Name
       value: Prop_Tent_FoldChair
@@ -797,6 +829,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 4950809472379405871, guid: 8afaee2fb1ecd924b99b6678d6d93d4c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6ca72064ffa2e2647bf13c38a3da20ee, type: 2}
     - target: {fileID: 6255477967550554113, guid: 8afaee2fb1ecd924b99b6678d6d93d4c, type: 3}
       propertyPath: m_Layer
       value: 9
@@ -883,6 +919,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 1465881459823975613, guid: da724bd9c7414784e95b542a2c894de9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6ca72064ffa2e2647bf13c38a3da20ee, type: 2}
     - target: {fileID: 4750250504318222402, guid: da724bd9c7414784e95b542a2c894de9, type: 3}
       propertyPath: m_Layer
       value: 9
@@ -953,6 +993,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8587647509311455884, guid: 0b6f55ce0163a5e48800a8f1dbd81ed6, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: -8377350371455583746, guid: 0b6f55ce0163a5e48800a8f1dbd81ed6, type: 3}
       propertyPath: m_Layer
       value: 9
@@ -960,6 +1004,14 @@ PrefabInstance:
     - target: {fileID: -1088180193315418379, guid: 0b6f55ce0163a5e48800a8f1dbd81ed6, type: 3}
       propertyPath: m_Layer
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 811185703768696443, guid: 0b6f55ce0163a5e48800a8f1dbd81ed6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6ca72064ffa2e2647bf13c38a3da20ee, type: 2}
+    - target: {fileID: 885002625673195828, guid: 0b6f55ce0163a5e48800a8f1dbd81ed6, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0b6f55ce0163a5e48800a8f1dbd81ed6, type: 3}
       propertyPath: m_Name
@@ -973,6 +1025,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 4833818082910214495, guid: 0b6f55ce0163a5e48800a8f1dbd81ed6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6ca72064ffa2e2647bf13c38a3da20ee, type: 2}
+    - target: {fileID: 5619712480797399186, guid: 0b6f55ce0163a5e48800a8f1dbd81ed6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6ca72064ffa2e2647bf13c38a3da20ee, type: 2}
     - target: {fileID: 8165946227109694942, guid: 0b6f55ce0163a5e48800a8f1dbd81ed6, type: 3}
       propertyPath: m_Layer
       value: 9
@@ -1035,6 +1095,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8263929915487306364, guid: 8afaee2fb1ecd924b99b6678d6d93d4c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6ca72064ffa2e2647bf13c38a3da20ee, type: 2}
+    - target: {fileID: -4235820054630343850, guid: 8afaee2fb1ecd924b99b6678d6d93d4c, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -6634918311834403359, guid: 8afaee2fb1ecd924b99b6678d6d93d4c, type: 3}
     - target: {fileID: -3229412268838909888, guid: 8afaee2fb1ecd924b99b6678d6d93d4c, type: 3}
       propertyPath: m_Layer
       value: 9
@@ -1043,6 +1111,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: -755727297603877605, guid: 8afaee2fb1ecd924b99b6678d6d93d4c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6ca72064ffa2e2647bf13c38a3da20ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 8afaee2fb1ecd924b99b6678d6d93d4c, type: 3}
       propertyPath: m_Name
       value: Prop_Tent_FoldChair
@@ -1051,6 +1123,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 4950809472379405871, guid: 8afaee2fb1ecd924b99b6678d6d93d4c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6ca72064ffa2e2647bf13c38a3da20ee, type: 2}
     - target: {fileID: 6255477967550554113, guid: 8afaee2fb1ecd924b99b6678d6d93d4c, type: 3}
       propertyPath: m_Layer
       value: 9
