@@ -870,6 +870,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &481690031 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1494839715332043026, guid: 1cf73a3626182b848b141bfe079a1682, type: 3}
+  m_PrefabInstance: {fileID: 381292120}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &500689637
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1314,6 +1319,7 @@ MonoBehaviour:
   armorHit: {fileID: 8300000, guid: 232781b579ecca049ad09ad9149fb20f, type: 3}
   audio: {fileID: 1152919760}
   spawningSystem: {fileID: 1353778843}
+  resultsScreen: {fileID: 481690031}
   goToScenarioPhase: 0
 --- !u!4 &1152919759
 Transform:
