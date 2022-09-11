@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3264762188141649811
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3264762188141649837}
+  - component: {fileID: 3264762188141649810}
+  - component: {fileID: 6322863378307750566}
+  m_Layer: 0
+  m_Name: ConstructionManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3264762188141649837
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3264762188141649811}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3264762188141649810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3264762188141649811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa495f5002db05a42a32745b93f7213c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xDim: 100
+  yDim: 100
+  tileScale: 1
+  tileObject: {fileID: 2339594890335651904, guid: d7beec53975c24d4aa1917438650ebf4, type: 3}
+--- !u!114 &6322863378307750566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3264762188141649811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecc9ed2054b1a224db226aef8ecbb5dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedConstuct: {fileID: 0}
+  previewObject: {fileID: 0}
+  buildOffset: 0
+  grid: {fileID: 3264762188141649810}
+  fundsText: {fileID: 0}
+  isConstructing: 0
+  testObject: {fileID: 7275950142462246355, guid: 140793afe315951478381f902d4ecb8b, type: 3}
+  comissary: {fileID: 4776224381850549484, guid: ad1f7bb23685eea4a899b2488a2d6946, type: 3}
+  fireDept: {fileID: 4076878631586667401, guid: 96bbfa7f029679240a391a6c3c48224f, type: 3}
+  House: {fileID: 537847322171175129, guid: e54a807cdfa829d43a35faffffc48196, type: 3}
+  MedicalTent: {fileID: 1356845027254529943, guid: 246efe6b9d9981946b70eb7397f5c761, type: 3}
+  policeDebt: {fileID: 8080025918325721659, guid: 808acf772b459c046891ea397285fa53, type: 3}
+  Tent: {fileID: 3603504737745587817, guid: 1388b0c1448fcb9479154053b5719d83, type: 3}
