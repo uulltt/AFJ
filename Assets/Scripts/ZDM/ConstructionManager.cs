@@ -3,12 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Events;
+using System.Linq;
 
 public class ConstructionManager : MonoBehaviour
 {
     public Construct selectedConstuct;
 
     public GameObject previewObject;
+    public VendorItem PreviewItem { get; set; }
+
+    public Requirements RequirementHolder;
 
     public float buildOffset;
 
@@ -45,6 +49,8 @@ public class ConstructionManager : MonoBehaviour
 
     public bool ShopMenuOpen => fundsText.transform.parent.GetChild(1).gameObject.activeInHierarchy;
 
+    public bool addBuilding;
+
     public void Start()
     {
         UpdateFunds();
@@ -76,6 +82,7 @@ public class ConstructionManager : MonoBehaviour
                 {
                     if (previewObject == null)
                     {
+                        addBuilding = true;
                         previewObject = Instantiate(selectedConstuct.gameObject, new Vector3(selectedTile.transform.position.x + selectedConstuct.xOffset, selectedTile.transform.position.y + buildOffset, selectedTile.transform.position.z + selectedConstuct.yOffset), Quaternion.identity);
                         if (!grid.OccupancyCheck(selectedConstuct, (int)selectedTile.transform.position.x, (int)selectedTile.transform.position.z))
                         {
@@ -155,6 +162,11 @@ public class ConstructionManager : MonoBehaviour
         Destroy(previewObject);
         previewObject = null;
         FogOn?.Invoke();
+        if (addBuilding)
+        {
+            RequirementHolder.RequireBuildings.Where(x => x.building.name == selectedConstuct.name).First().quantity++;
+            addBuilding = false;
+        }
     }
 
     public void SelectConstruct(Construct targetConstruct)
