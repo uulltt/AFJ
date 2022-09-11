@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 using System.Linq;
 using UnityEngine.EventSystems;
+using UnityEngine.Events;
 
 public class VendorMenu : MonoBehaviour
 {
@@ -16,6 +17,7 @@ public class VendorMenu : MonoBehaviour
     public TMP_Text PriceText;
 
     public ConstructionManager constructionManager;
+    public UnityEvent OrderEvent;
     //    public Dialogue boughtsomething, boughtnothing, ordercheck;
 
     public void Start()
@@ -115,9 +117,10 @@ public class VendorMenu : MonoBehaviour
                 Resources.Instance.Inventory.Add(item);
                 Resources.availableFunds -= item.price;
             }
-            constructionManager.Start();
+            constructionManager.UpdateFunds();
             order.Clear();
             UpdateOrder();
+            OrderEvent?.Invoke();
         }
         //dialogueObject.GetChild(2).gameObject.SetActive(false);
     }
