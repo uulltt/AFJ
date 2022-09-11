@@ -230,12 +230,12 @@ public class PhaseManager : MonoBehaviour
 
         selectedHostile.AddComponent<GunmanCharacter>();
 
-        selectedHostile.AddComponent<GunmanCharacter>().health = health;
-        selectedHostile.AddComponent<GunmanCharacter>().isMale = isMale;
-        selectedHostile.AddComponent<GunmanCharacter>().maleHit = maleHit;
-        selectedHostile.AddComponent<GunmanCharacter>().femaleHit = femaleHit;
-        selectedHostile.AddComponent<GunmanCharacter>().maleDead = maleDead;
-        selectedHostile.AddComponent<GunmanCharacter>().femaleDead = femaleDead;
-        selectedHostile.AddComponent<GunmanCharacter>().armorHit = armorHit;
+        selectedHostile.GetComponent<GunmanCharacter>().health = health;
+        selectedHostile.GetComponent<GunmanCharacter>().isMale = isMale;
+        selectedHostile.GetComponent<GunmanCharacter>().maleHit = maleHit;
+        selectedHostile.GetComponent<GunmanCharacter>().femaleHit = femaleHit;
+        selectedHostile.GetComponent<GunmanCharacter>().maleDead = maleDead;
+        selectedHostile.GetComponent<GunmanCharacter>().femaleDead = femaleDead;
+        selectedHostile.GetComponent<GunmanCharacter>().armorHit = armorHit;
     }
 }
