@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6231794211165938556}
   - component: {fileID: 6288670889395034649}
   - component: {fileID: 9197141752272161022}
+  - component: {fileID: 3435227001543709764}
   m_Layer: 0
   m_Name: Prop_OfficeChair1
   m_TagString: Untagged
@@ -84,6 +85,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &3435227001543709764
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 46504538005886255}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &94844519091907784
 GameObject:
   m_ObjectHideFlags: 0
@@ -179,6 +196,7 @@ GameObject:
   - component: {fileID: 5405308889134242107}
   - component: {fileID: 3938909921955841308}
   - component: {fileID: 4633678992119175426}
+  - component: {fileID: 235552932138722436}
   m_Layer: 0
   m_Name: Prop_LDeskL1
   m_TagString: Untagged
@@ -252,6 +270,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &235552932138722436
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112144178881993758}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 1.5, y: 0.5, z: 0.75}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: -0.5}
+  m_TimeToStationary: 0.5
 --- !u!1 &256783420106689487
 GameObject:
   m_ObjectHideFlags: 0
@@ -263,6 +297,7 @@ GameObject:
   - component: {fileID: 4516405146987171165}
   - component: {fileID: 2604260311735436717}
   - component: {fileID: 9040692716492636071}
+  - component: {fileID: 9015063603426830786}
   m_Layer: 0
   m_Name: Prop_OfficeChair5
   m_TagString: Untagged
@@ -336,6 +371,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &9015063603426830786
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256783420106689487}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &2059158486929670333
 GameObject:
   m_ObjectHideFlags: 0
@@ -347,6 +398,7 @@ GameObject:
   - component: {fileID: 4969598639811571261}
   - component: {fileID: 1004465759944281792}
   - component: {fileID: 4673346910782739498}
+  - component: {fileID: 5458095543879387203}
   m_Layer: 0
   m_Name: Prop_OfficeChair2
   m_TagString: Untagged
@@ -420,6 +472,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &5458095543879387203
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059158486929670333}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &2079669775569300841
 GameObject:
   m_ObjectHideFlags: 0
@@ -431,6 +499,7 @@ GameObject:
   - component: {fileID: 7659117441361542486}
   - component: {fileID: 3347281440607758331}
   - component: {fileID: 2191724028030576091}
+  - component: {fileID: 7338801974410640312}
   m_Layer: 0
   m_Name: Prop_LDeskR2
   m_TagString: Untagged
@@ -504,6 +573,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &7338801974410640312
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079669775569300841}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 1.5, y: 0.5, z: 0.75}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: -0.5}
+  m_TimeToStationary: 0.5
 --- !u!1 &2829056965898485689
 GameObject:
   m_ObjectHideFlags: 0
@@ -515,6 +600,7 @@ GameObject:
   - component: {fileID: 5507721986835750142}
   - component: {fileID: 3907241014910496481}
   - component: {fileID: 1097749621769814642}
+  - component: {fileID: 825083943923615847}
   m_Layer: 0
   m_Name: Prop_JailCell1
   m_TagString: Untagged
@@ -588,6 +674,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &825083943923615847
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2829056965898485689}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 1, y: 0.5, z: 1.25}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &3491371235006102101
 GameObject:
   m_ObjectHideFlags: 0
@@ -851,6 +953,7 @@ GameObject:
   - component: {fileID: 9074798960770884651}
   - component: {fileID: 4793219235911866487}
   - component: {fileID: 8477903142981398760}
+  - component: {fileID: 1348736563150232805}
   m_Layer: 0
   m_Name: Prop_ReceptionDesk1
   m_TagString: Untagged
@@ -924,6 +1027,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &1348736563150232805
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4258596333026324359}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 2, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: -0.5}
+  m_TimeToStationary: 0.5
 --- !u!1 &5007488781669449567
 GameObject:
   m_ObjectHideFlags: 0
@@ -1019,6 +1138,7 @@ GameObject:
   - component: {fileID: 3778150955895111892}
   - component: {fileID: 5859190156098608098}
   - component: {fileID: 2640004077949673466}
+  - component: {fileID: 7864218055206229132}
   m_Layer: 0
   m_Name: Prop_JailCell2
   m_TagString: Untagged
@@ -1092,6 +1212,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &7864218055206229132
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5017282372673739658}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 1, y: 0.5, z: 1.25}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &5031780446651496081
 GameObject:
   m_ObjectHideFlags: 0
@@ -1135,6 +1271,7 @@ GameObject:
   - component: {fileID: 1925742761730725766}
   - component: {fileID: 6820057250866821815}
   - component: {fileID: 2539197072186703943}
+  - component: {fileID: 507095297626996750}
   m_Layer: 0
   m_Name: Prop_OfficeChair4
   m_TagString: Untagged
@@ -1208,6 +1345,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &507095297626996750
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5340778906161902385}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &8126218018822461163
 GameObject:
   m_ObjectHideFlags: 0
@@ -1219,6 +1372,7 @@ GameObject:
   - component: {fileID: 5433207607611957567}
   - component: {fileID: 3500650796191430957}
   - component: {fileID: 5990784476415969889}
+  - component: {fileID: 8458224432344260176}
   m_Layer: 0
   m_Name: Prop_LDeskL2
   m_TagString: Untagged
@@ -1292,6 +1446,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &8458224432344260176
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8126218018822461163}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 1.5, y: 0.5, z: 0.75}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: -0.5}
+  m_TimeToStationary: 0.5
 --- !u!1 &8300798129260773851
 GameObject:
   m_ObjectHideFlags: 0
@@ -1303,6 +1473,7 @@ GameObject:
   - component: {fileID: 7245424953251177201}
   - component: {fileID: 6998261597213583146}
   - component: {fileID: 6807493601659497176}
+  - component: {fileID: 6301689851383288534}
   m_Layer: 0
   m_Name: Prop_OfficeChair3
   m_TagString: Untagged
@@ -1376,6 +1547,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &6301689851383288534
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8300798129260773851}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &8412414461296839232
 GameObject:
   m_ObjectHideFlags: 0
