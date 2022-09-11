@@ -11,6 +11,11 @@ public class PhaseManager : MonoBehaviour
 
     public GameObject weapon;
 
+    //Hostile's Old Data
+    public float health;
+    public bool isMale;
+    public AudioClip maleHit, femaleHit, maleDead, femaleDead, armorHit;
+
     private bool goToPrepPhase;
     public bool GoToPrepPhase
     {
@@ -197,9 +202,26 @@ public class PhaseManager : MonoBehaviour
             newWeapon.transform.parent = selectedHostile.gameObject.transform;
         }
 
+        health = selectedHostile.GetComponent<AbstractCharacter>().health;
+
+        isMale = selectedHostile.GetComponent<AbstractCharacter>().isMale;
+
+        maleHit = selectedHostile.GetComponent<AbstractCharacter>().maleHit;
+        femaleHit = selectedHostile.GetComponent<AbstractCharacter>().femaleHit;
+        maleDead = selectedHostile.GetComponent<AbstractCharacter>().maleDead;
+        femaleDead = selectedHostile.GetComponent<AbstractCharacter>().femaleDead;
+        armorHit = selectedHostile.GetComponent<AbstractCharacter>().armorHit;
+
         Destroy(selectedHostile.GetComponent<AbstractCharacter>());
 
         selectedHostile.AddComponent<GunmanCharacter>();
 
+        selectedHostile.AddComponent<GunmanCharacter>().health = health;
+        selectedHostile.AddComponent<GunmanCharacter>().isMale = isMale;
+        selectedHostile.AddComponent<GunmanCharacter>().maleHit = maleHit;
+        selectedHostile.AddComponent<GunmanCharacter>().femaleHit = femaleHit;
+        selectedHostile.AddComponent<GunmanCharacter>().maleDead = maleDead;
+        selectedHostile.AddComponent<GunmanCharacter>().femaleDead = femaleDead;
+        selectedHostile.AddComponent<GunmanCharacter>().armorHit = armorHit;
     }
 }
