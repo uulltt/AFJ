@@ -6,6 +6,7 @@ using UnityEngine;
 public class VendorItem : ScriptableObject
 {
     public GameObject objectReference;
+    public List<GameObject> objects;
     public string description;
     public int price;
 }
