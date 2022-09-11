@@ -16,6 +16,10 @@ public class PhaseManager : MonoBehaviour
     public bool isMale;
     public AudioClip maleHit, femaleHit, maleDead, femaleDead, armorHit;
 
+    public AudioSource audio;
+
+    public SpawningSystem spawningSystem;
+
     private bool goToPrepPhase;
     public bool GoToPrepPhase
     {
@@ -115,6 +119,8 @@ public class PhaseManager : MonoBehaviour
                     //Debug.Log("In Buy Phase, moving to Prep Phase!");
                     phase++;
                     time.Reset();
+                    audio.enabled = true;
+                    spawningSystem.SpawnCivilians();
                 }
 
                 //Debug.Log("In phase " + phase);
@@ -130,13 +136,13 @@ public class PhaseManager : MonoBehaviour
                 
                 if (time.isComplete)
                 {
-                    AssignHostile();
                     goToScenarioPhase = true;
                 }
                 
 
                 if (goToScenarioPhase)
                 {
+                    AssignHostile();
                     goToScenarioPhase = false;
                     Debug.Log("In Prep Phase, moving to Scenario Phase!");
                     phase++;
@@ -200,6 +206,11 @@ public class PhaseManager : MonoBehaviour
         {
             GameObject newWeapon = Instantiate(weapon, selectedHostile.transform.position, Quaternion.identity);
             newWeapon.transform.parent = selectedHostile.gameObject.transform;
+        }
+
+        if (selectedHostile.GetComponentInChildren<FieldOfView>() != null)
+        {
+            Destroy(selectedHostile.GetComponentInChildren<FieldOfView>().gameObject);
         }
 
         health = selectedHostile.GetComponent<AbstractCharacter>().health;
