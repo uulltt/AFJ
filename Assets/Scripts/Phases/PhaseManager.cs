@@ -135,7 +135,6 @@ public class PhaseManager : MonoBehaviour
                 // wait for next phase
                 break;
             case Phases.PREP:
-                Debug.Log("In phase " + phase);
 
                 
                 if (time.isComplete)
@@ -148,7 +147,6 @@ public class PhaseManager : MonoBehaviour
                 {
                     AssignHostile();
                     goToScenarioPhase = false;
-                    Debug.Log("In Prep Phase, moving to Scenario Phase!");
                     phase++;
                 }
 
@@ -183,14 +181,11 @@ public class PhaseManager : MonoBehaviour
 
                 break;
             case Phases.POST_GAME:
-                Debug.Log("In Post Game Phase, awaiting Try Again or Quit!");
-                Debug.Log("In phase " + phase);
                 // scoreboard shows score (time, deaths)
                 // display try again and quit buttons
                 if (tryAgain)
                 {
                     // start things over
-                    Debug.Log("OK let's try again!");
                     tryAgain = false;
                     phase = Phases.BUY;
                 }
