@@ -87,14 +87,17 @@ public class VendorMenu : MonoBehaviour
 
     public void Checkout()
     {
-        int orderCount = order.Count;
-        foreach (VendorItem item in order)
+        if (Resources.availableFunds <= TotalPrice)
         {
-            //Player.Inventory.Items.Add(item.item);
-            //Player.money -= item.price;
+            int orderCount = order.Count;
+            foreach (VendorItem item in order)
+            {
+                Resources.Instance.Inventory.Add(item);
+                Resources.availableFunds -= item.price;
+            }
+            order.Clear();
+            UpdateQuantity();
         }
-        order.Clear();
-        UpdateQuantity();
         //dialogueObject.GetChild(2).gameObject.SetActive(false);
     }
 }
