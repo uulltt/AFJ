@@ -1486,8 +1486,28 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6322863378307750566, guid: 4a69db6e488d6084f918d3da96f6a834, type: 3}
+      propertyPath: isCamera
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322863378307750566, guid: 4a69db6e488d6084f918d3da96f6a834, type: 3}
       propertyPath: fundsText
       value: 
-      objectReference: {fileID: 15316814}
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322863378307750566, guid: 4a69db6e488d6084f918d3da96f6a834, type: 3}
+      propertyPath: testCamera
+      value: 
+      objectReference: {fileID: 2339594890335651904, guid: d7beec53975c24d4aa1917438650ebf4, type: 3}
+    - target: {fileID: 6322863378307750566, guid: 4a69db6e488d6084f918d3da96f6a834, type: 3}
+      propertyPath: sensitivity
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322863378307750566, guid: 4a69db6e488d6084f918d3da96f6a834, type: 3}
+      propertyPath: cameraHeight
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322863378307750566, guid: 4a69db6e488d6084f918d3da96f6a834, type: 3}
+      propertyPath: isConstructing
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a69db6e488d6084f918d3da96f6a834, type: 3}
