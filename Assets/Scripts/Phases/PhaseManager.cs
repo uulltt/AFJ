@@ -20,6 +20,8 @@ public class PhaseManager : MonoBehaviour
 
     public AudioSource audio;
 
+    public int SoldierCount;
+
     public SpawningSystem spawningSystem;
     public GameObject resultsScreen;
 
@@ -141,6 +143,7 @@ public class PhaseManager : MonoBehaviour
                 if (time.isComplete)
                 {
                     goToScenarioPhase = true;
+                    SoldierCount = FindObjectsOfType<GuardCharacter>().Length;
                 }
                 
 
@@ -176,6 +179,9 @@ public class PhaseManager : MonoBehaviour
                 if (goToPostGamePhase)
                 {
                     resultsScreen.SetActive(true);
+                    resultsScreen.transform.GetChild(0).GetChild(1).GetChild(0).GetChild(0).GetComponent<TMPro.TMP_Text>().text = time.elapseTime + " seconds";
+                    resultsScreen.transform.GetChild(0).GetChild(1).GetChild(1).GetChild(0).GetComponent<TMPro.TMP_Text>().text = (spawningSystem.civilianCount - FindObjectsOfType<CivilianCharacter>().Length).ToString();
+                    resultsScreen.transform.GetChild(0).GetChild(1).GetChild(2).GetChild(0).GetComponent<TMPro.TMP_Text>().text = (SoldierCount - FindObjectsOfType<GuardCharacter>().Length).ToString();
                     goToPostGamePhase = false;
                     //Debug.Log("In Scenario Phase, moving to Post Game Phase!");
                     phase++;
