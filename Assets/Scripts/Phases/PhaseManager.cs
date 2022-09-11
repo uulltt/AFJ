@@ -220,11 +220,11 @@ public class PhaseManager : MonoBehaviour
 
         isMale = selectedHostile.GetComponent<AbstractCharacter>().isMale;
 
-        maleHit = selectedHostile.GetComponent<AbstractCharacter>().maleHit;
-        femaleHit = selectedHostile.GetComponent<AbstractCharacter>().femaleHit;
-        maleDead = selectedHostile.GetComponent<AbstractCharacter>().maleDead;
-        femaleDead = selectedHostile.GetComponent<AbstractCharacter>().femaleDead;
-        armorHit = selectedHostile.GetComponent<AbstractCharacter>().armorHit;
+        //maleHit = selectedHostile.GetComponent<AbstractCharacter>().maleHit;
+        //femaleHit = selectedHostile.GetComponent<AbstractCharacter>().femaleHit;
+        //maleDead = selectedHostile.GetComponent<AbstractCharacter>().maleDead;
+        //femaleDead = selectedHostile.GetComponent<AbstractCharacter>().femaleDead;
+        //armorHit = selectedHostile.GetComponent<AbstractCharacter>().armorHit;
 
         Destroy(selectedHostile.GetComponent<AbstractCharacter>());
 
@@ -237,5 +237,6 @@ public class PhaseManager : MonoBehaviour
         selectedHostile.GetComponent<GunmanCharacter>().maleDead = maleDead;
         selectedHostile.GetComponent<GunmanCharacter>().femaleDead = femaleDead;
         selectedHostile.GetComponent<GunmanCharacter>().armorHit = armorHit;
+        selectedHostile.GetComponent<TargetingSystem>().myCharacter = selectedHostile.GetComponent<GunmanCharacter>();
     }
 }
