@@ -26,6 +26,14 @@ public class AbstractCharacter : MonoBehaviour
             weapon = GetComponentInChildren<Weapon>();
         }
 
+        if(weapon != null)
+        {
+            var gunHand = transform.Find("Gun Point");
+
+            weapon.transform.parent = gunHand.transform;
+            weapon.transform.localPosition = new Vector3();
+        }
+
         listOfEveryone.Add(this);
     }
 

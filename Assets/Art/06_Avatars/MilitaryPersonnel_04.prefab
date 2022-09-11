@@ -807,6 +807,37 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.000005096197, y: 0.0682784, z: 0.09981285}
     m_Extent: {x: 0.04483784, y: 0.006313624, z: 0.005373381}
   m_DirtyAABB: 0
+--- !u!1 &1394700351116904688
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3472002820954582969}
+  m_Layer: 0
+  m_Name: Gun Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3472002820954582969
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394700351116904688}
+  m_LocalRotation: {x: 0.7178681, y: -0.01951187, z: 0.037989963, w: 0.69486797}
+  m_LocalPosition: {x: -0.031632517, y: 0.36188444, z: 0.039519385}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6920208860902200228}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 94.94202, y: 0, z: 0}
 --- !u!1 &1465412462181638592
 GameObject:
   m_ObjectHideFlags: 0
@@ -2607,6 +2638,7 @@ Transform:
   - {fileID: 641342269477795063}
   - {fileID: 8231430099175404829}
   - {fileID: 2457823828515678622}
+  - {fileID: 3472002820954582969}
   m_Father: {fileID: 5990337758235946294}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
