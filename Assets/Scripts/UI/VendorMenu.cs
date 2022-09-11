@@ -13,6 +13,9 @@ public class VendorMenu : MonoBehaviour
 
     public List<VendorItem> order;
 
+    public TMP_Text PriceText;
+
+    public ConstructionManager constructionManager;
     //    public Dialogue boughtsomething, boughtnothing, ordercheck;
 
     public void Start()
@@ -21,6 +24,12 @@ public class VendorMenu : MonoBehaviour
         {
             transform.GetChild(i).GetChild(4).GetComponent<TMP_Text>().text = "$" + Items[i].price.ToString();
         }
+        UpdateOrder();
+    }
+
+    public void OnEnable()
+    {
+        UpdateOrder();
     }
 
     public void Update()
@@ -65,36 +74,51 @@ public class VendorMenu : MonoBehaviour
     {
         order.Add(item);
         Debug.Log(string.Format("added {0} to order", item.name));
-        UpdateQuantity();
+        UpdateOrder();
     }
 
     public void RemoveFromOrder(VendorItem item)
     {
         if (order.Contains(item))
             order.Remove(item);
-        UpdateQuantity();
+        UpdateOrder();
     }
 
-    public void UpdateQuantity()
+    public void UpdateOrder()
     {
         for (int i = 0; i < Items.Count; i++)
         {
             transform.GetChild(i).GetChild(2).GetComponent<TMP_InputField>().text = order.Where(x => x == Items[i]).Count().ToString();
         }
+        PriceText.text = "$" + TotalPrice.ToString();
     }
 
-    public int TotalPrice => order.Select(i => i.price).Aggregate((a, b) => a + b);
+    public int TotalPrice
+    {
+        get
+        {
+            if (order.Count == 0 || order == null)
+            {
+                return 0;
+            }
+            return order.Select(i => i.price).Aggregate((a, b) => a + b);
+        }
+    }
 
     public void Checkout()
     {
-        int orderCount = order.Count;
-        foreach (VendorItem item in order)
+        if (Resources.availableFunds >= TotalPrice)
         {
-            //Player.Inventory.Items.Add(item.item);
-            //Player.money -= item.price;
+            int orderCount = order.Count;
+            foreach (VendorItem item in order)
+            {
+                Resources.Instance.Inventory.Add(item);
+                Resources.availableFunds -= item.price;
+            }
+            constructionManager.UpdateFunds();
+            order.Clear();
+            UpdateOrder();
         }
-        order.Clear();
-        UpdateQuantity();
         //dialogueObject.GetChild(2).gameObject.SetActive(false);
     }
 }

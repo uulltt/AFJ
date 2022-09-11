@@ -1,5 +1,137 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1111890633742465824
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7413153249978709768}
+  - component: {fileID: 5532382806599196378}
+  m_Layer: 9
+  m_Name: AreaOfInterest (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7413153249978709768
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1111890633742465824}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.53, y: 0.005, z: -4.53}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6270930316148887646}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5532382806599196378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1111890633742465824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bc17d6a52bb7304faba652d55ed8f0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1503452240244560109
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7701925606332936909}
+  - component: {fileID: 3888961626680847892}
+  m_Layer: 9
+  m_Name: AreaOfInterest (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7701925606332936909
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503452240244560109}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.39, y: 0.005, z: -2.66}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6270930316148887646}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3888961626680847892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503452240244560109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bc17d6a52bb7304faba652d55ed8f0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1566231911452965441
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5150552167000497421}
+  - component: {fileID: 4618658120603526567}
+  m_Layer: 9
+  m_Name: AreaOfInterest (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5150552167000497421
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566231911452965441}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.68, y: 0.005, z: -2.62}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6270930316148887646}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4618658120603526567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566231911452965441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bc17d6a52bb7304faba652d55ed8f0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2031269577138240242
 GameObject:
   m_ObjectHideFlags: 0
@@ -12,7 +144,7 @@ GameObject:
   - component: {fileID: 5647642248489195754}
   - component: {fileID: 2269583284389707432}
   - component: {fileID: 8206761754062853326}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Prop_MedBed4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -113,7 +245,7 @@ GameObject:
   - component: {fileID: 833389788159715406}
   - component: {fileID: 6898938147092381852}
   - component: {fileID: 1095262599256560966}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Prop_MedSideTable4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -214,7 +346,7 @@ GameObject:
   - component: {fileID: 2805169562285659365}
   - component: {fileID: 5378171990205824730}
   - component: {fileID: 6846441886019655289}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Prop_MedSideTable2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -314,7 +446,7 @@ GameObject:
   - component: {fileID: 108921023865457788}
   - component: {fileID: 7296184383557842053}
   - component: {fileID: 1965124971468146702}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Prop_IVDrip2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -398,7 +530,7 @@ GameObject:
   - component: {fileID: 7735937741006321487}
   - component: {fileID: 7767254522232970371}
   - component: {fileID: 5315692212990775500}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Prop_IVDrip3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -471,6 +603,50 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &4226950246735221870
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1028534023975439820}
+  - component: {fileID: 2380694104655186055}
+  m_Layer: 9
+  m_Name: AreaOfInterest (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1028534023975439820
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4226950246735221870}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.33, y: 0.005, z: -0.46}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6270930316148887646}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2380694104655186055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4226950246735221870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bc17d6a52bb7304faba652d55ed8f0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4522588011374806076
 GameObject:
   m_ObjectHideFlags: 0
@@ -483,7 +659,7 @@ GameObject:
   - component: {fileID: 8342438047839440798}
   - component: {fileID: 3836487369452220974}
   - component: {fileID: 2718809356506093619}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Prop_Drawr1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -584,7 +760,7 @@ GameObject:
   - component: {fileID: 1934450527136769901}
   - component: {fileID: 7542426476713782741}
   - component: {fileID: 6717795609354480532}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Prop_Drawr2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -684,7 +860,7 @@ GameObject:
   - component: {fileID: 4741520014320574656}
   - component: {fileID: 4416470228804538537}
   - component: {fileID: 2571292653507949729}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Prop_IVDrip4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -769,7 +945,7 @@ GameObject:
   - component: {fileID: 7469553803212727548}
   - component: {fileID: 8738435541962217675}
   - component: {fileID: 6318489496678595085}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Prop_MedSideTable1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -870,7 +1046,7 @@ GameObject:
   - component: {fileID: 3062718166438146787}
   - component: {fileID: 8491288065471922167}
   - component: {fileID: 7181107564882830263}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Prop_MedBed1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -971,7 +1147,7 @@ GameObject:
   - component: {fileID: 885294213057610878}
   - component: {fileID: 273723280054979199}
   - component: {fileID: 2796019828310160382}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Prop_MedSideTable3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1069,7 +1245,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8025991064083814047}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Building_MedicalTents
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1092,6 +1268,50 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7521307634615526062
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5266510573632962055}
+  - component: {fileID: 5427299985510320898}
+  m_Layer: 9
+  m_Name: AreaOfInterest (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5266510573632962055
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7521307634615526062}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.81, y: 0.005, z: -0.56}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6270930316148887646}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5427299985510320898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7521307634615526062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bc17d6a52bb7304faba652d55ed8f0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7791702151645889372
 GameObject:
   m_ObjectHideFlags: 0
@@ -1104,7 +1324,7 @@ GameObject:
   - component: {fileID: 2490026489896177290}
   - component: {fileID: 6003414856334930716}
   - component: {fileID: 6760784312518511125}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Prop_MedBed3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1204,7 +1424,7 @@ GameObject:
   - component: {fileID: 2195194679116116626}
   - component: {fileID: 154450271191344855}
   - component: {fileID: 752314630079263691}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Prop_IVDrip1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1289,7 +1509,7 @@ GameObject:
   - component: {fileID: 4881705543267362629}
   - component: {fileID: 3444670063261989694}
   - component: {fileID: 6829496530328741696}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Prop_MedBed2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1429,9 +1649,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7245845644504719538, guid: 07cb306651915024fbd5a1e7ce571f0c, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 07cb306651915024fbd5a1e7ce571f0c, type: 3}
       propertyPath: m_Name
       value: Prop_MedTent_MedSideTable
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07cb306651915024fbd5a1e7ce571f0c, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1322000239930652503, guid: 07cb306651915024fbd5a1e7ce571f0c, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7151666402039410403, guid: 07cb306651915024fbd5a1e7ce571f0c, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991613233943883303, guid: 07cb306651915024fbd5a1e7ce571f0c, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8033336893398245638, guid: 07cb306651915024fbd5a1e7ce571f0c, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8421457638426669549, guid: 07cb306651915024fbd5a1e7ce571f0c, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07cb306651915024fbd5a1e7ce571f0c, type: 3}
@@ -1491,9 +1739,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5046584191071649263, guid: da724bd9c7414784e95b542a2c894de9, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 875758404038248103, guid: da724bd9c7414784e95b542a2c894de9, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: da724bd9c7414784e95b542a2c894de9, type: 3}
       propertyPath: m_Name
       value: Prop_MedTent_Drawr
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da724bd9c7414784e95b542a2c894de9, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 969142053872658518, guid: da724bd9c7414784e95b542a2c894de9, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750250504318222402, guid: da724bd9c7414784e95b542a2c894de9, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8165946227109694942, guid: da724bd9c7414784e95b542a2c894de9, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8421457638426669549, guid: da724bd9c7414784e95b542a2c894de9, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da724bd9c7414784e95b542a2c894de9, type: 3}
@@ -1553,9 +1829,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7245845644504719538, guid: 07cb306651915024fbd5a1e7ce571f0c, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 07cb306651915024fbd5a1e7ce571f0c, type: 3}
       propertyPath: m_Name
       value: Prop_MedTent_MedSideTable
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07cb306651915024fbd5a1e7ce571f0c, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1322000239930652503, guid: 07cb306651915024fbd5a1e7ce571f0c, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7151666402039410403, guid: 07cb306651915024fbd5a1e7ce571f0c, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991613233943883303, guid: 07cb306651915024fbd5a1e7ce571f0c, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8033336893398245638, guid: 07cb306651915024fbd5a1e7ce571f0c, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8421457638426669549, guid: 07cb306651915024fbd5a1e7ce571f0c, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07cb306651915024fbd5a1e7ce571f0c, type: 3}
@@ -1615,9 +1919,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5046584191071649263, guid: da724bd9c7414784e95b542a2c894de9, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 875758404038248103, guid: da724bd9c7414784e95b542a2c894de9, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: da724bd9c7414784e95b542a2c894de9, type: 3}
       propertyPath: m_Name
       value: Prop_MedTent_Drawr
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da724bd9c7414784e95b542a2c894de9, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 969142053872658518, guid: da724bd9c7414784e95b542a2c894de9, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750250504318222402, guid: da724bd9c7414784e95b542a2c894de9, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8165946227109694942, guid: da724bd9c7414784e95b542a2c894de9, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8421457638426669549, guid: da724bd9c7414784e95b542a2c894de9, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da724bd9c7414784e95b542a2c894de9, type: 3}
@@ -1677,9 +2009,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7245845644504719538, guid: 07cb306651915024fbd5a1e7ce571f0c, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 07cb306651915024fbd5a1e7ce571f0c, type: 3}
       propertyPath: m_Name
       value: Prop_MedTent_MedSideTable
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07cb306651915024fbd5a1e7ce571f0c, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1322000239930652503, guid: 07cb306651915024fbd5a1e7ce571f0c, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7151666402039410403, guid: 07cb306651915024fbd5a1e7ce571f0c, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991613233943883303, guid: 07cb306651915024fbd5a1e7ce571f0c, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8033336893398245638, guid: 07cb306651915024fbd5a1e7ce571f0c, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8421457638426669549, guid: 07cb306651915024fbd5a1e7ce571f0c, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07cb306651915024fbd5a1e7ce571f0c, type: 3}
@@ -1739,9 +2099,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7245845644504719538, guid: 07cb306651915024fbd5a1e7ce571f0c, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 07cb306651915024fbd5a1e7ce571f0c, type: 3}
       propertyPath: m_Name
       value: Prop_MedTent_MedSideTable
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07cb306651915024fbd5a1e7ce571f0c, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1322000239930652503, guid: 07cb306651915024fbd5a1e7ce571f0c, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7151666402039410403, guid: 07cb306651915024fbd5a1e7ce571f0c, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991613233943883303, guid: 07cb306651915024fbd5a1e7ce571f0c, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8033336893398245638, guid: 07cb306651915024fbd5a1e7ce571f0c, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8421457638426669549, guid: 07cb306651915024fbd5a1e7ce571f0c, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07cb306651915024fbd5a1e7ce571f0c, type: 3}
@@ -1801,9 +2189,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5848873414058755991, guid: d361fc0506f9db641afa5ea28be39085, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -3658252996046279104, guid: d361fc0506f9db641afa5ea28be39085, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -2207058897205185210, guid: d361fc0506f9db641afa5ea28be39085, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d361fc0506f9db641afa5ea28be39085, type: 3}
       propertyPath: m_Name
       value: Prop_MedTent_MedBed
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d361fc0506f9db641afa5ea28be39085, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1225287077759863639, guid: d361fc0506f9db641afa5ea28be39085, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6829017956906484167, guid: d361fc0506f9db641afa5ea28be39085, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8421457638426669549, guid: d361fc0506f9db641afa5ea28be39085, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d361fc0506f9db641afa5ea28be39085, type: 3}
@@ -1819,6 +2235,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 108921023865457788}
     m_Modifications:
+    - target: {fileID: -8944508026654255984, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1863,9 +2283,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8656918119544872739, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -2523101951179017968, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -1011771850454068807, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -947361746178668216, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
       propertyPath: m_Name
       value: Prop_MedTent_IVDrip
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8421457638426669549, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
@@ -1929,6 +2373,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_MedicalTents
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57a27d0447bcf7246aba617598b0677c, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57a27d0447bcf7246aba617598b0677c, type: 3}
 --- !u!4 &6270930316148887646 stripped
@@ -1987,9 +2435,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5848873414058755991, guid: d361fc0506f9db641afa5ea28be39085, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -3658252996046279104, guid: d361fc0506f9db641afa5ea28be39085, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -2207058897205185210, guid: d361fc0506f9db641afa5ea28be39085, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d361fc0506f9db641afa5ea28be39085, type: 3}
       propertyPath: m_Name
       value: Prop_MedTent_MedBed
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d361fc0506f9db641afa5ea28be39085, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1225287077759863639, guid: d361fc0506f9db641afa5ea28be39085, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6829017956906484167, guid: d361fc0506f9db641afa5ea28be39085, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8421457638426669549, guid: d361fc0506f9db641afa5ea28be39085, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d361fc0506f9db641afa5ea28be39085, type: 3}
@@ -2005,6 +2481,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4741520014320574656}
     m_Modifications:
+    - target: {fileID: -8944508026654255984, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -2049,9 +2529,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8656918119544872739, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -2523101951179017968, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -1011771850454068807, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -947361746178668216, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
       propertyPath: m_Name
       value: Prop_MedTent_IVDrip
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8421457638426669549, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
@@ -2067,6 +2571,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2195194679116116626}
     m_Modifications:
+    - target: {fileID: -8944508026654255984, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -2111,9 +2619,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8656918119544872739, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -2523101951179017968, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -1011771850454068807, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -947361746178668216, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
       propertyPath: m_Name
       value: Prop_MedTent_IVDrip
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8421457638426669549, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
@@ -2173,9 +2705,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5848873414058755991, guid: d361fc0506f9db641afa5ea28be39085, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -3658252996046279104, guid: d361fc0506f9db641afa5ea28be39085, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -2207058897205185210, guid: d361fc0506f9db641afa5ea28be39085, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d361fc0506f9db641afa5ea28be39085, type: 3}
       propertyPath: m_Name
       value: Prop_MedTent_MedBed
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d361fc0506f9db641afa5ea28be39085, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1225287077759863639, guid: d361fc0506f9db641afa5ea28be39085, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6829017956906484167, guid: d361fc0506f9db641afa5ea28be39085, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8421457638426669549, guid: d361fc0506f9db641afa5ea28be39085, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d361fc0506f9db641afa5ea28be39085, type: 3}
@@ -2191,6 +2751,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7735937741006321487}
     m_Modifications:
+    - target: {fileID: -8944508026654255984, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -2235,9 +2799,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8656918119544872739, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -2523101951179017968, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -1011771850454068807, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -947361746178668216, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
       propertyPath: m_Name
       value: Prop_MedTent_IVDrip
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8421457638426669549, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7058296bc34680d4eb3549dd597fb9e8, type: 3}
@@ -2297,9 +2885,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5848873414058755991, guid: d361fc0506f9db641afa5ea28be39085, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -3658252996046279104, guid: d361fc0506f9db641afa5ea28be39085, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -2207058897205185210, guid: d361fc0506f9db641afa5ea28be39085, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d361fc0506f9db641afa5ea28be39085, type: 3}
       propertyPath: m_Name
       value: Prop_MedTent_MedBed
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d361fc0506f9db641afa5ea28be39085, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1225287077759863639, guid: d361fc0506f9db641afa5ea28be39085, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6829017956906484167, guid: d361fc0506f9db641afa5ea28be39085, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8421457638426669549, guid: d361fc0506f9db641afa5ea28be39085, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d361fc0506f9db641afa5ea28be39085, type: 3}

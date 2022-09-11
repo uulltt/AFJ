@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Resources : MonoBehaviour
 {
-    public static int availableFunds = 5000;
+    public static int availableFunds = 1000000;
+    public List<VendorItem> Inventory;
 
     public static Resources Instance { get; private set; }
 
@@ -18,5 +19,6 @@ public class Resources : MonoBehaviour
         {
             Instance = this;
         }
+        Inventory = new List<VendorItem>();
     }
 }

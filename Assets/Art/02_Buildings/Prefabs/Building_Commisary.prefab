@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7078506535986697117}
   - component: {fileID: 2423167309437984005}
   - component: {fileID: 7878454716613596763}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fridge_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 4966833348750442434}
   - component: {fileID: 3322672722691683880}
   - component: {fileID: 6018825617639637889}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fridge_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -180,7 +180,7 @@ GameObject:
   - component: {fileID: 4570145659478532048}
   - component: {fileID: 8994962295414255293}
   - component: {fileID: 9057212184938192849}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Commisary_Table_Rectangle_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -281,7 +281,7 @@ GameObject:
   - component: {fileID: 5715703993132047705}
   - component: {fileID: 9176155190714017732}
   - component: {fileID: 8717126729314054046}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Commisary_Table_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -382,7 +382,7 @@ GameObject:
   - component: {fileID: 4329566636699336141}
   - component: {fileID: 5145174554915915872}
   - component: {fileID: 8140995509621402359}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Prop_BarStool_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -483,7 +483,7 @@ GameObject:
   - component: {fileID: 4119289815175047369}
   - component: {fileID: 7463574860116603431}
   - component: {fileID: 9210530557569086512}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Prop_BarStool_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -584,7 +584,7 @@ GameObject:
   - component: {fileID: 1552740339314912382}
   - component: {fileID: 684020471772325724}
   - component: {fileID: 6063928176675506126}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Prop_BarStool_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -685,7 +685,7 @@ GameObject:
   - component: {fileID: 1730105190995466371}
   - component: {fileID: 8628041607696461856}
   - component: {fileID: 1239583330770234586}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Prop_BarStool_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -786,7 +786,7 @@ GameObject:
   - component: {fileID: 1811250186096224029}
   - component: {fileID: 7054035137036279583}
   - component: {fileID: 1755981818922083163}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Prop_BarStool_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -887,7 +887,7 @@ GameObject:
   - component: {fileID: 4232203879811444659}
   - component: {fileID: 3259731516379953806}
   - component: {fileID: 7012998468431277372}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Prop_BarStool_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -976,6 +976,50 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0.5, z: 0}
   m_TimeToStationary: 0.5
+--- !u!1 &3516894720903414883
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 117990283480782878}
+  - component: {fileID: 7022035221169734021}
+  m_Layer: 9
+  m_Name: AreaOfInterest (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &117990283480782878
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3516894720903414883}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.84, y: 0, z: -11.99}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1243808136380313734}
+  m_RootOrder: 30
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7022035221169734021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3516894720903414883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bc17d6a52bb7304faba652d55ed8f0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3967192718810656250
 GameObject:
   m_ObjectHideFlags: 0
@@ -988,7 +1032,7 @@ GameObject:
   - component: {fileID: 6427912725682163340}
   - component: {fileID: 8531981041635403982}
   - component: {fileID: 7210532777729341582}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Prop_BarStool_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1089,7 +1133,7 @@ GameObject:
   - component: {fileID: 6668687396108195304}
   - component: {fileID: 2953394226935170951}
   - component: {fileID: 7475462782935443261}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Commisary_Table_Rectangle_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1189,7 +1233,7 @@ GameObject:
   - component: {fileID: 6592856684416233268}
   - component: {fileID: 4031568287515533761}
   - component: {fileID: 4009045655373128589}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: BeltPosts_Belts
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1273,7 +1317,7 @@ GameObject:
   - component: {fileID: 1719936290629984945}
   - component: {fileID: 3087129079785276728}
   - component: {fileID: 6276439260539648645}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Prop_BarStool_09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1373,7 +1417,7 @@ GameObject:
   - component: {fileID: 6823332707806935578}
   - component: {fileID: 4376570066887475368}
   - component: {fileID: 6351088321260898525}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Commisary_BeltPost_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1455,7 +1499,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1243808136380313734}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Building_Commisary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1499,6 +1543,12 @@ Transform:
   - {fileID: 6912037440153143524}
   - {fileID: 4788470706581879431}
   - {fileID: 8603319882813596236}
+  - {fileID: 3673203314948467451}
+  - {fileID: 3901310563520912063}
+  - {fileID: 6583539876277430725}
+  - {fileID: 7780932936105284894}
+  - {fileID: 563053173095800718}
+  - {fileID: 117990283480782878}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1514,7 +1564,7 @@ GameObject:
   - component: {fileID: 5232661722863141561}
   - component: {fileID: 7590738290508303274}
   - component: {fileID: 7977769752802270039}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Prop_BarStool_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1615,7 +1665,7 @@ GameObject:
   - component: {fileID: 4152449674321995238}
   - component: {fileID: 5595112377503072575}
   - component: {fileID: 2879849509010625391}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Commisary_Bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1715,7 +1765,7 @@ GameObject:
   - component: {fileID: 7730547062777868169}
   - component: {fileID: 6595788164552141287}
   - component: {fileID: 3867078438246728303}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: BeltPost_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1788,6 +1838,94 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &6726841326823420815
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7780932936105284894}
+  - component: {fileID: 3798398095883036067}
+  m_Layer: 9
+  m_Name: AreaOfInterest (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7780932936105284894
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6726841326823420815}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.44, y: 0, z: -4.37}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1243808136380313734}
+  m_RootOrder: 28
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3798398095883036067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6726841326823420815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bc17d6a52bb7304faba652d55ed8f0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &6753470297485287081
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 563053173095800718}
+  - component: {fileID: 2345846536386275856}
+  m_Layer: 9
+  m_Name: AreaOfInterest (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &563053173095800718
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6753470297485287081}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 14.61, y: 0, z: -1.07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1243808136380313734}
+  m_RootOrder: 29
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2345846536386275856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6753470297485287081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bc17d6a52bb7304faba652d55ed8f0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6800252034148241503
 GameObject:
   m_ObjectHideFlags: 0
@@ -1800,7 +1938,7 @@ GameObject:
   - component: {fileID: 6568300651404819287}
   - component: {fileID: 7935595680932035123}
   - component: {fileID: 8692130458984667906}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Prop_BarStool_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1889,6 +2027,50 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0.5, z: 0}
   m_TimeToStationary: 0.5
+--- !u!1 &6994657058197888926
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6583539876277430725}
+  - component: {fileID: 1972006311944792336}
+  m_Layer: 9
+  m_Name: AreaOfInterest (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6583539876277430725
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6994657058197888926}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.78, y: 0, z: -8.52}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1243808136380313734}
+  m_RootOrder: 27
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1972006311944792336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6994657058197888926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bc17d6a52bb7304faba652d55ed8f0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7007849184824826518
 GameObject:
   m_ObjectHideFlags: 0
@@ -1901,7 +2083,7 @@ GameObject:
   - component: {fileID: 5400570309071029057}
   - component: {fileID: 7689645780995427154}
   - component: {fileID: 44746267649776006}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Commisary_Table_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2002,7 +2184,7 @@ GameObject:
   - component: {fileID: 2696406590261490906}
   - component: {fileID: 2851940594644478088}
   - component: {fileID: 8131420650062582838}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Commisary_Table_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2103,7 +2285,7 @@ GameObject:
   - component: {fileID: 797213436368006194}
   - component: {fileID: 3991671750094018150}
   - component: {fileID: 2196564544986907353}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Prop_BarStool_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2192,6 +2374,50 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0.5, z: 0}
   m_TimeToStationary: 0.5
+--- !u!1 &8463443136848393041
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3673203314948467451}
+  - component: {fileID: 8490192679934695326}
+  m_Layer: 9
+  m_Name: AreaOfInterest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3673203314948467451
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8463443136848393041}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.08, y: 0, z: -7.46}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1243808136380313734}
+  m_RootOrder: 25
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8490192679934695326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8463443136848393041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bc17d6a52bb7304faba652d55ed8f0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8758151021692202639
 GameObject:
   m_ObjectHideFlags: 0
@@ -2204,7 +2430,7 @@ GameObject:
   - component: {fileID: 394534375155124189}
   - component: {fileID: 2089139242257463555}
   - component: {fileID: 7503980464686725423}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Commisary_Counter.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2305,7 +2531,7 @@ GameObject:
   - component: {fileID: 7902735183376228787}
   - component: {fileID: 4352979398889098721}
   - component: {fileID: 1876706485110355306}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Prop_BarStool_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2394,6 +2620,50 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0.5, z: 0}
   m_TimeToStationary: 0.5
+--- !u!1 &9022104613166063701
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3901310563520912063}
+  - component: {fileID: 4893209337555358807}
+  m_Layer: 9
+  m_Name: AreaOfInterest (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3901310563520912063
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9022104613166063701}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.09, y: 0, z: -14.64}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1243808136380313734}
+  m_RootOrder: 26
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4893209337555358807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9022104613166063701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bc17d6a52bb7304faba652d55ed8f0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9136766100243671584
 GameObject:
   m_ObjectHideFlags: 0
@@ -2405,7 +2675,7 @@ GameObject:
   - component: {fileID: 8367952366177178289}
   - component: {fileID: 6920916936702566265}
   - component: {fileID: 7713392945795890848}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Commisary_BeltPost_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2485,9 +2755,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 925278787215694012, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1422241076273121200, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585224620140888622, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756134566113847919, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4364686595547654907, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_RootOrder
@@ -2533,6 +2823,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7939562180316706623, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
 --- !u!4 &4379659881274690489 stripped
@@ -2547,9 +2841,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 925278787215694012, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1422241076273121200, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585224620140888622, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756134566113847919, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4364686595547654907, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_RootOrder
@@ -2594,6 +2908,10 @@ PrefabInstance:
     - target: {fileID: 4364686595547654907, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7939562180316706623, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
@@ -2657,6 +2975,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prop_Commisary_Bar
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4179da1e36f67dc4d972102e5b0015c0, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4179da1e36f67dc4d972102e5b0015c0, type: 3}
 --- !u!4 &978483246105281674 stripped
@@ -2719,6 +3041,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prop_Commisary_BeltPost
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 293ab053ba0f5b54c9ff377e101c6b65, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 293ab053ba0f5b54c9ff377e101c6b65, type: 3}
 --- !u!4 &748986536156969110 stripped
@@ -2733,9 +3059,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 925278787215694012, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1422241076273121200, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585224620140888622, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756134566113847919, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4364686595547654907, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_RootOrder
@@ -2780,6 +3126,10 @@ PrefabInstance:
     - target: {fileID: 4364686595547654907, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7939562180316706623, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
@@ -2843,6 +3193,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prop_Commisary_BeltPost
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 293ab053ba0f5b54c9ff377e101c6b65, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 293ab053ba0f5b54c9ff377e101c6b65, type: 3}
 --- !u!4 &661402621969278545 stripped
@@ -2904,6 +3258,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 293ab053ba0f5b54c9ff377e101c6b65, type: 3}
       propertyPath: m_Name
       value: Prop_Commisary_BeltPost
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 293ab053ba0f5b54c9ff377e101c6b65, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 293ab053ba0f5b54c9ff377e101c6b65, type: 3}
@@ -2967,6 +3325,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prop_Commisary_Counter
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da8ca50531b3a3d45881e9890d732ee1, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da8ca50531b3a3d45881e9890d732ee1, type: 3}
 --- !u!4 &617983430343996142 stripped
@@ -3028,6 +3390,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
       propertyPath: m_Name
       value: Prop_Commisary_Stool
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
@@ -3091,6 +3457,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_Commisary
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e0eda609157662e48b9df54de1274278, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0eda609157662e48b9df54de1274278, type: 3}
 --- !u!4 &2157721447462714145 stripped
@@ -3105,9 +3475,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 925278787215694012, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1422241076273121200, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585224620140888622, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756134566113847919, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4364686595547654907, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_RootOrder
@@ -3152,6 +3542,10 @@ PrefabInstance:
     - target: {fileID: 4364686595547654907, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7939562180316706623, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
@@ -3215,6 +3609,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prop_Commisary_Stool
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
 --- !u!4 &1779506050249266291 stripped
@@ -3276,6 +3674,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
       propertyPath: m_Name
       value: Prop_Commisary_Stool
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
@@ -3339,6 +3741,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prop_CommisaryTable_Rectangle
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e220a180b099aae4f8a0f34197f1ae13, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e220a180b099aae4f8a0f34197f1ae13, type: 3}
 --- !u!4 &2517912764165215875 stripped
@@ -3400,6 +3806,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e220a180b099aae4f8a0f34197f1ae13, type: 3}
       propertyPath: m_Name
       value: Prop_CommisaryTable_Rectangle
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e220a180b099aae4f8a0f34197f1ae13, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e220a180b099aae4f8a0f34197f1ae13, type: 3}
@@ -3463,6 +3873,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prop_Commisary_Stool
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
 --- !u!4 &3356556240445537051 stripped
@@ -3477,9 +3891,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 925278787215694012, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1422241076273121200, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585224620140888622, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756134566113847919, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4364686595547654907, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_RootOrder
@@ -3525,6 +3959,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7939562180316706623, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
 --- !u!4 &1288239083437495677 stripped
@@ -3539,9 +3977,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 925278787215694012, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1422241076273121200, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585224620140888622, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756134566113847919, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4364686595547654907, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_RootOrder
@@ -3587,6 +4045,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7939562180316706623, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
 --- !u!4 &1246862964929293724 stripped
@@ -3601,9 +4063,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 925278787215694012, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1422241076273121200, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585224620140888622, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756134566113847919, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4364686595547654907, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_RootOrder
@@ -3649,6 +4131,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7939562180316706623, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
 --- !u!4 &1070088394825105560 stripped
@@ -3663,9 +4149,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 925278787215694012, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1422241076273121200, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585224620140888622, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756134566113847919, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4364686595547654907, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_RootOrder
@@ -3711,6 +4217,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7939562180316706623, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
 --- !u!4 &476831919987097082 stripped
@@ -3725,9 +4235,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 925278787215694012, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1422241076273121200, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585224620140888622, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756134566113847919, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4364686595547654907, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_RootOrder
@@ -3772,6 +4302,10 @@ PrefabInstance:
     - target: {fileID: 4364686595547654907, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7939562180316706623, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
@@ -3835,6 +4369,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prop_Commisary_Fridge
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 61c29a447818b2a48af8515c8b0c4a49, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61c29a447818b2a48af8515c8b0c4a49, type: 3}
 --- !u!4 &4206094658189485265 stripped
@@ -3896,6 +4434,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
       propertyPath: m_Name
       value: Prop_Commisary_Stool
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
@@ -3959,6 +4501,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prop_Commisary_Stool
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
 --- !u!4 &4970142172280212400 stripped
@@ -4020,6 +4566,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
       propertyPath: m_Name
       value: Prop_Commisary_Stool
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
@@ -4083,6 +4633,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prop_Commisary_Stool
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
 --- !u!4 &5754683641951402641 stripped
@@ -4097,9 +4651,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 925278787215694012, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1422241076273121200, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585224620140888622, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756134566113847919, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4364686595547654907, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_RootOrder
@@ -4145,6 +4719,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7939562180316706623, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
 --- !u!4 &8603319882813596236 stripped
@@ -4159,9 +4737,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 925278787215694012, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1422241076273121200, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585224620140888622, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756134566113847919, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4364686595547654907, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_RootOrder
@@ -4207,6 +4805,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7939562180316706623, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
 --- !u!4 &8278586786751575705 stripped
@@ -4221,9 +4823,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 925278787215694012, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1422241076273121200, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585224620140888622, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756134566113847919, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4364686595547654907, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_RootOrder
@@ -4268,6 +4890,10 @@ PrefabInstance:
     - target: {fileID: 4364686595547654907, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7939562180316706623, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
@@ -4331,6 +4957,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prop_Commisary_Stool
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
 --- !u!4 &6153889923805787560 stripped
@@ -4393,6 +5023,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prop_CommisaryTable_Circle
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 615a36f8c5d67c5418b0ec09719b1e8f, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 615a36f8c5d67c5418b0ec09719b1e8f, type: 3}
 --- !u!4 &5911427593482612787 stripped
@@ -4407,9 +5041,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 925278787215694012, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1422241076273121200, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585224620140888622, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756134566113847919, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4364686595547654907, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_RootOrder
@@ -4455,6 +5109,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7939562180316706623, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
 --- !u!4 &7690608180844188653 stripped
@@ -4469,9 +5127,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 925278787215694012, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1422241076273121200, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585224620140888622, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756134566113847919, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4364686595547654907, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_RootOrder
@@ -4517,6 +5195,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7939562180316706623, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
 --- !u!4 &7452793276248922013 stripped
@@ -4531,9 +5213,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 925278787215694012, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1422241076273121200, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585224620140888622, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756134566113847919, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4364686595547654907, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_RootOrder
@@ -4579,6 +5281,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7939562180316706623, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
 --- !u!4 &6978496063600406985 stripped
@@ -4593,9 +5299,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 925278787215694012, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1422241076273121200, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585224620140888622, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756134566113847919, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4364686595547654907, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_RootOrder
@@ -4640,6 +5366,10 @@ PrefabInstance:
     - target: {fileID: 4364686595547654907, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7939562180316706623, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
@@ -4703,6 +5433,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prop_CommisaryTable_Circle
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 615a36f8c5d67c5418b0ec09719b1e8f, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 615a36f8c5d67c5418b0ec09719b1e8f, type: 3}
 --- !u!4 &6504392862737239865 stripped
@@ -4717,9 +5451,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 925278787215694012, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1422241076273121200, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585224620140888622, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756134566113847919, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4364686595547654907, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_RootOrder
@@ -4765,6 +5519,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7939562180316706623, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
 --- !u!4 &6912037440153143524 stripped
@@ -4779,9 +5537,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 925278787215694012, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1422241076273121200, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585224620140888622, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756134566113847919, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4364686595547654907, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_RootOrder
@@ -4826,6 +5604,10 @@ PrefabInstance:
     - target: {fileID: 4364686595547654907, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7939562180316706623, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
@@ -4889,6 +5671,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prop_Commisary_Stool
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
 --- !u!4 &7701405819752073945 stripped
@@ -4903,9 +5689,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 925278787215694012, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1422241076273121200, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585224620140888622, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756134566113847919, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4364686595547654907, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_RootOrder
@@ -4950,6 +5756,10 @@ PrefabInstance:
     - target: {fileID: 4364686595547654907, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7939562180316706623, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
@@ -5013,6 +5823,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prop_Commisary_Fridge
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 61c29a447818b2a48af8515c8b0c4a49, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61c29a447818b2a48af8515c8b0c4a49, type: 3}
 --- !u!4 &7583229352330485039 stripped
@@ -5027,9 +5841,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 925278787215694012, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1422241076273121200, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585224620140888622, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756134566113847919, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4364686595547654907, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_RootOrder
@@ -5074,6 +5908,10 @@ PrefabInstance:
     - target: {fileID: 4364686595547654907, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7939562180316706623, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
@@ -5137,6 +5975,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prop_Commisary_Stool
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
 --- !u!4 &8558836775939218169 stripped
@@ -5199,6 +6041,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prop_CommisaryTable_Circle
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 615a36f8c5d67c5418b0ec09719b1e8f, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 615a36f8c5d67c5418b0ec09719b1e8f, type: 3}
 --- !u!4 &8440072637017043106 stripped
@@ -5213,9 +6059,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 925278787215694012, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1422241076273121200, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585224620140888622, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756134566113847919, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled
+      objectReference: {fileID: 0}
+    - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4364686595547654907, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_RootOrder
@@ -5261,6 +6127,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7939562180316706623, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
 --- !u!4 &5707415034448202183 stripped
@@ -5275,9 +6145,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 925278787215694012, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1422241076273121200, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585224620140888622, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756134566113847919, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4364686595547654907, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_RootOrder
@@ -5323,6 +6213,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7939562180316706623, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
 --- !u!4 &5364841765928924293 stripped
@@ -5337,9 +6231,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 925278787215694012, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1422241076273121200, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585224620140888622, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756134566113847919, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4364686595547654907, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_RootOrder
@@ -5384,6 +6298,10 @@ PrefabInstance:
     - target: {fileID: 4364686595547654907, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7939562180316706623, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
@@ -5447,6 +6365,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prop_Commisary_Stool
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70dcb7b0817c9ea4e970a8ed1e009aed, type: 3}
 --- !u!4 &8940542617634328483 stripped
@@ -5461,9 +6383,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1243808136380313734}
     m_Modifications:
+    - target: {fileID: 925278787215694012, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1422241076273121200, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585224620140888622, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756134566113847919, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_Name
       value: Prop_FoldingChair_Scaled (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3802456118455096151, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4364686595547654907, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_RootOrder
@@ -5508,6 +6450,10 @@ PrefabInstance:
     - target: {fileID: 4364686595547654907, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7939562180316706623, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87c34c61d9217a43af95a207d7b0618, type: 3}

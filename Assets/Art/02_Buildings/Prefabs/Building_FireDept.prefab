@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 684001381085337153}
   - component: {fileID: 4770219271621535801}
   - component: {fileID: 7793509672452792979}
-  m_Layer: 0
+  - component: {fileID: 6046745832805038444}
+  m_Layer: 9
   m_Name: Prop_Firestation_Locker_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84,6 +85,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &6046745832805038444
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 194434124618183307}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.275, y: 0.79300004, z: 0.275}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.767, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &465726286837383619
 GameObject:
   m_ObjectHideFlags: 0
@@ -95,7 +112,8 @@ GameObject:
   - component: {fileID: 2417021050394369369}
   - component: {fileID: 5962901828123848493}
   - component: {fileID: 6767152928224754182}
-  m_Layer: 0
+  - component: {fileID: 6557839141853915157}
+  m_Layer: 9
   m_Name: Prop_Firestation_Locker_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -168,6 +186,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &6557839141853915157
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 465726286837383619}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.275, y: 0.79300004, z: 0.275}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.767, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &623314882716927798
 GameObject:
   m_ObjectHideFlags: 0
@@ -179,7 +213,8 @@ GameObject:
   - component: {fileID: 2431132581461439175}
   - component: {fileID: 3066692372771240708}
   - component: {fileID: 5048122188076274008}
-  m_Layer: 0
+  - component: {fileID: 3243008252614220190}
+  m_Layer: 9
   m_Name: Prop_Firestation_Locker_08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -252,6 +287,110 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &3243008252614220190
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 623314882716927798}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.275, y: 0.79300004, z: 0.275}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.767, z: 0}
+  m_TimeToStationary: 0.5
+--- !u!1 &1589232868242362547
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8833222833068278276}
+  - component: {fileID: 2610342213407351765}
+  m_Layer: 9
+  m_Name: AreaOfInterest (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8833222833068278276
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589232868242362547}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.89, y: 0.005, z: -2.05}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8366794988796462028}
+  m_RootOrder: 24
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2610342213407351765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589232868242362547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bc17d6a52bb7304faba652d55ed8f0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1648896388777803769
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8384888123789894338}
+  - component: {fileID: 6157502676138265839}
+  m_Layer: 9
+  m_Name: AreaOfInterest (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8384888123789894338
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1648896388777803769}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.89, y: 0.005, z: -14.75}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8366794988796462028}
+  m_RootOrder: 28
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6157502676138265839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1648896388777803769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bc17d6a52bb7304faba652d55ed8f0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2411844843005947565
 GameObject:
   m_ObjectHideFlags: 0
@@ -263,7 +402,8 @@ GameObject:
   - component: {fileID: 1410349828912325001}
   - component: {fileID: 7497392370035625991}
   - component: {fileID: 5726573653077534818}
-  m_Layer: 0
+  - component: {fileID: 794454905106590691}
+  m_Layer: 9
   m_Name: Prop_Firestation_Locker_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -336,6 +476,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &794454905106590691
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2411844843005947565}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.275, y: 0.79300004, z: 0.275}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.767, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &2424877055867479745
 GameObject:
   m_ObjectHideFlags: 0
@@ -347,7 +503,7 @@ GameObject:
   - component: {fileID: 7645369367576355119}
   - component: {fileID: 2441292632128361685}
   - component: {fileID: 5126693649300387479}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Prop_FireStation_CoatRack_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -431,7 +587,8 @@ GameObject:
   - component: {fileID: 3070315782246093919}
   - component: {fileID: 5592379220354889247}
   - component: {fileID: 4130331859344379809}
-  m_Layer: 0
+  - component: {fileID: 2856916317870142948}
+  m_Layer: 9
   m_Name: Prop_Firestation_Locker_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -504,6 +661,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &2856916317870142948
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2687170448797029700}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.275, y: 0.79300004, z: 0.275}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.767, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &4060143343166784587
 GameObject:
   m_ObjectHideFlags: 0
@@ -515,7 +688,8 @@ GameObject:
   - component: {fileID: 6578773190758520924}
   - component: {fileID: 4383035174831501605}
   - component: {fileID: 113815585737395135}
-  m_Layer: 0
+  - component: {fileID: 5513564730907738974}
+  m_Layer: 9
   m_Name: Prop_Firestation_Locker_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -588,6 +762,66 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &5513564730907738974
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4060143343166784587}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.275, y: 0.79300004, z: 0.275}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.767, z: 0}
+  m_TimeToStationary: 0.5
+--- !u!1 &4527781974715108779
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7078904669299583843}
+  - component: {fileID: 1548519238830688218}
+  m_Layer: 9
+  m_Name: AreaOfInterest (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7078904669299583843
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4527781974715108779}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 13.29, y: 0.005, z: -11.87}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8366794988796462028}
+  m_RootOrder: 27
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1548519238830688218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4527781974715108779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bc17d6a52bb7304faba652d55ed8f0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4777094359205677706
 GameObject:
   m_ObjectHideFlags: 0
@@ -599,7 +833,8 @@ GameObject:
   - component: {fileID: 2816097952137080944}
   - component: {fileID: 3900094722402743743}
   - component: {fileID: 8413637655722478336}
-  m_Layer: 0
+  - component: {fileID: 8099456823903071460}
+  m_Layer: 9
   m_Name: Prop_Firestation_Locker_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -672,6 +907,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &8099456823903071460
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4777094359205677706}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.275, y: 0.79300004, z: 0.275}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.767, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &4846098665651315810
 GameObject:
   m_ObjectHideFlags: 0
@@ -683,7 +934,8 @@ GameObject:
   - component: {fileID: 8085115567902007952}
   - component: {fileID: 3016141087391445911}
   - component: {fileID: 6625792086763904969}
-  m_Layer: 0
+  - component: {fileID: 2358008171004001625}
+  m_Layer: 9
   m_Name: Prop_Firestation_Locker_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -756,6 +1008,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &2358008171004001625
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4846098665651315810}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.275, y: 0.79300004, z: 0.275}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.767, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &4924489711485940760
 GameObject:
   m_ObjectHideFlags: 0
@@ -767,7 +1035,8 @@ GameObject:
   - component: {fileID: 6758153175643458245}
   - component: {fileID: 9078463677870531793}
   - component: {fileID: 5763435737663463096}
-  m_Layer: 0
+  - component: {fileID: 8483462217335889712}
+  m_Layer: 9
   m_Name: Prop_Firestation_Locker_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -840,6 +1109,66 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &8483462217335889712
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4924489711485940760}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.275, y: 0.79300004, z: 0.275}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.767, z: 0}
+  m_TimeToStationary: 0.5
+--- !u!1 &4969312378711375316
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 889474963576701593}
+  - component: {fileID: 4056569534664895231}
+  m_Layer: 9
+  m_Name: AreaOfInterest (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &889474963576701593
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4969312378711375316}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.03, y: 0.005, z: -8.16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8366794988796462028}
+  m_RootOrder: 26
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4056569534664895231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4969312378711375316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bc17d6a52bb7304faba652d55ed8f0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6432392149324476660
 GameObject:
   m_ObjectHideFlags: 0
@@ -851,7 +1180,8 @@ GameObject:
   - component: {fileID: 6970763156429034836}
   - component: {fileID: 832025656342005265}
   - component: {fileID: 1684335892161290387}
-  m_Layer: 0
+  - component: {fileID: 6581516489519322246}
+  m_Layer: 9
   m_Name: Prop_FireStation_FirePole_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -924,6 +1254,110 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &6581516489519322246
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6432392149324476660}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.089, y: 3.144, z: 0.089}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 2.7630002, z: 0}
+  m_TimeToStationary: 0.5
+--- !u!1 &6547247654300639738
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9131871505485579455}
+  - component: {fileID: 6586510033683040221}
+  m_Layer: 9
+  m_Name: AreaOfInterest (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9131871505485579455
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6547247654300639738}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 14.24, y: 0.005, z: -3.15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8366794988796462028}
+  m_RootOrder: 25
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6586510033683040221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6547247654300639738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bc17d6a52bb7304faba652d55ed8f0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &6838170798246430244
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1471293164619286625}
+  - component: {fileID: 7755003119493261774}
+  m_Layer: 9
+  m_Name: AreaOfInterest (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1471293164619286625
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6838170798246430244}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 10.51, y: 0.005, z: -1.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8366794988796462028}
+  m_RootOrder: 29
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7755003119493261774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6838170798246430244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bc17d6a52bb7304faba652d55ed8f0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6903233549368145453
 GameObject:
   m_ObjectHideFlags: 0
@@ -935,7 +1369,8 @@ GameObject:
   - component: {fileID: 2090832720147380549}
   - component: {fileID: 7112018981640246658}
   - component: {fileID: 987550567204512470}
-  m_Layer: 0
+  - component: {fileID: 7870115572992627633}
+  m_Layer: 9
   m_Name: Props_FireStation_FireSuits
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1007,6 +1442,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &7870115572992627633
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6903233549368145453}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 1.143, y: 0.60300004, z: 0.3}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.91400003, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &6959789908475427892
 GameObject:
   m_ObjectHideFlags: 0
@@ -1018,7 +1469,8 @@ GameObject:
   - component: {fileID: 7486431506923011116}
   - component: {fileID: 5407978859951610115}
   - component: {fileID: 8680655516379674906}
-  m_Layer: 0
+  - component: {fileID: 3214450632381729463}
+  m_Layer: 9
   m_Name: Prop_FireStation_Bench_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1091,6 +1543,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &3214450632381729463
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6959789908475427892}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.16700001, y: 0.156, z: 1.8410001}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.001, y: 0.157, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &7147985465542307577
 GameObject:
   m_ObjectHideFlags: 0
@@ -1100,7 +1568,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 417995465471700779}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Building_FireDept
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1134,7 +1602,8 @@ GameObject:
   - component: {fileID: 1366113332670418185}
   - component: {fileID: 7280288704517245542}
   - component: {fileID: 8004733530923115892}
-  m_Layer: 0
+  - component: {fileID: 9140550421762170244}
+  m_Layer: 9
   m_Name: Prop_Firestation_Locker_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1207,6 +1676,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &9140550421762170244
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7758327802165727865}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.275, y: 0.79300004, z: 0.275}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.767, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &7774830393331772997
 GameObject:
   m_ObjectHideFlags: 0
@@ -1218,7 +1703,8 @@ GameObject:
   - component: {fileID: 6471951576652370141}
   - component: {fileID: 182224156594290417}
   - component: {fileID: 3380650703448068707}
-  m_Layer: 0
+  - component: {fileID: 665273757868195726}
+  m_Layer: 9
   m_Name: Prop_Firestation_Locker_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1291,6 +1777,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &665273757868195726
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7774830393331772997}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.275, y: 0.79300004, z: 0.275}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.767, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &7916617598604204737
 GameObject:
   m_ObjectHideFlags: 0
@@ -1302,7 +1804,8 @@ GameObject:
   - component: {fileID: 7191788291657399413}
   - component: {fileID: 5743137639929775223}
   - component: {fileID: 361412388312143080}
-  m_Layer: 0
+  - component: {fileID: 8688787202060740785}
+  m_Layer: 9
   m_Name: Prop_Firestation_Locker_09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1375,6 +1878,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &8688787202060740785
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7916617598604204737}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.275, y: 0.79300004, z: 0.275}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.767, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &7994016365718071185
 GameObject:
   m_ObjectHideFlags: 0
@@ -1386,7 +1905,8 @@ GameObject:
   - component: {fileID: 2621780808453226294}
   - component: {fileID: 8594784306456449304}
   - component: {fileID: 5839899141351745863}
-  m_Layer: 0
+  - component: {fileID: 7584340543752489047}
+  m_Layer: 9
   m_Name: Prop_Firestation_Locker_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1459,6 +1979,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &7584340543752489047
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7994016365718071185}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.275, y: 0.79300004, z: 0.275}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.767, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &8006246706265267385
 GameObject:
   m_ObjectHideFlags: 0
@@ -1470,7 +2006,8 @@ GameObject:
   - component: {fileID: 3415642056463218713}
   - component: {fileID: 1372532358912787479}
   - component: {fileID: 1142972542103772001}
-  m_Layer: 0
+  - component: {fileID: 7719055036127860447}
+  m_Layer: 9
   m_Name: Prop_FireStation_FireTruck_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1543,6 +2080,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &7719055036127860447
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8006246706265267385}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 1.429, y: 1.3000001, z: 3.2840002}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 1.2440001, z: -0.13700001}
+  m_TimeToStationary: 0.5
 --- !u!1 &8123879337007241739
 GameObject:
   m_ObjectHideFlags: 0
@@ -1554,7 +2107,8 @@ GameObject:
   - component: {fileID: 2858833009742867629}
   - component: {fileID: 3226316001025853859}
   - component: {fileID: 7095005081939184309}
-  m_Layer: 0
+  - component: {fileID: 630990133692714329}
+  m_Layer: 9
   m_Name: Prop_Firestation_Locker_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1627,6 +2181,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &630990133692714329
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8123879337007241739}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.275, y: 0.79300004, z: 0.275}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.767, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &8149535938226377609
 GameObject:
   m_ObjectHideFlags: 0
@@ -1638,7 +2208,7 @@ GameObject:
   - component: {fileID: 3658982945128635213}
   - component: {fileID: 2344351969113132314}
   - component: {fileID: 6730491106193322059}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Prop_FireStation_Bench_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1722,7 +2292,8 @@ GameObject:
   - component: {fileID: 7285713951972508071}
   - component: {fileID: 7984102559351132245}
   - component: {fileID: 9079993267853408818}
-  m_Layer: 0
+  - component: {fileID: 6822467042353714968}
+  m_Layer: 9
   m_Name: Prop_Firestation_Locker_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1795,6 +2366,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &6822467042353714968
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8241066640577286090}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.275, y: 0.79300004, z: 0.275}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.767, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &8650129684697170835
 GameObject:
   m_ObjectHideFlags: 0
@@ -1806,7 +2393,8 @@ GameObject:
   - component: {fileID: 1363998163675918535}
   - component: {fileID: 3398936872226039966}
   - component: {fileID: 1846329721796292057}
-  m_Layer: 0
+  - component: {fileID: 7899502596799177080}
+  m_Layer: 9
   m_Name: Prop_FireStationTable_Circle_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1879,6 +2467,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &7899502596799177080
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8650129684697170835}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.874, y: 0.49500003, z: 1.1500001}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.002, y: 0.49500003, z: -0.008}
+  m_TimeToStationary: 0.5
 --- !u!1 &8683265588823781805
 GameObject:
   m_ObjectHideFlags: 0
@@ -1890,7 +2494,8 @@ GameObject:
   - component: {fileID: 7268732169094599209}
   - component: {fileID: 3716744681339694098}
   - component: {fileID: 5734993794864598691}
-  m_Layer: 0
+  - component: {fileID: 5012309742908213382}
+  m_Layer: 9
   m_Name: Prop_Firestation_Locker_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1963,6 +2568,66 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &5012309742908213382
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8683265588823781805}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.275, y: 0.79300004, z: 0.275}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.767, z: 0}
+  m_TimeToStationary: 0.5
+--- !u!1 &8982553717969258701
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4780427489371032539}
+  - component: {fileID: 8459532508028145663}
+  m_Layer: 9
+  m_Name: AreaOfInterest (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4780427489371032539
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8982553717969258701}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.81, y: 0.005, z: -14.83}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8366794988796462028}
+  m_RootOrder: 30
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8459532508028145663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8982553717969258701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bc17d6a52bb7304faba652d55ed8f0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9139900035695482383
 GameObject:
   m_ObjectHideFlags: 0
@@ -1974,7 +2639,8 @@ GameObject:
   - component: {fileID: 7595109098536306502}
   - component: {fileID: 1085789401472371142}
   - component: {fileID: 792973839741520463}
-  m_Layer: 0
+  - component: {fileID: 3352777187795377941}
+  m_Layer: 9
   m_Name: Prop_FireStation_FireTruck_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2047,6 +2713,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &3352777187795377941
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9139900035695482383}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 1.429, y: 1.3000001, z: 3.2840002}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 1.2440001, z: -0.13700001}
+  m_TimeToStationary: 0.5
 --- !u!1001 &382058427085197729
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2101,6 +2783,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
       propertyPath: m_Name
       value: Prop_FireStation_Locker
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
@@ -2164,6 +2850,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prop_FireStation_FireTruck
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e7ec71a93beda4c4ca8dda617ed298a8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7ec71a93beda4c4ca8dda617ed298a8, type: 3}
 --- !u!4 &1086479086748803617 stripped
@@ -2225,6 +2915,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 2f8681ab523cc4c4a8600f12c3b0cf5c, type: 3}
       propertyPath: m_Name
       value: Prop_FireStation_FirePole
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2f8681ab523cc4c4a8600f12c3b0cf5c, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f8681ab523cc4c4a8600f12c3b0cf5c, type: 3}
@@ -2288,6 +2982,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prop_FireStation_Locker
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
 --- !u!4 &1054674968466323150 stripped
@@ -2349,6 +3047,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
       propertyPath: m_Name
       value: Prop_FireStation_Locker
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
@@ -2412,6 +3114,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prop_FireStation_Locker
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
 --- !u!4 &1545566113284949276 stripped
@@ -2473,6 +3179,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
       propertyPath: m_Name
       value: Prop_FireStation_Locker
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
@@ -2536,6 +3246,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prop_FireStation_FireTruck
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e7ec71a93beda4c4ca8dda617ed298a8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7ec71a93beda4c4ca8dda617ed298a8, type: 3}
 --- !u!4 &1830285730427527966 stripped
@@ -2597,6 +3311,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
       propertyPath: m_Name
       value: Prop_FireStation_Locker
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
@@ -2660,6 +3378,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prop_FireStation_Locker
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
 --- !u!4 &2616160283731027164 stripped
@@ -2721,6 +3443,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
       propertyPath: m_Name
       value: Prop_FireStation_Locker
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
@@ -2784,6 +3510,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prop_FireStation_Locker
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
 --- !u!4 &3329981345129348660 stripped
@@ -2845,6 +3575,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
       propertyPath: m_Name
       value: Prop_FireStation_Locker
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
@@ -2908,6 +3642,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prop_FireStation_Locker
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
 --- !u!4 &3770223549350711321 stripped
@@ -2969,6 +3707,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
       propertyPath: m_Name
       value: Prop_FireStation_Locker
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
@@ -3032,8 +3774,33 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prop_FireStation_Bench
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 901da52acdd9f2c488d38a9bb59d16c1, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 901da52acdd9f2c488d38a9bb59d16c1, type: 3}
+--- !u!1 &3772257961991377445 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 901da52acdd9f2c488d38a9bb59d16c1, type: 3}
+  m_PrefabInstance: {fileID: 4078195764133605236}
+  m_PrefabAsset: {fileID: 0}
+--- !u!208 &6472959204211581871
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3772257961991377445}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.16700001, y: 0.156, z: 1.8410001}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.001, y: 0.157, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!4 &4544712625397876895 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 901da52acdd9f2c488d38a9bb59d16c1, type: 3}
@@ -3093,6 +3860,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
       propertyPath: m_Name
       value: Prop_FireStation_Locker
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
@@ -3156,6 +3927,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prop_CommisaryTable_Oval
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 500025350e5ca6b478473fe9f989e724, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 500025350e5ca6b478473fe9f989e724, type: 3}
 --- !u!4 &5635406848208499837 stripped
@@ -3217,6 +3992,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
       propertyPath: m_Name
       value: Prop_FireStation_Locker
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
@@ -3280,6 +4059,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prop_FireStation_Locker
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
 --- !u!4 &6009966408428336181 stripped
@@ -3341,6 +4124,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
       propertyPath: m_Name
       value: Prop_FireStation_Locker
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
@@ -3404,6 +4191,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prop_FireStation_Bench
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 901da52acdd9f2c488d38a9bb59d16c1, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 901da52acdd9f2c488d38a9bb59d16c1, type: 3}
 --- !u!4 &7836494426274293665 stripped
@@ -3466,6 +4257,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prop_FireStation_CoatRack
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0e370762825d2534f93acccd384ad629, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e370762825d2534f93acccd384ad629, type: 3}
 --- !u!4 &8461813327712983038 stripped
@@ -3527,6 +4322,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 88c610a4653e642409e50eff61910d46, type: 3}
       propertyPath: m_Name
       value: Building_FireDept
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 88c610a4653e642409e50eff61910d46, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88c610a4653e642409e50eff61910d46, type: 3}
