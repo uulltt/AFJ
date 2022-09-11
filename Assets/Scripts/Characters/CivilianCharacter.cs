@@ -20,7 +20,7 @@ public class CivilianCharacter : AbstractCharacter
         }
         else
         {
-            locomotor.MoveTowardsSpot()
+            //locomotor.MoveTowardsSpot()
         }
     }
 
