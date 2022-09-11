@@ -5,6 +5,7 @@ using UnityEngine;
 public class AbstractCharacter : MonoBehaviour
 {
     public static List<AbstractCharacter> listOfEveryone = new List<AbstractCharacter>();
+    public static bool HostileIsKnown = false;
 
     public float health = 100;
     public Weapon weapon;

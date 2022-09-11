@@ -10,7 +10,21 @@ public class CivilianCharacter : AbstractCharacter
 
     Timer wanderTimer = new Timer(3);
 
+    AbstractCharacter runningFrom;
+
     private void Update()
+    {
+        if(runningFrom == null)
+        {
+            Meander();
+        }
+        else
+        {
+            locomotor.MoveTowardsSpot()
+        }
+    }
+
+    private void Meander()
     {
         if (currentDestination == null && AreaOfInterest.areasOfInterest.Count > 0 && wanderTimer.elapseAsPercent >= 1)
         {
