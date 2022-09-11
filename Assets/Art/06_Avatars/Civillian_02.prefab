@@ -3099,7 +3099,7 @@ MonoBehaviour:
   maleDead: {fileID: 0}
   femaleDead: {fileID: 0}
   armorHit: {fileID: 0}
-  audio: {fileID: 8626564526967861760, guid: c899a025296d75147a8977ab17652d83, type: 3}
+  audio: {fileID: 523166081582278832}
   GunHand: {fileID: 6517504645010377208}
 --- !u!114 &-215147414002432054
 MonoBehaviour:
