@@ -50,4 +50,10 @@ public class GunmanCharacter : AbstractCharacter
 
         HostileIsKnown = true;
     }
+
+    protected override void Die()
+    {
+        PhaseManager.hostileDead = true;
+        base.Die();
+    }
 }

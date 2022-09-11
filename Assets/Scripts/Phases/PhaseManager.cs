@@ -7,6 +7,8 @@ public class PhaseManager : MonoBehaviour
 {
     public static PhaseManager instance;
 
+    public static bool hostileDead;
+
     public GameObject selectedHostile;
 
     public GameObject weapon;
@@ -162,6 +164,10 @@ public class PhaseManager : MonoBehaviour
                     break;
                 }
 
+                if (hostileDead)
+                {
+                    goToPostGamePhase = true;
+                }
                 //Debug.Log("In phase " + phase);
                 // scenario phase loop
                 // random unit in base "turns"
@@ -225,7 +231,7 @@ public class PhaseManager : MonoBehaviour
         //maleDead = selectedHostile.GetComponent<AbstractCharacter>().maleDead;
         //femaleDead = selectedHostile.GetComponent<AbstractCharacter>().femaleDead;
         //armorHit = selectedHostile.GetComponent<AbstractCharacter>().armorHit;
-
+        Transform gunHand = selectedHostile.GetComponent<AbstractCharacter>().GunHand;
         Destroy(selectedHostile.GetComponent<AbstractCharacter>());
 
         selectedHostile.AddComponent<GunmanCharacter>();
@@ -238,5 +244,9 @@ public class PhaseManager : MonoBehaviour
         selectedHostile.GetComponent<GunmanCharacter>().femaleDead = femaleDead;
         selectedHostile.GetComponent<GunmanCharacter>().armorHit = armorHit;
         selectedHostile.GetComponent<TargetingSystem>().myCharacter = selectedHostile.GetComponent<GunmanCharacter>();
+        selectedHostile.GetComponent<TargetingSystem>().initialCheckRadius = 50f;
+        selectedHostile.GetComponent<GunmanCharacter>().GunHand = gunHand;
+        selectedHostile.GetComponent<GunmanCharacter>().audio = selectedHostile.GetComponent<AudioSource>();
+        selectedHostile.GetComponent<GunmanCharacter>().Awake();
     }
 }
