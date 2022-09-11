@@ -104,6 +104,13 @@ public class SpawningSystem : MonoBehaviour
         isCamera = cameraBool;
     }
 
+    public void BeginSpawn(VendorItem newUnit)
+    {
+        selectedUnit = newUnit.objectReference;
+        isSpawning = true;
+        isCamera = newUnit.objectReference.name.ToLower().Contains("camera");
+    }
+
     public void CompletePlayerSpawn(Vector3 location)
     {
         if (isCamera)
