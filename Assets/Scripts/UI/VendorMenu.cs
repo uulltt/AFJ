@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 using System.Linq;
 using UnityEngine.EventSystems;
+using UnityEngine.Events;
 
 public class VendorMenu : MonoBehaviour
 {
@@ -14,6 +15,9 @@ public class VendorMenu : MonoBehaviour
     public List<VendorItem> order;
 
     public TMP_Text PriceText;
+
+    public ConstructionManager constructionManager;
+    public UnityEvent OrderEvent;
     //    public Dialogue boughtsomething, boughtnothing, ordercheck;
 
     public void Start()
@@ -22,6 +26,12 @@ public class VendorMenu : MonoBehaviour
         {
             transform.GetChild(i).GetChild(4).GetComponent<TMP_Text>().text = "$" + Items[i].price.ToString();
         }
+        UpdateOrder();
+    }
+
+    public void OnEnable()
+    {
+        UpdateOrder();
     }
 
     public void Update()
@@ -89,7 +99,7 @@ public class VendorMenu : MonoBehaviour
     {
         get
         {
-            if (order.Count == 0)
+            if (order.Count == 0 || order == null)
             {
                 return 0;
             }
@@ -107,8 +117,10 @@ public class VendorMenu : MonoBehaviour
                 Resources.Instance.Inventory.Add(item);
                 Resources.availableFunds -= item.price;
             }
+            constructionManager.UpdateFunds();
             order.Clear();
             UpdateOrder();
+            OrderEvent?.Invoke();
         }
         //dialogueObject.GetChild(2).gameObject.SetActive(false);
     }

@@ -9,7 +9,16 @@ public class AbstractCharacter : MonoBehaviour
     protected CharacterLocomotor locomotor;
 
     protected AbstractCharacter[] CharactersAwareOf;
-    
+
+
+    private void Awake()
+    {
+        if(locomotor == null)
+        {
+            locomotor = GetComponent<CharacterLocomotor>();
+        }
+    }
+
     public virtual void TakeDamage(float damage)
     {
         health -= damage;
