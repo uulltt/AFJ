@@ -116,6 +116,9 @@ public class AbstractCharacter : MonoBehaviour
 
     protected virtual void Die()
     {
+
+        GetComponentInParent<Animator>().SetBool("IsDead", true);
+
         Destroy(gameObject);
     }
 

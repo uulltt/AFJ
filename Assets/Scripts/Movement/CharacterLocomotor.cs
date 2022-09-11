@@ -37,5 +37,8 @@ public class CharacterLocomotor : MonoBehaviour
             agent.isStopped = true;
             moving = false;
         }
+
+
+        GetComponentInParent<Animator>().SetFloat("Speed", GetComponent<NavMeshAgent>().isStopped ? 0 : 1);
     }
 }
