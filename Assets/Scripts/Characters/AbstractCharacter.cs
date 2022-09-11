@@ -18,6 +18,8 @@ public class AbstractCharacter : MonoBehaviour
     public AudioClip maleHit, femaleHit, maleDead, femaleDead, armorHit;
     public AudioSource audio;
 
+    public Transform GunHand;
+
     private void Awake()
     {
         if(locomotor == null)
@@ -30,11 +32,11 @@ public class AbstractCharacter : MonoBehaviour
             weapon = GetComponentInChildren<Weapon>();
         }
 
-        if (weapon != null)
+        if (weapon != null && GunHand != null)
         {
-            var gunHand = transform.Find("Gun Point");
+            //var gunHand = transform.child("Gun Point");
 
-            weapon.transform.parent = gunHand.transform;
+            weapon.transform.parent = GunHand;
             weapon.transform.localPosition = new Vector3();
         }
 
