@@ -38,7 +38,7 @@ public class ConstructionManager : MonoBehaviour
 
     public bool ShopMenuOpen => fundsText.transform.parent.GetChild(0).gameObject.activeInHierarchy;
 
-    void Start()
+    public void Start()
     {
         fundsText.text = "$" + Resources.availableFunds.ToString();
     }
