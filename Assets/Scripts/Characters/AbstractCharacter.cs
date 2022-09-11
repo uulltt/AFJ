@@ -30,18 +30,17 @@ public class AbstractCharacter : MonoBehaviour
             weapon = GetComponentInChildren<Weapon>();
         }
 
-<<<<<<< Updated upstream
-        if(weapon != null)
+        if (weapon != null)
         {
             var gunHand = transform.Find("Gun Point");
 
             weapon.transform.parent = gunHand.transform;
             weapon.transform.localPosition = new Vector3();
-=======
+        }
+
         if(audio == null)
         {
             audio = GetComponent<AudioSource>();
->>>>>>> Stashed changes
         }
 
         listOfEveryone.Add(this);
