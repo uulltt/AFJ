@@ -63,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -164,7 +164,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -265,7 +265,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -454,7 +454,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -554,7 +554,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -639,7 +639,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -740,7 +740,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -885,7 +885,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -986,7 +986,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1087,7 +1087,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1232,7 +1232,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1521,7 +1521,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1654,7 +1654,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1755,7 +1755,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1856,7 +1856,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1957,7 +1957,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2058,7 +2058,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2159,7 +2159,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2259,7 +2259,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2344,7 +2344,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2445,7 +2445,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2546,7 +2546,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2691,7 +2691,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2780,6 +2780,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
     - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
       propertyPath: m_Name
       value: Prop_FireStation_Locker
@@ -2846,6 +2850,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e7ec71a93beda4c4ca8dda617ed298a8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
     - target: {fileID: 919132149155446097, guid: e7ec71a93beda4c4ca8dda617ed298a8, type: 3}
       propertyPath: m_Name
       value: Prop_FireStation_FireTruck
@@ -2912,6 +2920,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 2f8681ab523cc4c4a8600f12c3b0cf5c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
     - target: {fileID: 919132149155446097, guid: 2f8681ab523cc4c4a8600f12c3b0cf5c, type: 3}
       propertyPath: m_Name
       value: Prop_FireStation_FirePole
@@ -2978,6 +2990,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
     - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
       propertyPath: m_Name
       value: Prop_FireStation_Locker
@@ -3044,6 +3060,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
     - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
       propertyPath: m_Name
       value: Prop_FireStation_Locker
@@ -3110,6 +3130,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
     - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
       propertyPath: m_Name
       value: Prop_FireStation_Locker
@@ -3176,6 +3200,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
     - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
       propertyPath: m_Name
       value: Prop_FireStation_Locker
@@ -3242,6 +3270,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e7ec71a93beda4c4ca8dda617ed298a8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
     - target: {fileID: 919132149155446097, guid: e7ec71a93beda4c4ca8dda617ed298a8, type: 3}
       propertyPath: m_Name
       value: Prop_FireStation_FireTruck
@@ -3308,6 +3340,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
     - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
       propertyPath: m_Name
       value: Prop_FireStation_Locker
@@ -3374,6 +3410,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
     - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
       propertyPath: m_Name
       value: Prop_FireStation_Locker
@@ -3440,6 +3480,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
     - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
       propertyPath: m_Name
       value: Prop_FireStation_Locker
@@ -3506,6 +3550,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
     - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
       propertyPath: m_Name
       value: Prop_FireStation_Locker
@@ -3572,6 +3620,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
     - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
       propertyPath: m_Name
       value: Prop_FireStation_Locker
@@ -3638,6 +3690,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
     - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
       propertyPath: m_Name
       value: Prop_FireStation_Locker
@@ -3704,6 +3760,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
     - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
       propertyPath: m_Name
       value: Prop_FireStation_Locker
@@ -3770,6 +3830,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 901da52acdd9f2c488d38a9bb59d16c1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
     - target: {fileID: 919132149155446097, guid: 901da52acdd9f2c488d38a9bb59d16c1, type: 3}
       propertyPath: m_Name
       value: Prop_FireStation_Bench
@@ -3857,6 +3921,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
     - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
       propertyPath: m_Name
       value: Prop_FireStation_Locker
@@ -3923,6 +3991,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 500025350e5ca6b478473fe9f989e724, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
     - target: {fileID: 919132149155446097, guid: 500025350e5ca6b478473fe9f989e724, type: 3}
       propertyPath: m_Name
       value: Prop_CommisaryTable_Oval
@@ -3989,6 +4061,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
     - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
       propertyPath: m_Name
       value: Prop_FireStation_Locker
@@ -4055,6 +4131,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
     - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
       propertyPath: m_Name
       value: Prop_FireStation_Locker
@@ -4121,6 +4201,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
     - target: {fileID: 919132149155446097, guid: a1afe050c9d37dc4f8b7d4fcfc6eee6d, type: 3}
       propertyPath: m_Name
       value: Prop_FireStation_Locker
@@ -4187,6 +4271,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 901da52acdd9f2c488d38a9bb59d16c1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
     - target: {fileID: 919132149155446097, guid: 901da52acdd9f2c488d38a9bb59d16c1, type: 3}
       propertyPath: m_Name
       value: Prop_FireStation_Bench
@@ -4253,6 +4341,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0e370762825d2534f93acccd384ad629, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
     - target: {fileID: 919132149155446097, guid: 0e370762825d2534f93acccd384ad629, type: 3}
       propertyPath: m_Name
       value: Prop_FireStation_CoatRack
@@ -4319,6 +4411,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 88c610a4653e642409e50eff61910d46, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
     - target: {fileID: 919132149155446097, guid: 88c610a4653e642409e50eff61910d46, type: 3}
       propertyPath: m_Name
       value: Building_FireDept
