@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
 
 public class ConstructionManager : MonoBehaviour
 {
@@ -20,7 +21,9 @@ public class ConstructionManager : MonoBehaviour
     Ray ray;
     RaycastHit hit;
 
-    public Text fundsText;
+    public TMPro.TMP_Text fundsText;
+
+    public UnityEvent FogOn, FogOff;
 
     public bool isConstructing;
 
@@ -33,9 +36,11 @@ public class ConstructionManager : MonoBehaviour
     public Construct policeDebt;
     public Construct Tent;
 
+    public bool ShopMenuOpen => fundsText.transform.parent.GetChild(0).gameObject.activeInHierarchy;
+
     void Start()
     {
-        fundsText.text = Resources.availableFunds.ToString();
+        fundsText.text = "$" + Resources.availableFunds.ToString();
     }
 
     void Update()
@@ -106,6 +111,14 @@ public class ConstructionManager : MonoBehaviour
                 SelectConstruct(Tent);
             }
         }
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            fundsText.transform.parent.GetChild(0).gameObject.SetActive(true);
+        }
+        if (Input.GetKeyDown(KeyCode.Escape) && ShopMenuOpen)
+        {
+            fundsText.transform.parent.GetChild(0).gameObject.SetActive(false);
+        }
 
         if (isConstructing)
         {
@@ -118,11 +131,13 @@ public class ConstructionManager : MonoBehaviour
                         previewObject = Instantiate(selectedConstuct.gameObject, new Vector3(selectedTile.transform.position.x + selectedConstuct.xOffset, selectedTile.transform.position.y + buildOffset, selectedTile.transform.position.z + selectedConstuct.yOffset), Quaternion.identity);
                         if (!grid.OccupancyCheck(selectedConstuct, (int)selectedTile.transform.position.x, (int)selectedTile.transform.position.z))
                         {
-                            previewObject.GetComponent<Renderer>().material.color = new Color(0, 1, 0, .3f);
+                            foreach (Renderer rend in previewObject.GetComponentsInChildren<Renderer>())
+                                rend.material.color = new Color(0, 1, 0, .3f);
                         }
                         else
                         {
-                            previewObject.GetComponent<Renderer>().material.color = new Color(1, 0, 0, .3f);
+                            foreach (Renderer rend in previewObject.GetComponentsInChildren<Renderer>())
+                                rend.material.color = new Color(1, 0, 0, .3f);
                         }
                     }
                     else
@@ -143,7 +158,7 @@ public class ConstructionManager : MonoBehaviour
                 }
             }
 
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(0) && !ShopMenuOpen)
             {
                 ray = Camera.main.ScreenPointToRay(Input.mousePosition);
                 if (Physics.Raycast(ray, out hit))
@@ -190,11 +205,13 @@ public class ConstructionManager : MonoBehaviour
         isConstructing = false;
         Destroy(previewObject);
         previewObject = null;
+        FogOn?.Invoke();
     }
 
     public void SelectConstruct(Construct targetConstruct)
     {
         selectedConstuct = targetConstruct;
         isConstructing = true;
+        FogOff?.Invoke();
     }
 }
