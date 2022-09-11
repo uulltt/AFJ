@@ -255,6 +255,6 @@ public class PhaseManager : MonoBehaviour
         selectedHostile.GetComponent<GunmanCharacter>().audio = selectedHostile.GetComponent<AudioSource>();
         selectedHostile.GetComponent<GunmanCharacter>().Awake();
         selectedHostile.GetComponent<TargetingSystem>().sphereLayer = 1 << 14 | 1 << 10;
-        selectedHostile.layer = 1 << 11;
+        selectedHostile.layer = LayerMask.NameToLayer("Targets");// 1 << 11;
     }
 }

@@ -52,10 +52,14 @@ public class SpawningSystem : MonoBehaviour
 
                 rotation.y = -(mouseOffset.x + mouseOffset.y) * sensitivity;
 
-                previewObject.transform.Rotate(rotation);
+                if (previewObject != null)
+                {
+                    previewObject.transform.Rotate(rotation);
 
-                newRotation = previewObject.transform.localRotation.eulerAngles;
 
+                    newRotation = previewObject.transform.localRotation.eulerAngles;
+
+                }
                 mouseReference = Input.mousePosition;
 
                 if (Input.GetMouseButtonUp(0))
