@@ -14,13 +14,15 @@ public class CivilianCharacter : AbstractCharacter
 
     private void Update()
     {
-        if(runningFrom == null)
+        if(runningFrom == null || !HostileIsKnown)
         {
             Meander();
         }
         else
         {
-            //locomotor.MoveTowardsSpot()
+            Vector3 awayDir = transform.position - runningFrom.transform.position;
+
+            locomotor.MoveTowardsSpot(transform.position + awayDir.normalized * 3f);
         }
     }
 
@@ -38,6 +40,11 @@ public class CivilianCharacter : AbstractCharacter
 
             currentDestination = null;
         }
+    }
+
+    public override void ReactToCharacter(AbstractCharacter whoReactTo)
+    {
+        runningFrom = whoReactTo;
     }
 
 

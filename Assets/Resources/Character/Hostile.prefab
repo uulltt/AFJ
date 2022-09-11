@@ -168,7 +168,7 @@ MonoBehaviour:
   initialCheckRadius: 50
   sphereLayer:
     serializedVersion: 2
-    m_Bits: 16384
+    m_Bits: 18432
   closestTarget: {fileID: 0}
   targetDistance: 50
 --- !u!1001 &7014353720149838273
