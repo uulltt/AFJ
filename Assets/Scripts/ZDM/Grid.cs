@@ -18,10 +18,11 @@ public class Grid : MonoBehaviour
         {
             for (int y = 0; y < xDim; y++)
             {
-                GameObject tile = Instantiate(tileObject, new Vector3(x* tileScale, 0, y* tileScale), Quaternion.identity);
+                GameObject tile = Instantiate(tileObject);
                 tile.transform.localScale = new Vector3(tileScale, 0.05f, tileScale);
                 grid[x,y] = tile.GetComponent<Tile>();
                 tile.transform.parent = gameObject.transform;
+                tile.transform.localPosition = new Vector3(x * tileScale, 0, y * tileScale);
             }
         }
     }
