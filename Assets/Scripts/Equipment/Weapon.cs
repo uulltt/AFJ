@@ -54,6 +54,9 @@ public class Weapon : MonoBehaviour
         if (currentState != WeaponState.Idle)
             return;
 
+
+        GetComponentInParent<Animator>().SetBool("Firing", true);
+
         StopAllCoroutines();
         currentState = WeaponState.Shooting;
         if(target != targetSelected)
@@ -173,6 +176,8 @@ public class Weapon : MonoBehaviour
             reloadTimer.Reset();
             currentState = WeaponState.Reloading;
             StartCoroutine(Reload());
+
+            GetComponentInParent<Animator>().SetBool("Reloading", true);
         }
     }
 
@@ -190,5 +195,7 @@ public class Weapon : MonoBehaviour
     {
         Debug.Log("Reloaded");
         currentState = WeaponState.Idle;
+
+        GetComponentInParent<Animator>().SetBool("Reloading", false);
     }
 }

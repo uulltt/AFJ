@@ -214,7 +214,7 @@ Animator:
   m_GameObject: {fileID: 694691897722881461}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 30946d439b1fbe84089df2cfd4749bc9, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8877f98e9e5624d46a176dcffea4583d, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -273,6 +273,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   weapon: {fileID: 0}
+  isMale: 0
+  maleHit: {fileID: 0}
+  femaleHit: {fileID: 0}
+  maleDead: {fileID: 0}
+  femaleDead: {fileID: 0}
+  armorHit: {fileID: 0}
+  audio: {fileID: 0}
+  GunHand: {fileID: 0}
 --- !u!114 &-6808355575653179425
 MonoBehaviour:
   m_ObjectHideFlags: 0
