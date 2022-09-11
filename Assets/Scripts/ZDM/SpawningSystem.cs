@@ -13,7 +13,7 @@ public class SpawningSystem : MonoBehaviour
 
     public List<Transform> invasionPoints;
 
-    public GameObject civilianPrefab;
+    public GameObject[] civilianPrefab;
     public int civilianCount;
 
     int random;
@@ -147,7 +147,7 @@ public class SpawningSystem : MonoBehaviour
         for(int i = 0; i < civilianCount; i++)
         {
             random = Random.Range(0, AreaOfInterest.areasOfInterest.Count);
-            GameObject civi = Instantiate(civilianPrefab, AreaOfInterest.areasOfInterest[random].transform.position, Quaternion.identity);
+            GameObject civi = Instantiate(civilianPrefab[Random.Range(0, civilianPrefab.Length)], AreaOfInterest.areasOfInterest[random].transform.position, Quaternion.identity);
         }
     }
 
