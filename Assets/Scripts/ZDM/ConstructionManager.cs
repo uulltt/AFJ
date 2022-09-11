@@ -160,6 +160,9 @@ public class ConstructionManager : MonoBehaviour
                                     GameObject Construct = Instantiate(selectedConstuct.gameObject, new Vector3(hit.collider.transform.position.x, hit.collider.transform.position.y + buildOffset, hit.collider.transform.position.z), Quaternion.identity);
                                     Resources.availableFunds -= selectedConstuct.constructionCost;
                                     fundsText.text = Resources.availableFunds.ToString();
+
+
+                                    DeselectConstruct();
                                 }
                             }
                             else
@@ -171,6 +174,8 @@ public class ConstructionManager : MonoBehaviour
                                     Resources.availableFunds -= selectedConstuct.constructionCost;
                                     Debug.Log(Resources.availableFunds);
                                     fundsText.text = Resources.availableFunds.ToString();
+
+                                    DeselectConstruct();
                                 }
                             }
                         }
