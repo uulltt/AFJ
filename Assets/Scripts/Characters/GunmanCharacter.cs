@@ -9,6 +9,9 @@ public class GunmanCharacter : AbstractCharacter
     float DeadZone = 3f;
 
     Timer wanderTimer = new Timer(3);
+    Timer detectionTimer = new Timer(1);
+
+    bool firstShot = false;
 
     private void Update()
     {
@@ -29,5 +32,22 @@ public class GunmanCharacter : AbstractCharacter
     public override void ReactToCharacter(AbstractCharacter whoReactTo)
     {
         Attack(whoReactTo);
+        if (!firstShot)
+        {
+            StartCoroutine(DetectionDelay());
+        }
+    }
+
+    private IEnumerator DetectionDelay()
+    {
+        firstShot = true;
+        detectionTimer.Reset();
+
+        while(!detectionTimer.isComplete)
+        {
+            yield return null;
+        }
+
+        HostileIsKnown = true;
     }
 }

@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c485d57edacf1504a8f314a1885d135a, type: 3}
   m_Name: Guard_Rifle
   m_EditorClassIdentifier: 
-  objectReference: {fileID: 0}
+  objectReference: {fileID: 9063728082552825909, guid: af26e58ca25f2254eb56aff290026a6b, type: 3}
   description: 
   price: 20000

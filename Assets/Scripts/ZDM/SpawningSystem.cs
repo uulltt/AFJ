@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class SpawningSystem : MonoBehaviour
 {
@@ -36,6 +37,9 @@ public class SpawningSystem : MonoBehaviour
     public float cameraHeight;
 
     private GameObject previewObject;
+    public VendorItem lastSelected;
+    public UnityEvent endSpawnEvent;
+
     void Update()
     {
         if (isSpawning)
@@ -104,6 +108,17 @@ public class SpawningSystem : MonoBehaviour
         isCamera = cameraBool;
     }
 
+    public void BeginSpawn(VendorItem newUnit)
+    {
+        if (Resources.Instance.Inventory.Contains(newUnit))
+        {
+            selectedUnit = newUnit.objectReference;
+            isSpawning = true;
+            isCamera = newUnit.objectReference.name.ToLower().Contains("camera");
+            lastSelected = newUnit;
+        }
+    }
+
     public void CompletePlayerSpawn(Vector3 location)
     {
         if (isCamera)
@@ -122,6 +137,9 @@ public class SpawningSystem : MonoBehaviour
         isSpawning = false;
         selectedUnit = null;
         Destroy(previewObject);
+        if (lastSelected != null)
+        Resources.Instance.Inventory.Remove(lastSelected);
+        endSpawnEvent?.Invoke();
     }
 
     public void SpawnCivilians()
