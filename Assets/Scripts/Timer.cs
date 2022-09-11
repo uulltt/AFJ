@@ -10,6 +10,8 @@ public class Timer
     public float elapseTime { get { return Time.time - m_StartTime; } }
     public float elapseAsPercent { get { return elapseTime / maxTime; } }
 
+    public bool isComplete { get { return elapseTime >= maxTime; } }
+
     public void AddTime(float timeToAdd)
     {
         m_StartTime += timeToAdd;
