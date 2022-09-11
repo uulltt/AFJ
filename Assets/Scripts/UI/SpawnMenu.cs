@@ -18,7 +18,7 @@ public class SpawnMenu : MonoBehaviour
     {
         for(int i = 0; i < transform.childCount; i++)
         {
-            transform.GetChild(i).GetChild(2).GetComponent<TMPro.TMP_Text>().text = Resources.Instance.Inventory.Where(x => x == Items[i]).Count().ToString();
+            transform.GetChild(i).GetChild(1).GetComponent<TMPro.TMP_Text>().text = Resources.Instance.Inventory.Where(x => x == Items[i]).Count().ToString();
         }
     }
 
