@@ -19,6 +19,7 @@ public class PhaseManager : MonoBehaviour
     public AudioSource audio;
 
     public SpawningSystem spawningSystem;
+    public GameObject resultsScreen;
 
     private bool goToPrepPhase;
     public bool GoToPrepPhase
@@ -168,6 +169,7 @@ public class PhaseManager : MonoBehaviour
                 // keeps track of time elapsed, units killed
                 if (goToPostGamePhase)
                 {
+                    resultsScreen.SetActive(true);
                     goToPostGamePhase = false;
                     //Debug.Log("In Scenario Phase, moving to Post Game Phase!");
                     phase++;
