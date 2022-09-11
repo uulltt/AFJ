@@ -20,7 +20,7 @@ public class AbstractCharacter : MonoBehaviour
 
     public Transform GunHand;
 
-    private void Awake()
+    public void Awake()
     {
         if(locomotor == null)
         {
