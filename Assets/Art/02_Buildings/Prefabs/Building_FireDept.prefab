@@ -5481,7 +5481,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 88c610a4653e642409e50eff61910d46, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 0afdc5c3fc3b91a45a2d0338635382ac, type: 2}
+      objectReference: {fileID: 2100000, guid: ed418fcd7dc404843940a6987cc9ec37, type: 2}
     - target: {fileID: 919132149155446097, guid: 88c610a4653e642409e50eff61910d46, type: 3}
       propertyPath: m_Name
       value: Building_FireDept
