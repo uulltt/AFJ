@@ -83,6 +83,7 @@ MonoBehaviour:
   Tent: {fileID: 3603504737745587817, guid: 1388b0c1448fcb9479154053b5719d83, type: 3}
   sounds: {fileID: 0}
   appear: {fileID: 8300000, guid: 2f597a0126e6a4b419c445cfd8ef7e29, type: 3}
+  buildSound: {fileID: 8300000, guid: 26dbef1cab2cf334a9c62ba90843ee8f, type: 3}
 --- !u!82 &2082788450130026916
 AudioSource:
   m_ObjectHideFlags: 0
@@ -93,7 +94,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 2f597a0126e6a4b419c445cfd8ef7e29, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

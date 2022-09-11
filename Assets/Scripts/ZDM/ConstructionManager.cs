@@ -36,7 +36,7 @@ public class ConstructionManager : MonoBehaviour
     public Construct policeDebt;
     public Construct Tent;
     public AudioSource sounds;
-    public AudioClip appear;
+    public AudioClip appear, buildSound;
 
     public bool ShopMenuOpen => fundsText.transform.parent.GetChild(0).gameObject.activeInHierarchy;
 
@@ -183,7 +183,7 @@ public class ConstructionManager : MonoBehaviour
                                     GameObject Construct = Instantiate(selectedConstuct.gameObject, new Vector3(hit.collider.transform.position.x, hit.collider.transform.position.y + buildOffset, hit.collider.transform.position.z), Quaternion.identity);
                                     Resources.availableFunds -= selectedConstuct.constructionCost;
                                     UpdateFunds();
-
+                                    sounds.PlayOneShot(buildSound);
 
                                     DeselectConstruct();
                                 }
@@ -197,6 +197,7 @@ public class ConstructionManager : MonoBehaviour
                                     Resources.availableFunds -= selectedConstuct.constructionCost;
                                     Debug.Log(Resources.availableFunds);
                                     UpdateFunds();
+                                    sounds.PlayOneShot(buildSound);
 
                                     DeselectConstruct();
                                 }
