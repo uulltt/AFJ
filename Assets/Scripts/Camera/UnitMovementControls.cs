@@ -21,7 +21,7 @@ public class UnitMovementControls : MonoBehaviour
         {
             var cameraRay = main.ScreenPointToRay(Input.mousePosition);
 
-            if( Physics.Raycast(cameraRay, out RaycastHit hit, float.PositiveInfinity, 1<<9))
+            if( Physics.Raycast(cameraRay, out RaycastHit hit, float.PositiveInfinity))
             {
                 foreach (var thing in selectedCharacters)
                 {
